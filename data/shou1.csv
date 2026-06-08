@@ -1,0 +1,81 @@
+id,group,grade,order,kanji,unicode,radical,onyomi,kunyomi,meaning_pt,jlpt,svg_path,vocabulary_1,reading_1,meaning_1,vocabulary_2,reading_2,meaning_2
+1,Shougakko,1,1,一,U+4E00,一,イチ|イツ,ひと|ひとつ,um,N5,/kanji/4E00.svg,一つ,ひとつ,um objeto,一人,ひとり,uma pessoa
+2,Shougakko,1,2,二,U+4E8C,二,ニ,ふた|ふたつ,dois,N5,/kanji/4E8C.svg,二つ,ふたつ,dois objetos,二人,ふたり,duas pessoas
+3,Shougakko,1,3,三,U+4E09,一,サン,み|みつ|みっつ,três,N5,/kanji/4E09.svg,三つ,みっつ,três objetos,三人,さんにん,três pessoas
+4,Shougakko,1,4,四,U+56DB,囗,シ,よ|よつ|よっつ|よん,quatro,N5,/kanji/56DB.svg,四つ,よっつ,quatro objetos,四人,よにん,quatro pessoas
+5,Shougakko,1,5,五,U+4E94,二,ゴ,いつ|いつつ,cinco,N5,/kanji/4E94.svg,五つ,いつつ,cinco objetos,五月,ごがつ,maio
+6,Shougakko,1,6,六,U+516D,八,ロク,む|むつ|むっつ,seis,N5,/kanji/516D.svg,六つ,むっつ,seis objetos,六月,ろくがつ,junho
+7,Shougakko,1,7,七,U+4E03,一,シチ,なな|ななつ,sete,N5,/kanji/4E03.svg,七つ,ななつ,sete objetos,七日,なのか,dia sete
+8,Shougakko,1,8,八,U+516B,八,ハチ,や|やつ|やっつ,oito,N5,/kanji/516B.svg,八つ,やっつ,oito objetos,八日,ようか,dia oito
+9,Shougakko,1,9,九,U+4E5D,乙,キュウ|ク,ここの|ここのつ,nove,N5,/kanji/4E5D.svg,九つ,ここのつ,nove objetos,九人,きゅうにん,nove pessoas
+10,Shougakko,1,10,十,U+5341,十,ジュウ|ジッ,とお|と,dez,N5,/kanji/5341.svg,十,じゅう,dez,十日,とおか,dia dez
+11,Shougakko,1,11,百,U+767E,白,ヒャク,もも,cem,N5,/kanji/767E.svg,百円,ひゃくえん,100 ienes,百人,ひゃくにん,cem pessoas
+12,Shougakko,1,12,千,U+5343,十,セン,ち,mil,N5,/kanji/5343.svg,千円,せんえん,1000 ienes,千人,せんにん,mil pessoas
+13,Shougakko,1,13,上,U+4E0A,一,ジョウ,うえ|うわ|あげる|あがる,cima,N5,/kanji/4E0A.svg,上,うえ,em cima,上手,じょうず,hábil
+14,Shougakko,1,14,下,U+4E0B,一,カ|ゲ,した|しも|くだる,baixo,N5,/kanji/4E0B.svg,下,した,embaixo,地下,ちか,subterrâneo
+15,Shougakko,1,15,左,U+5DE6,工,サ,ひだり,esquerda,N5,/kanji/5DE6.svg,左,ひだり,esquerda,左右,さゆう,esquerda e direita
+16,Shougakko,1,16,右,U+53F3,口,ウ|ユウ,みぎ,direita,N5,/kanji/53F3.svg,右,みぎ,direita,左右,さゆう,esquerda e direita
+17,Shougakko,1,17,中,U+4E2D,丨,チュウ,なか,dentro,N5,/kanji/4E2D.svg,中,なか,dentro,中国,ちゅうごく,China
+18,Shougakko,1,18,大,U+5927,大,ダイ|タイ,おお,grande,N5,/kanji/5927.svg,大きい,おおきい,grande,大学,だいがく,universidade
+19,Shougakko,1,19,小,U+5C0F,小,ショウ,ちい|こ|お,pequeno,N5,/kanji/5C0F.svg,小さい,ちいさい,pequeno,小学校,しょうがっこう,escola primária
+20,Shougakko,1,20,月,U+6708,月,ゲツ|ガツ,つき,lua / mês,N5,/kanji/6708.svg,月,つき,lua,月曜日,げつようび,segunda-feira
+21,Shougakko,1,21,日,U+65E5,日,ニチ|ジツ,ひ|か,dia / sol,N5,/kanji/65E5.svg,日,ひ,dia,日曜日,にちようび,domingo
+22,Shougakko,1,22,年,U+5E74,干,ネン,とし,ano,N5,/kanji/5E74.svg,今年,ことし,este ano,一年,いちねん,um ano
+23,Shougakko,1,23,早,U+65E9,日,ソウ|サッ,はやい|はやまる,cedo,N5,/kanji/65E9.svg,早い,はやい,cedo,早口,はやくち,fala rápida
+24,Shougakko,1,24,木,U+6728,木,ボク|モク,き|こ,árvore,N5,/kanji/6728.svg,木,き,árvore,木曜日,もくようび,quinta-feira
+25,Shougakko,1,25,林,U+6797,木,リン,はやし,bosque,N5,/kanji/6797.svg,林,はやし,bosque,山林,さんりん,floresta
+26,Shougakko,1,26,山,U+5C71,山,サン,やま,montanha,N5,/kanji/5C71.svg,山,やま,montanha,火山,かざん,vulcão
+27,Shougakko,1,27,川,U+5DDD,川,セン,かわ,rio,N5,/kanji/5DDD.svg,川,かわ,rio,山川,やまかわ,montanhas e rios
+28,Shougakko,1,28,土,U+571F,土,ド|ト,つち,terra,N5,/kanji/571F.svg,土,つち,terra,土曜日,どようび,sábado
+29,Shougakko,1,29,空,U+7A7A,穴,クウ,そら|あく|から,céu,N5,/kanji/7A7A.svg,空,そら,céu,空気,くうき,ar
+30,Shougakko,1,30,田,U+7530,田,デン,た,campo de arroz,N5,/kanji/7530.svg,田,た,arrozal,田んぼ,たんぼ,plantação de arroz
+31,Shougakko,1,31,天,U+5929,大,テン,あめ|あま,céu,N5,/kanji/5929.svg,天気,てんき,tempo (clima),天の川,あまのがわ,Via Láctea
+32,Shougakko,1,32,生,U+751F,生,セイ|ショウ,いきる|うまれる,vida,N5,/kanji/751F.svg,先生,せんせい,professor,学生,がくせい,estudante
+33,Shougakko,1,33,花,U+82B1,艸,カ,はな,flor,N5,/kanji/82B1.svg,花,はな,flor,花火,はなび,fogos de artifício
+34,Shougakko,1,34,草,U+8349,艸,ソウ,くさ,grama,N5,/kanji/8349.svg,草,くさ,grama,海草,かいそう,alga marinha
+35,Shougakko,1,35,虫,U+866B,虫,チュウ,むし,inseto,N5,/kanji/866B.svg,虫,むし,inseto,青虫,あおむし,lagarta verde
+36,Shougakko,1,36,犬,U+72AC,犬,ケン,いぬ,cachorro,N5,/kanji/72AC.svg,犬,いぬ,cachorro,子犬,こいぬ,filhote de cachorro
+37,Shougakko,1,37,人,U+4EBA,人,ジン|ニン,ひと,pessoa,N5,/kanji/4EBA.svg,人,ひと,pessoa,日本人,にほんじん,japonês
+38,Shougakko,1,38,名,U+540D,口,メイ|ミョウ,な,nome,N5,/kanji/540D.svg,名前,なまえ,nome,有名,ゆうめい,famoso
+39,Shougakko,1,39,女,U+5973,女,ジョ|ニョ,おんな,mulher,N5,/kanji/5973.svg,女,おんな,mulher,女子,じょし,menina
+40,Shougakko,1,40,男,U+7537,田,ダン|ナン,おとこ,homem,N5,/kanji/7537.svg,男,おとこ,homem,男子,だんし,menino
+41,Shougakko,1,41,子,U+5B50,子,シ,こ,criança,N5,/kanji/5B50.svg,子ども,こども,criança,男子,だんし,menino
+42,Shougakko,1,42,手,U+624B,手,シュ,て,mão,N5,/kanji/624B.svg,手,て,mão,上手,じょうず,hábil
+43,Shougakko,1,43,水,U+6C34,水,スイ,みず,água,N5,/kanji/6C34.svg,水,みず,água,水曜日,すいようび,quarta-feira
+44,Shougakko,1,44,出,U+51FA,凵,シュツ|スイ,でる|だす,sair,N5,/kanji/51FA.svg,出る,でる,sair,出口,でぐち,saída
+45,Shougakko,1,45,本,U+672C,木,ホン,もと,livro / origem,N5,/kanji/672C.svg,本,ほん,livro,日本,にほん,Japão
+46,Shougakko,1,46,正,U+6B63,止,セイ|ショウ,ただしい,correto,N5,/kanji/6B63.svg,正しい,ただしい,correto,正月,しょうがつ,Ano Novo
+47,Shougakko,1,47,白,U+767D,白,ハク|ビャク,しろ,branco,N5,/kanji/767D.svg,白,しろ,branco,白い,しろい,branco
+48,Shougakko,1,48,目,U+76EE,目,モク,め,olho,N5,/kanji/76EE.svg,目,め,olho,目玉,めだま,globo ocular
+49,Shougakko,1,49,石,U+77F3,石,セキ|シャク,いし,pedra,N5,/kanji/77F3.svg,石,いし,pedra,宝石,ほうせき,joia
+50,Shougakko,1,50,立,U+7ACB,立,リツ|リュウ,たつ,ficar em pé,N5,/kanji/7ACB.svg,立つ,たつ,levantar-se,立場,たちば,posição
+51,Shougakko,1,51,先,U+5148,儿,セン,さき,antes,N5,/kanji/5148.svg,先生,せんせい,professor,先月,せんげつ,mês passado
+52,Shougakko,1,52,字,U+5B57,子,ジ,あざ,caractere,N5,/kanji/5B57.svg,文字,もじ,letra / caractere,漢字,かんじ,kanji
+53,Shougakko,1,53,口,U+53E3,口,コウ|ク,くち,boca,N5,/kanji/53E3.svg,口,くち,boca,出口,でぐち,saída
+54,Shougakko,1,54,入,U+5165,入,ニュウ,いる|はいる,entrar,N5,/kanji/5165.svg,入る,はいる,entrar,入口,いりぐち,entrada
+55,Shougakko,1,55,文,U+6587,文,ブン|モン,ふみ,texto,N5,/kanji/6587.svg,文字,もじ,caractere,作文,さくぶん,redação
+56,Shougakko,1,56,赤,U+8D64,赤,セキ|シャク,あか,vermelho,N5,/kanji/8D64.svg,赤,あか,vermelho,赤い,あかい,vermelho
+57,Shougakko,1,57,青,U+9752,青,セイ|ショウ,あお,azul,N5,/kanji/9752.svg,青,あお,azul,青い,あおい,azul
+58,Shougakko,1,58,足,U+8DB3,足,ソク,あし,pé,N5,/kanji/8DB3.svg,足,あし,pé,足音,あしおと,passos
+59,Shougakko,1,59,車,U+8ECA,車,シャ,くるま,carro,N5,/kanji/8ECA.svg,車,くるま,carro,電車,でんしゃ,trem
+60,Shougakko,1,60,竹,U+7AF9,竹,チク,たけ,bambu,N5,/kanji/7AF9.svg,竹,たけ,bambu,竹林,ちくりん,bosque de bambu
+61,Shougakko,1,61,円,U+5186,冂,エン,まる,iene / círculo,N5,/kanji/5186.svg,百円,ひゃくえん,100 ienes,円い,まるい,redondo
+62,Shougakko,1,62,王,U+738B,玉,オウ,,rei,N5,/kanji/738B.svg,王さま,おうさま,rei,王国,おうこく,reino
+63,Shougakko,1,63,音,U+97F3,音,オン,おと|ね,som,N5,/kanji/97F3.svg,音,おと,som,音楽,おんがく,música
+64,Shougakko,1,64,火,U+706B,火,カ,ひ,fogo,N5,/kanji/706B.svg,火,ひ,fogo,花火,はなび,fogos de artifício
+65,Shougakko,1,65,貝,U+8C9D,貝,バイ,かい,concha,N5,/kanji/8C9D.svg,貝,かい,concha,貝がら,かいがら,concha do mar
+66,Shougakko,1,66,学,U+5B66,子,ガク,まなぶ,estudar,N5,/kanji/5B66.svg,学校,がっこう,escola,学生,がくせい,estudante
+67,Shougakko,1,67,気,U+6C17,气,キ,,energia / espírito,N5,/kanji/6C17.svg,元気,げんき,bem / saudável,天気,てんき,tempo (clima)
+68,Shougakko,1,68,休,U+4F11,人,キュウ,やすむ,descansar,N5,/kanji/4F11.svg,休み,やすみ,descanso,休日,きゅうじつ,feriado
+69,Shougakko,1,69,玉,U+7389,玉,ギョク,たま,joia / bola,N5,/kanji/7389.svg,玉,たま,bola,目玉,めだま,globo ocular
+70,Shougakko,1,70,金,U+91D1,金,キン|コン,かね|かな,ouro / dinheiro,N5,/kanji/91D1.svg,お金,おかね,dinheiro,金曜日,きんようび,sexta-feira
+71,Shougakko,1,71,見,U+898B,見,ケン,みる|みえる|みせる,ver,N5,/kanji/898B.svg,見る,みる,ver,見学,けんがく,visita de estudo
+72,Shougakko,1,72,校,U+6821,木,コウ,,escola,N5,/kanji/6821.svg,学校,がっこう,escola,校門,こうもん,portão da escola
+73,Shougakko,1,73,糸,U+7CF8,糸,シ,いと,linha / fio,N5,/kanji/7CF8.svg,糸,いと,fio,毛糸,けいと,lã
+74,Shougakko,1,74,耳,U+8033,耳,ジ,みみ,orelha,N5,/kanji/8033.svg,耳,みみ,orelha,耳元,みみもと,junto ao ouvido
+75,Shougakko,1,75,村,U+6751,木,ソン,むら,aldeia,N5,/kanji/6751.svg,村,むら,aldeia,村人,むらびと,morador da aldeia
+76,Shougakko,1,76,町,U+753A,田,チョウ,まち,cidade / bairro,N5,/kanji/753A.svg,町,まち,cidade,町中,まちなか,centro da cidade
+77,Shougakko,1,77,森,U+68EE,木,シン,もり,floresta,N5,/kanji/68EE.svg,森,もり,floresta,森林,しんりん,floresta
+78,Shougakko,1,78,力,U+529B,力,リョク|リキ,ちから,força,N5,/kanji/529B.svg,力,ちから,força,電力,でんりょく,energia elétrica
+79,Shougakko,1,79,夕,U+5915,夕,セキ,ゆう,tarde / entardecer,N5,/kanji/5915.svg,夕方,ゆうがた,final da tarde,夕日,ゆうひ,pôr do sol
+80,Shougakko,1,80,雨,U+96E8,雨,ウ,あめ,chuva,N5,/kanji/96E8.svg,雨,あめ,chuva,大雨,おおあめ,chuva forte
