@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import DashboardView from "@/features/dashboard/DashboardView";
 import KanaStudy from "@/features/kana/KanaStudy";
-import KanjiLessons from "@/features/kanji/KanjiLessons";
 import ExercisesView from "@/features/exercises/ExercisesView";
-import { BookOpen, Award, BarChart3, HelpCircle, Sparkles } from "lucide-react";
+import { Award, BarChart3 } from "lucide-react";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<string>("dashboard");
@@ -57,16 +57,12 @@ export default function Home() {
             >
               Katakana
             </button>
-            <button
-              onClick={() => setActiveTab("kanji")}
-              className={`px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all ${
-                activeTab === "kanji"
-                  ? "bg-white text-zinc-950 shadow-sm dark:bg-zinc-800 dark:text-zinc-50"
-                  : "text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-200"
-              }`}
+            <Link
+              href="/study/shou1"
+              className="px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-200"
             >
               Kanji
-            </button>
+            </Link>
             <button
               onClick={() => setActiveTab("exercises")}
               className={`px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all ${
@@ -117,15 +113,13 @@ export default function Home() {
           <span className="text-base font-bold font-japanese leading-5">ア</span>
           <span className="text-[10px] font-bold mt-0.5">Katakana</span>
         </button>
-        <button
-          onClick={() => setActiveTab("kanji")}
-          className={`flex flex-col items-center justify-center flex-1 text-center transition-colors ${
-            activeTab === "kanji" ? "text-red-500" : "text-zinc-400"
-          }`}
+        <Link
+          href="/study/shou1"
+          className="flex flex-col items-center justify-center flex-1 text-center transition-colors text-zinc-400 hover:text-red-500"
         >
           <span className="text-base font-bold font-japanese leading-5">日</span>
           <span className="text-[10px] font-bold mt-0.5">Kanji</span>
-        </button>
+        </Link>
         <button
           onClick={() => setActiveTab("exercises")}
           className={`flex flex-col items-center justify-center flex-1 text-center transition-colors ${
@@ -143,7 +137,6 @@ export default function Home() {
           {activeTab === "dashboard" && <DashboardView setActiveTab={setActiveTab} />}
           {activeTab === "hiragana" && <KanaStudy type="hiragana" />}
           {activeTab === "katakana" && <KanaStudy type="katakana" />}
-          {activeTab === "kanji" && <KanjiLessons />}
           {activeTab === "exercises" && <ExercisesView />}
         </div>
       </main>

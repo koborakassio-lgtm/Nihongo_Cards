@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
@@ -44,11 +45,13 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
             Pratique Hiragana, Katakana, Kanjis escolares e faça revisões inteligentes para memorizar de forma definitiva.
           </p>
           <div className="pt-2">
-            <Button 
-              onClick={() => setActiveTab("kanji")} 
+            <Button
+              asChild
               className="bg-red-500 hover:bg-red-600 text-white rounded-full font-medium transition-all shadow-sm hover:shadow"
             >
-              Iniciar Lições <ArrowRight className="ml-2 h-4 w-4" />
+              <Link href="/study/shou1">
+                Iniciar Lições <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
             </Button>
           </div>
         </div>
@@ -135,7 +138,7 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
       {/* Ações Rápidas de Estudo */}
       <div className="space-y-4">
         <h3 className="text-lg font-bold text-zinc-800 dark:text-zinc-100">O que você gostaria de estudar hoje?</h3>
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Button 
             variant="outline" 
             onClick={() => setActiveTab("hiragana")}
@@ -162,6 +165,22 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
                 <div className="text-xs text-zinc-400 font-normal">Palavras estrangeiras</div>
               </div>
             </div>
+          </Button>
+
+          <Button
+            variant="outline"
+            asChild
+            className="h-20 justify-start px-6 border-zinc-100 hover:border-zinc-200 dark:border-zinc-900 bg-white dark:bg-zinc-950 hover:bg-zinc-50 text-left font-medium rounded-xl"
+          >
+            <Link href="/study/shou1">
+              <div className="flex items-center gap-4">
+                <span className="text-2xl font-bold text-red-500">日</span>
+                <div>
+                  <div className="font-semibold text-zinc-800 dark:text-zinc-200">Kanji</div>
+                  <div className="text-xs text-zinc-400 font-normal">Shougakko 1st Grade</div>
+                </div>
+              </div>
+            </Link>
           </Button>
 
           <Button 
