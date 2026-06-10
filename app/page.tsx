@@ -5,7 +5,7 @@ import Link from "next/link";
 import DashboardView from "@/features/dashboard/DashboardView";
 import KanaStudy from "@/features/kana/KanaStudy";
 import ExercisesView from "@/features/exercises/ExercisesView";
-import { Award, BarChart3 } from "lucide-react";
+import { Award, BarChart3, Home as HomeIcon } from "lucide-react";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<string>("dashboard");
@@ -75,11 +75,16 @@ export default function Home() {
             </button>
           </nav>
 
-          {/* User Badge / Status */}
           <div className="flex items-center gap-2">
-            <span className="hidden sm:inline text-xs font-semibold text-zinc-500 bg-zinc-50 dark:bg-zinc-900 px-3 py-1.5 rounded-full border border-zinc-100 dark:border-zinc-900">
-              🌸 Modo Local (Mock)
-            </span>
+            <Link
+              href="/"
+              onClick={() => setActiveTab("dashboard")}
+              aria-label="Ir para a página inicial"
+              className="flex items-center gap-1.5 text-xs font-semibold text-zinc-500 bg-zinc-50 dark:bg-zinc-900 px-3 py-1.5 rounded-full border border-zinc-100 dark:border-zinc-900 hover:text-zinc-900 hover:border-zinc-200 dark:hover:text-zinc-200 dark:hover:border-zinc-700 transition-colors"
+            >
+              <HomeIcon className="h-4 w-4 shrink-0" />
+              <span className="hidden sm:inline">Início</span>
+            </Link>
           </div>
         </div>
       </header>
