@@ -52,7 +52,23 @@ Columns:
 | `reading_2` | Reading for vocabulary_2 |
 | `meaning_2` | Portuguese meaning for vocabulary_2 |
 
-Source file: [`data/kanji.csv`](../data/kanji.csv)
+Source files (por ano escolar):
+
+| Arquivo | Conteúdo |
+|---------|----------|
+| [`data/shou1.csv`](../data/shou1.csv) | Shougakko 1º ano — 80 kanji |
+| [`data/shou2.csv`](../data/shou2.csv) | Shougakko 2º ano — 159 kanji |
+| [`data/kanji.csv`](../data/kanji.csv) | Dataset genérico (legado) |
+
+Registro de datasets ativos: [`lib/kanji/datasets.ts`](../lib/kanji/datasets.ts).
+
+Cabeçalho CSV aceito (aliases mapeados em `parse-kanji-csv.ts`):
+
+| Coluna CSV | Alias aceito | Campo interno |
+|------------|--------------|---------------|
+| `group` | — | `grupo` (`Shougakko`) |
+| `grade` | — | `ano_escolar` |
+| `order` | — | `order_in_grade` |
 
 ---
 
@@ -111,13 +127,21 @@ The database is the single source of truth.
 
 ## Import Strategy
 
-Run:
+### Import único (substitui tudo)
 
 ```bash
-pnpm import:kanji
+npm run import:kanji -- data/shou1.csv
 ```
 
-This reads `data/kanji.csv` and writes:
+### Import com merge (adicionar novo ano)
+
+```bash
+npm run import:kanji -- data/shou2.csv --merge
+```
+
+Isso **mescla** o CSV informado com o conteúdo existente em `lib/data/kanji.json` e `lib/data/vocabulary.json`, sem apagar registros de outros anos.
+
+Saída:
 
 - `lib/data/kanji.json` — normalized kanji records
 - `lib/data/vocabulary.json` — vocabulary extracted from CSV columns
@@ -126,9 +150,38 @@ Behavior:
 
 - Supports thousands of records.
 - Upserts by `id` — re-importing overwrites existing records safely.
-- Rejects duplicate `kanji` characters.
+- Rejects duplicate `kanji` characters within the same import.
 - Validates required fields and UTF-8 encoding.
+- `unicode` must use `U+` prefix (e.g. `U+4E00`).
 
-The CSV file is maintained manually and version controlled.
+The CSV files are maintained manually and version controlled.
 
 Future Supabase import should use the same normalized JSON shape.
+
+---
+
+## Adding a New Grade Dataset
+
+Checklist for Shougakko 3rd grade and beyond:
+
+1. **Create CSV** — copy `shou1.csv` header; use unique `id` values across all grades; set `group=Shougakko`, `grade=N`, `order=1..N`.
+2. **Register dataset** in `lib/kanji/datasets.ts`:
+   ```ts
+   shou3: {
+     csvFile: "shou3.csv",
+     title: "Shougakko — 3º ano",
+     grade: 3,
+   },
+   ```
+3. **Validate** — parser must succeed without duplicate kanji characters.
+4. **Import with merge** — `npm run import:kanji -- data/shou3.csv --merge`
+5. **Verify routes** — `/study/shou3`, `/study/shou3/lesson/1`; exercises year selector picks it up automatically.
+
+### Runtime vs JSON
+
+| Consumer | Data source |
+|----------|-------------|
+| `/study/[dataset]` pages | CSV via `loadKanjiDataset(id)` (server) |
+| Exercises, dashboard stats | `MOCK_KANJI` from `lib/data/kanji.json` (client) |
+
+Both must stay in sync: always run `--merge` import after editing a grade CSV.

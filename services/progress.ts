@@ -1,4 +1,8 @@
-import { UserProgress } from "@/lib/mock/db";
+import { Kanji, UserProgress } from "@/lib/mock/db";
+import {
+  getLessonCompletionTotals,
+  getStudiedKanjiIds,
+} from "@/services/lesson-progress";
 
 const PROGRESS_KEY = "nihongo_cards_progress";
 
@@ -96,17 +100,34 @@ export function updateItemProgress(
 export interface ProgressStats {
   dailyStreak: number;
   reviewedCardsCount: number;
+  studiedKanjisCount: number;
   masteredKanjisCount: number;
   learningKanjisCount: number;
   totalKanjisCount: number;
+  completedLessonsCount: number;
+  totalLessonsCount: number;
 }
 
-export function getProgressStats(totalKanjis: number): ProgressStats {
+export function getProgressStats(allKanji: Kanji[]): ProgressStats {
   const progress = getLocalProgress();
-  
-  const reviewedCardsCount = progress.length;
-  const masteredKanjisCount = progress.filter(p => p.type === 'kanji' && p.status === 'mastered').length;
-  const learningKanjisCount = progress.filter(p => p.type === 'kanji' && (p.status === 'learning' || p.status === 'reviewing')).length;
+  const totalKanjis = allKanji.length;
+  const studiedKanjiIds = getStudiedKanjiIds(allKanji);
+  const studiedKanjisCount = studiedKanjiIds.size;
+  const { completedLessonsCount, totalLessonsCount } =
+    getLessonCompletionTotals(allKanji);
+
+  const kanaReviewedCount = progress.filter(
+    (p) => p.type === "hiragana" || p.type === "katakana"
+  ).length;
+  const reviewedCardsCount = kanaReviewedCount + studiedKanjisCount;
+
+  const masteredKanjisCount = progress.filter(
+    (p) => p.type === "kanji" && p.status === "mastered"
+  ).length;
+  const learningKanjisCount = Math.max(
+    0,
+    studiedKanjisCount - masteredKanjisCount
+  );
 
   // Streak diário mockado/local
   if (typeof window !== "undefined") {
@@ -138,17 +159,23 @@ export function getProgressStats(totalKanjis: number): ProgressStats {
     return {
       dailyStreak: streak || 1,
       reviewedCardsCount,
+      studiedKanjisCount,
       masteredKanjisCount,
       learningKanjisCount,
-      totalKanjisCount: totalKanjis
+      totalKanjisCount: totalKanjis,
+      completedLessonsCount,
+      totalLessonsCount,
     };
   }
 
   return {
     dailyStreak: 1,
     reviewedCardsCount: 0,
+    studiedKanjisCount: 0,
     masteredKanjisCount: 0,
     learningKanjisCount: 0,
-    totalKanjisCount: totalKanjis
+    totalKanjisCount: totalKanjis,
+    completedLessonsCount: 0,
+    totalLessonsCount: 0,
   };
 }

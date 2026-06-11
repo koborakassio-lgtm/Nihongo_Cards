@@ -40,7 +40,7 @@ function LessonCardContent({
     <>
       <div className="flex items-start justify-between gap-2">
         <p className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-zinc-50">
-          📚 Lesson {lesson.lessonNumber}
+          📚 Lição {lesson.lessonNumber}
         </p>
         {completed && (
           <CheckCircle2 className="h-5 w-5 shrink-0 text-emerald-500" aria-label="Concluída" />
@@ -56,7 +56,7 @@ function LessonCardContent({
         Kanji {lesson.orderStart}–{lesson.orderEnd}
       </p>
       <p className="text-sm font-medium text-zinc-400 dark:text-zinc-500 mt-1">
-        {lesson.kanjiCount} Kanji
+        {lesson.kanjiCount} kanji
       </p>
     </>
   );
@@ -79,8 +79,7 @@ export default function LessonListView({
     refreshProgress();
   }, [refreshProgress, pathname]);
 
-  const lessonLabel = lessons.length === 1 ? "Lesson" : "Lessons";
-  const kanjiLabel = totalKanji === 1 ? "Kanji" : "Kanji";
+  const lessonLabel = lessons.length === 1 ? "lição" : "lições";
   const completedCount = completedLessons.length;
 
   return (
@@ -90,7 +89,7 @@ export default function LessonListView({
           {title}
         </h1>
         <p className="text-sm text-zinc-500 mt-1">
-          {lessons.length} {lessonLabel} · {totalKanji} {kanjiLabel}
+          {lessons.length} {lessonLabel} · {totalKanji} kanji
         </p>
         <p className="text-sm text-zinc-400 mt-0.5">
           {completedCount} de {lessons.length} lições concluídas

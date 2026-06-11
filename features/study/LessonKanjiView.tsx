@@ -13,6 +13,7 @@ import {
   isLessonCompleted,
   markLessonComplete,
 } from "@/services/lesson-progress";
+import { updateItemProgress } from "@/services/progress";
 import { ArrowLeft } from "lucide-react";
 
 interface LessonKanjiViewProps {
@@ -54,6 +55,9 @@ export default function LessonKanjiView({
 
   const handleComplete = () => {
     markLessonComplete(datasetId, lessonNumber);
+    for (const entry of kanji) {
+      updateItemProgress(entry.id, "kanji", true);
+    }
     router.push(`/study/${datasetId}`);
   };
 
@@ -90,7 +94,7 @@ export default function LessonKanjiView({
           {datasetTitle}
         </p>
         <h1 className="text-2xl font-bold text-zinc-950 dark:text-zinc-50 mt-1">
-          Lesson {lessonNumber} ({orderStart}–{orderEnd})
+          Lição {lessonNumber} ({orderStart}–{orderEnd})
         </h1>
       </div>
 

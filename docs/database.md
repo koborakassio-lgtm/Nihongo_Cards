@@ -69,10 +69,27 @@ daily_review
 
 Especificação completa: [`kanji-dataset.md`](kanji-dataset.md)
 
-- Fonte: `data/kanji.csv` (UTF-8, versionado)
-- Comando: `npm run import:kanji`
+- Fontes por ano: `data/shou1.csv`, `data/shou2.csv`, … (UTF-8, versionados)
+- Comando padrão: `npm run import:kanji`
+- Merge (novo ano): `npm run import:kanji -- data/shouN.csv --merge`
 - Saída: `lib/data/kanji.json`, `lib/data/vocabulary.json`
-- Upsert por `id`, sem kanji duplicados
+- Upsert por `id`, sem kanji duplicados no mesmo import
+- Registro de datasets: `lib/kanji/datasets.ts`
+
+## Progresso local (MVP — localStorage)
+
+Dois stores integrados no dashboard:
+
+| Chave | Serviço | Conteúdo |
+|-------|---------|----------|
+| `nihongo_cards_progress` | `services/progress.ts` | Progresso por card (hiragana, katakana, kanji) |
+| `nihongo_cards_completed_lessons` | `services/lesson-progress.ts` | Lições concluídas por dataset (`shou1`, `shou2`, …) |
+| `nihongo_cards_streak` | `services/progress.ts` | Sequência diária |
+| `nihongo_cards_last_access` | `services/progress.ts` | Último acesso (streak) |
+
+Status kanji em `user_progress`: `new` → `learning` → `reviewing` → `mastered`.
+
+Kanji estudados (dashboard) vêm de lições concluídas; dominados exigem acertos repetidos via exercícios ou revisão.
 
 ## Regras
 

@@ -5,17 +5,23 @@ import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MOCK_KANJI, MOCK_VOCABULARY, Kanji, Vocabulary } from "@/lib/mock/db";
-import { buildLessonSummaries, type LessonSummary } from "@/lib/kanji/lessons";
+import { buildLessonSummaries, getTotalLessons, type LessonSummary } from "@/lib/kanji/lessons";
 import {
   canRunExercise,
   getKanjiPoolForCompletedLessons,
   getKanjiPoolForLesson,
   getVocabularyForKanjiPool,
 } from "@/lib/kanji/exercise-pool";
+import {
+  filterKanjiByDataset,
+  filterVocabularyByDataset,
+  getKanjiDataset,
+  KANJI_DATASETS,
+  type KanjiDatasetId,
+} from "@/lib/kanji/datasets";
 import { getCompletedLessons } from "@/services/lesson-progress";
+import { updateItemProgress } from "@/services/progress";
 import { Check, X, RefreshCw, Star, ChevronRight, Lock, CheckCircle2 } from "lucide-react";
-
-const DATASET_ID = "shou1" as const;
 
 const CARD_TINTS = [
   "bg-orange-50 dark:bg-orange-950/20",
@@ -28,7 +34,7 @@ const CARD_TINTS = [
   "bg-indigo-50 dark:bg-indigo-950/20",
 ] as const;
 
-type ExerciseStep = "select-scope" | "select-type" | "playing";
+type ExerciseStep = "select-dataset" | "select-scope" | "select-type" | "playing";
 type ExerciseType = "multiple-choice" | "match-kanji" | "match-vocab" | null;
 
 interface MatchItem {
@@ -111,9 +117,12 @@ function LessonScopeCard({
 }
 
 export default function ExercisesView() {
-  const [exerciseStep, setExerciseStep] = useState<ExerciseStep>("select-scope");
+  const [exerciseStep, setExerciseStep] = useState<ExerciseStep>("select-dataset");
+  const [datasetId, setDatasetId] = useState<KanjiDatasetId | null>(null);
   const [completedLessons, setCompletedLessons] = useState<number[]>([]);
-  const [lessons] = useState<LessonSummary[]>(() => buildLessonSummaries(MOCK_KANJI));
+  const [lessons, setLessons] = useState<LessonSummary[]>([]);
+  const [datasetKanji, setDatasetKanji] = useState<Kanji[]>([]);
+  const [datasetVocabulary, setDatasetVocabulary] = useState<Vocabulary[]>([]);
 
   const [kanjiPool, setKanjiPool] = useState<Kanji[]>([]);
   const [vocabPool, setVocabPool] = useState<Vocabulary[]>([]);
@@ -135,27 +144,55 @@ export default function ExercisesView() {
   const [matchFinished, setMatchFinished] = useState<boolean>(false);
 
   const refreshProgress = useCallback(() => {
-    setCompletedLessons(getCompletedLessons(DATASET_ID));
-  }, []);
+    if (!datasetId) return;
+    setCompletedLessons(getCompletedLessons(datasetId));
+  }, [datasetId]);
 
   useEffect(() => {
     refreshProgress();
   }, [refreshProgress]);
 
+  const selectDataset = (id: KanjiDatasetId) => {
+    const kanji = filterKanjiByDataset(MOCK_KANJI, id);
+    const vocabulary = filterVocabularyByDataset(MOCK_VOCABULARY, MOCK_KANJI, id);
+    setDatasetId(id);
+    setDatasetKanji(kanji);
+    setDatasetVocabulary(vocabulary);
+    setLessons(buildLessonSummaries(kanji));
+    setCompletedLessons(getCompletedLessons(id));
+    setExerciseStep("select-scope");
+  };
+
+  const backToDatasetSelect = () => {
+    setExerciseStep("select-dataset");
+    setDatasetId(null);
+    setDatasetKanji([]);
+    setDatasetVocabulary([]);
+    setLessons([]);
+    setCompletedLessons([]);
+    setKanjiPool([]);
+    setVocabPool([]);
+    setScopeLabel("");
+    setActiveExercise(null);
+    setScore(0);
+    setQuestionsCount(0);
+    setMatchFinished(false);
+  };
+
   const applyScope = (pool: Kanji[], label: string) => {
     setKanjiPool(pool);
-    setVocabPool(getVocabularyForKanjiPool(MOCK_VOCABULARY, pool));
+    setVocabPool(getVocabularyForKanjiPool(datasetVocabulary, pool));
     setScopeLabel(label);
     setExerciseStep("select-type");
   };
 
   const selectLessonScope = (lessonNumber: number) => {
-    const pool = getKanjiPoolForLesson(MOCK_KANJI, lessonNumber);
+    const pool = getKanjiPoolForLesson(datasetKanji, lessonNumber);
     applyScope(pool, `Lesson ${lessonNumber}`);
   };
 
   const selectGeneralReview = () => {
-    const pool = getKanjiPoolForCompletedLessons(MOCK_KANJI, completedLessons);
+    const pool = getKanjiPoolForCompletedLessons(datasetKanji, completedLessons);
     applyScope(pool, `Revisão geral (${pool.length} kanji)`);
   };
 
@@ -250,6 +287,7 @@ export default function ExercisesView() {
     setQuestionsCount((prev) => prev + 1);
     if (correct) {
       setScore((prev) => prev + 1);
+      updateItemProgress(mcQuestion.id, "kanji", true);
       speak(mcQuestion.kanji);
     }
   };
@@ -356,19 +394,73 @@ export default function ExercisesView() {
         </p>
       </div>
 
-      {exerciseStep === "select-scope" && (
+      {exerciseStep === "select-dataset" && (
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          {(Object.keys(KANJI_DATASETS) as KanjiDatasetId[]).map((id, index) => {
+            const config = getKanjiDataset(id);
+            const kanjiCount = filterKanjiByDataset(MOCK_KANJI, id).length;
+            const completed = getCompletedLessons(id).length;
+            const tint = CARD_TINTS[index % CARD_TINTS.length];
+
+            return (
+              <button
+                key={id}
+                type="button"
+                onClick={() => selectDataset(id)}
+                className={[
+                  "group block w-full min-h-[140px] rounded-3xl p-6 text-left",
+                  "shadow-[0_4px_24px_-6px_rgba(0,0,0,0.08)]",
+                  "transition-all duration-200 ease-out",
+                  "hover:scale-[1.02] hover:-translate-y-0.5",
+                  "hover:shadow-[0_8px_30px_-8px_rgba(0,0,0,0.12)]",
+                  "active:scale-[0.98]",
+                  tint,
+                ].join(" ")}
+              >
+                <p className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+                  {config.title}
+                </p>
+                <p className="text-base text-zinc-600 dark:text-zinc-300 mt-2">
+                  {kanjiCount} Kanji · {getTotalLessons(kanjiCount)} Lessons
+                </p>
+                <p className="text-sm font-medium text-zinc-400 dark:text-zinc-500 mt-1">
+                  {completed > 0
+                    ? `${completed} lição${completed === 1 ? "" : "ões"} concluída${completed === 1 ? "" : "s"}`
+                    : "Nenhuma lição concluída ainda"}
+                </p>
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      {exerciseStep === "select-scope" && datasetId && (
         <>
+          <div className="flex items-center justify-between">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={backToDatasetSelect}
+              className="rounded-full text-zinc-500"
+            >
+              Voltar
+            </Button>
+            <span className="text-xs font-semibold text-zinc-400">
+              {getKanjiDataset(datasetId).title}
+            </span>
+          </div>
+
           {completedLessons.length === 0 ? (
             <Card className="border-none shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] bg-white dark:bg-zinc-950 text-center py-10 px-6">
               <CardTitle className="text-lg font-bold text-zinc-800 dark:text-zinc-100">
                 Nenhuma lição concluída ainda
               </CardTitle>
               <CardDescription className="mt-2 max-w-sm mx-auto">
-                Complete pelo menos uma lição em Shougakko 1st Grade para desbloquear os exercícios.
+                Complete pelo menos uma lição em {getKanjiDataset(datasetId).title} para desbloquear os exercícios.
               </CardDescription>
               <CardContent className="pt-6">
                 <Button asChild className="bg-red-500 hover:bg-red-600 text-white rounded-full">
-                  <Link href="/study/shou1">Ir para as lições</Link>
+                  <Link href={`/study/${datasetId}`}>Ir para as lições</Link>
                 </Button>
               </CardContent>
             </Card>

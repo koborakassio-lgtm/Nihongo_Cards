@@ -30,6 +30,7 @@ app/
   globals.css                             # Tailwind + variáveis CSS
   study/
     layout.tsx                            # Header próprio com logo + link "Início" → /
+    page.tsx                              # Índice: escolha do ano escolar
     [dataset]/page.tsx                    # Lista de lições (ex: /study/shou1)
     [dataset]/lesson/[lessonNumber]/page.tsx  # Estudo de kanji da lição
 
@@ -38,6 +39,7 @@ features/
   kana/KanaStudy.tsx
   kanji/KanjiLessons.tsx                  # Legado (não usado na nav atual)
   study/
+    StudyIndexView.tsx                    # Cards de escolha shou1 / shou2
     LessonListView.tsx                    # Lista de lições por dataset
     LessonKanjiView.tsx                   # Estudo kanji dentro de uma lição
   exercises/ExercisesView.tsx
@@ -46,23 +48,24 @@ components/ui/                            # shadcn: card, button, dialog, progre
 data/
   kanji.csv                               # Dataset genérico (import legado)
   shou1.csv                               # Shougakko 1º ano — 80 kanji (UTF-8)
+  shou2.csv                               # Shougakko 2º ano — 159 kanji (UTF-8)
 lib/
   data/                                   # kanji.json + vocabulary.json (gerados)
   import/
     parse-kanji-csv.ts
     load-kanji-dataset.ts                 # Carrega CSV por dataset (server-only)
-    load-shou1.ts
+    load-shou1.ts                         # Wrapper legado → loadKanjiDataset("shou1")
   kanji/
-    datasets.ts                           # Registro de datasets (shou1, …)
+    datasets.ts                           # Registro de datasets + filtros por grade
     lessons.ts                            # Agrupa kanji em lições de 10
     exercise-pool.ts                      # Pool de exercícios por lição
   mock/db.ts                              # Tipos + MOCK_* (kana mock inline)
   utils.ts                                # cn() helper
 scripts/
-  import-kanji.ts                         # CSV → JSON
+  import-kanji.ts                         # CSV → JSON (suporta --merge)
 services/
-  progress.ts                             # Progresso por card (kana/kanji)
-  lesson-progress.ts                      # Lições concluídas por dataset
+  progress.ts                             # Progresso por card + stats do dashboard
+  lesson-progress.ts                      # Lições concluídas + kanji estudados
 ```
 
 ## Navegação
@@ -78,7 +81,7 @@ Abas via `activeTab` (estado local):
 | `katakana` | KanaStudy type="katakana" | `features/kana/KanaStudy.tsx` |
 | `exercises` | ExercisesView | `features/exercises/ExercisesView.tsx` |
 
-**Kanji** não é aba — é `<Link href="/study/shou1">` na nav desktop e mobile.
+**Kanji** não é aba — é `<Link href="/study">` na nav desktop e mobile.
 
 **Header home:** logo (clique → Painel) + nav de abas + botão **Início** (ícone Home, canto direito) que navega para `/` e reseta `activeTab` para `dashboard`.
 
@@ -86,12 +89,26 @@ Abas via `activeTab` (estado local):
 
 | Rota | Componente | Descrição |
 |------|------------|-----------|
-| `/study/[dataset]` | LessonListView | Lista lições do dataset (ex: shou1) |
+| `/study` | StudyIndexView | Escolha do ano (shou1, shou2, …) |
+| `/study/[dataset]` | LessonListView | Lista lições do dataset |
 | `/study/[dataset]/lesson/[n]` | LessonKanjiView | Estudo dos kanji da lição n |
 
 **Header study:** logo → `/` + link texto "Início" → `/`.
 
-Datasets registrados em `lib/kanji/datasets.ts` (atual: `shou1` → `data/shou1.csv`).
+Datasets registrados em `lib/kanji/datasets.ts`:
+
+| ID | CSV | Título UI | Grade | Kanji | Lições |
+|----|-----|-----------|-------|-------|--------|
+| `shou1` | `shou1.csv` | Shougakko — 1º ano | 1 | 80 | 8 |
+| `shou2` | `shou2.csv` | Shougakko — 2º ano | 2 | 159 | 16 |
+
+Total em `lib/data/kanji.json` após merge: **239 kanji**.
+
+### Exercícios (`ExercisesView`)
+
+Fluxo em 4 passos: **escolher ano → escolher lição/revisão geral → escolher tipo → jogar**.
+
+Tipos: Múltipla Escolha, Relacionar Kanji, Palavra & Leitura. Só lições **concluídas** do dataset selecionado entram no pool.
 
 ## Onde alterar cards da UI
 
@@ -101,13 +118,17 @@ Datasets registrados em `lib/kanji/datasets.ts` (atual: `shou1` → `data/shou1.
 
 ### Cards principais por tela
 
-**Dashboard** (`DashboardView.tsx`): Sequência Diária, Cartões Estudados, Kanjis Dominados, Em Aprendizado, Progresso Geral.
+**Dashboard** (`DashboardView.tsx`): Sequência Diária, Cartões Estudados, Kanjis Dominados, Em Aprendizado, Progresso Geral de Kanji.
 
-**Kanji — lição** (`LessonKanjiView.tsx`): card esquerdo "Escrita & Forma" (kanji grande + pronúncia), card direito "Leituras & Vocabulário" (flip para revelar).
+**Estudo — índice** (`StudyIndexView.tsx`): cards tintados por ano escolar.
+
+**Kanji — lições** (`LessonListView.tsx`): cards `📚 Lição N` com bloqueio sequencial.
+
+**Kanji — lição** (`LessonKanjiView.tsx`): cards por kanji (significado, onyomi, kunyomi) + botão "Concluir lição".
 
 **Kana** (`KanaStudy.tsx`): grid de caracteres + card de estudo do caractere selecionado.
 
-**Exercícios** (`ExercisesView.tsx`): Múltipla Escolha, Relacionar Kanji, Palavra & Leitura.
+**Exercícios** (`ExercisesView.tsx`): seletor de ano, lições concluídas, Múltipla Escolha, Relacionar Kanji, Palavra & Leitura.
 
 ## Dados e tipos (`lib/mock/db.ts`)
 
@@ -117,26 +138,62 @@ Hiragana | Katakana | Kanji | Vocabulary | Lesson | LessonItem | UserProgress
 
 Exports: `MOCK_HIRAGANA`, `MOCK_KATAKANA`, `MOCK_KANJI`, `MOCK_VOCABULARY`, `MOCK_LESSONS`, `MOCK_LESSON_ITEMS`.
 
-Kanji por dataset: carregados em runtime via `loadKanjiDataset(id)` de `data/{csvFile}`.
+### Dois caminhos de dados para kanji
 
-`Kanji` campos-chave: `kanji`, `onyomi` (katakana, `|`), `kunyomi` (hiragana, `|`), `meaning_pt`, `jlpt` (N5–N1), `order_in_grade`, `svg_path` (`/kanji/{CODEPOINT}.svg`).
+| Caminho | Fonte | Usado em |
+|---------|--------|----------|
+| Estudo (`/study/...`) | CSV via `loadKanjiDataset(id)` em runtime | Lições, cards de lição, progresso de lições |
+| Exercícios + Dashboard stats | `lib/data/kanji.json` via `MOCK_KANJI` | ExercisesView, getProgressStats |
+
+Após adicionar um ano, rodar import com merge (ver `docs/kanji-dataset.md`).
+
+`Kanji` campos-chave: `kanji`, `onyomi` (katakana, `|`), `kunyomi` (hiragana, `|`), `meaning_pt`, `jlpt` (N5–N1), `order_in_grade`, `ano_escolar`, `svg_path` (`/kanji/{CODEPOINT}.svg`).
 
 **Regras do dataset:** sem tradução/geração por IA em runtime; exercícios só com registros do banco. Ver `docs/kanji-dataset.md`.
 
 ## Progresso
 
+Dois stores localStorage **integrados** no dashboard via `getProgressStats(MOCK_KANJI)`.
+
 ### Por card (`services/progress.ts`)
 
-- Chave localStorage: `nihongo_cards_progress`
+- Chave: `nihongo_cards_progress`
 - Streak: `nihongo_cards_streak`, `nihongo_cards_last_access`
-- Status: `new` → `learning` → `reviewing` → `mastered`
-- `updateItemProgress(cardId, type, knows)` — usado em Kana e Kanji
+- Status kanji: `new` → `learning` (1 acerto) → `reviewing` (3 acertos) → `mastered` (6 acertos)
+- `updateItemProgress(cardId, type, knows)` — usado em Kana, conclusão de lição e acertos em exercícios
 
 ### Por lição (`services/lesson-progress.ts`)
 
-- Chave localStorage: `nihongo_cards_completed_lessons`
+- Chave: `nihongo_cards_completed_lessons` (objeto `{ shou1: [1,2], shou2: [1], … }`)
 - `getCompletedLessons(datasetId)`, `markLessonComplete(datasetId, lessonNumber)`
+- `getStudiedKanjiIds(allKanji)` — kanji únicos de lições concluídas (todos os datasets)
+- `getLessonCompletionTotals(allKanji)` — totais agregados de lições
 - Lições agrupadas em blocos de 10 kanji (`lib/kanji/lessons.ts`, `LESSON_SIZE = 10`)
+
+### Sincronização lição → dashboard
+
+Ao concluir lição (`LessonKanjiView.handleComplete`):
+1. `markLessonComplete(datasetId, lessonNumber)`
+2. Para cada kanji da lição: `updateItemProgress(id, "kanji", true)`
+
+### Métricas do dashboard (`ProgressStats`)
+
+| Campo | Origem |
+|-------|--------|
+| `studiedKanjisCount` | Kanji de lições concluídas |
+| `masteredKanjisCount` | Status `mastered` em card progress |
+| `learningKanjisCount` | Estudados − dominados |
+| `reviewedCardsCount` | Kana tentados + kanji estudados |
+| `completedLessonsCount` / `totalLessonsCount` | Soma entre todos os datasets |
+| Barra "Progresso Geral" | `studiedKanjisCount / totalKanjisCount` |
+
+## Adicionar um novo ano escolar (ex: shou3)
+
+1. Criar `data/shou3.csv` (mesmo cabeçalho de `shou1.csv`, `group=Shougakko`, `unicode=U+XXXX`)
+2. Registrar em `lib/kanji/datasets.ts` (`shou3`, grade 3, título pt-BR)
+3. Importar: `npm run import:kanji -- data/shou3.csv --merge`
+4. Rotas `/study/shou3` funcionam automaticamente; atualizar `StudyIndexView` se necessário (lê `KANJI_DATASETS` dinamicamente)
+5. Exercícios: dataset aparece no seletor de ano automaticamente
 
 ## Padrões de código
 
@@ -146,24 +203,27 @@ Kanji por dataset: carregados em runtime via `loadKanjiDataset(id)` de `data/{cs
 - Pronúncia: `window.speechSynthesis` com `lang: "ja-JP"` (função `speak` local em cada view)
 - UI: cards com `border-none shadow-[0_4px_20px_...]`, paleta zinc + accent red/orange
 - Fonte japonesa: classe `font-japanese` (globals.css)
+- Textos de UI em **pt-BR** (Lição, lições, kanji — não "Lesson")
 - Não criar dados fictícios novos fora do mock — seguir `docs/ai_rules.md`
 
 ## Estado atual (implementado vs pendente)
 
 | Feature | Status |
 |---------|--------|
-| Dashboard com stats | ✅ mock/localStorage |
+| Dashboard com stats unificados | ✅ lições + cartões |
 | Hiragana / Katakana study | ✅ |
-| Kanji por lições (rotas `/study/...`) | ✅ shou1 (80 kanji) |
-| Progresso de lições concluídas | ✅ localStorage |
-| Exercícios (3 tipos) | ✅ |
+| Kanji por lições (rotas `/study/...`) | ✅ shou1 (80) + shou2 (159) |
+| Índice `/study` (escolha do ano) | ✅ |
+| Progresso de lições concluídas | ✅ localStorage, por dataset |
+| Exercícios (3 tipos) | ✅ seletor de ano |
 | Botão Início no header | ✅ home + study layout |
+| UI pt-BR nas telas de estudo | ✅ |
 | Canvas de escrita kanji | ❌ removido |
 | Auth / Supabase | ❌ pendente (`tasks/002-auth.md`) |
 | Revisão espaçada real | ❌ básica apenas |
 | SVG ordem de traços | ❌ campo existe, UI não |
 | Completar frases (exercício 4) | ❌ pendente |
-| Datasets além de shou1 | ❌ pendente |
+| shou3–shou6 / Chūgakkō | ❌ pendente |
 
 ## Comandos
 
@@ -172,7 +232,8 @@ npm run dev           # http://localhost:3000
 npm run build
 npm run start         # produção local
 npm run lint
-npm run import:kanji  # data/kanji.csv → lib/data/*.json
+npm run import:kanji  # data/shou1.csv → lib/data/*.json (padrão)
+npm run import:kanji -- data/shou2.csv --merge  # mescla sem apagar anos anteriores
 ```
 
 Se porta 3000 ocupada: `pkill -f "next dev"` e rodar de novo.
@@ -182,7 +243,7 @@ Se porta 3000 ocupada: `pkill -f "next dev"` e rodar de novo.
 ```
 @context.md
 @features/study/LessonKanjiView.tsx
-Remova X do card "Escrita & Forma". Não altere outros arquivos.
+Altere X no card de kanji. Não altere outros arquivos.
 ```
 
 - Anexar print da tela + nome do card + `@arquivo` específico

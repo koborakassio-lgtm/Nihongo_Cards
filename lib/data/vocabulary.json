@@ -16,134 +16,6 @@
     "priority": 2
   },
   {
-    "id": "v-kanji-2-1",
-    "kanji_id": "kanji-2",
-    "word": "二つ",
-    "reading": "ふたつ",
-    "meaning_pt": "dois objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-2-2",
-    "kanji_id": "kanji-2",
-    "word": "二人",
-    "reading": "ふたり",
-    "meaning_pt": "duas pessoas",
-    "priority": 2
-  },
-  {
-    "id": "v-kanji-3-1",
-    "kanji_id": "kanji-3",
-    "word": "三つ",
-    "reading": "みっつ",
-    "meaning_pt": "três objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-3-2",
-    "kanji_id": "kanji-3",
-    "word": "三人",
-    "reading": "さんにん",
-    "meaning_pt": "três pessoas",
-    "priority": 2
-  },
-  {
-    "id": "v-kanji-4-1",
-    "kanji_id": "kanji-4",
-    "word": "四つ",
-    "reading": "よっつ",
-    "meaning_pt": "quatro objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-4-2",
-    "kanji_id": "kanji-4",
-    "word": "四人",
-    "reading": "よにん",
-    "meaning_pt": "quatro pessoas",
-    "priority": 2
-  },
-  {
-    "id": "v-kanji-5-1",
-    "kanji_id": "kanji-5",
-    "word": "五つ",
-    "reading": "いつつ",
-    "meaning_pt": "cinco objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-5-2",
-    "kanji_id": "kanji-5",
-    "word": "五月",
-    "reading": "ごがつ",
-    "meaning_pt": "maio",
-    "priority": 2
-  },
-  {
-    "id": "v-kanji-6-1",
-    "kanji_id": "kanji-6",
-    "word": "六つ",
-    "reading": "むっつ",
-    "meaning_pt": "seis objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-6-2",
-    "kanji_id": "kanji-6",
-    "word": "六月",
-    "reading": "ろくがつ",
-    "meaning_pt": "junho",
-    "priority": 2
-  },
-  {
-    "id": "v-kanji-7-1",
-    "kanji_id": "kanji-7",
-    "word": "七つ",
-    "reading": "ななつ",
-    "meaning_pt": "sete objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-7-2",
-    "kanji_id": "kanji-7",
-    "word": "七日",
-    "reading": "なのか",
-    "meaning_pt": "dia sete",
-    "priority": 2
-  },
-  {
-    "id": "v-kanji-8-1",
-    "kanji_id": "kanji-8",
-    "word": "八つ",
-    "reading": "やっつ",
-    "meaning_pt": "oito objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-8-2",
-    "kanji_id": "kanji-8",
-    "word": "八日",
-    "reading": "ようか",
-    "meaning_pt": "dia oito",
-    "priority": 2
-  },
-  {
-    "id": "v-kanji-9-1",
-    "kanji_id": "kanji-9",
-    "word": "九つ",
-    "reading": "ここのつ",
-    "meaning_pt": "nove objetos",
-    "priority": 1
-  },
-  {
-    "id": "v-kanji-9-2",
-    "kanji_id": "kanji-9",
-    "word": "九人",
-    "reading": "きゅうにん",
-    "meaning_pt": "nove pessoas",
-    "priority": 2
-  },
-  {
     "id": "v-kanji-10-1",
     "kanji_id": "kanji-10",
     "word": "十",
@@ -157,6 +29,166 @@
     "word": "十日",
     "reading": "とおか",
     "meaning_pt": "dia dez",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-100-1",
+    "kanji_id": "kanji-100",
+    "word": "生活",
+    "reading": "せいかつ",
+    "meaning_pt": "vida cotidiana",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-100-2",
+    "kanji_id": "kanji-100",
+    "word": "活動",
+    "reading": "かつどう",
+    "meaning_pt": "atividade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-101-1",
+    "kanji_id": "kanji-101",
+    "word": "時間",
+    "reading": "じかん",
+    "meaning_pt": "tempo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-101-2",
+    "kanji_id": "kanji-101",
+    "word": "間",
+    "reading": "あいだ",
+    "meaning_pt": "intervalo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-102-1",
+    "kanji_id": "kanji-102",
+    "word": "丸",
+    "reading": "まる",
+    "meaning_pt": "círculo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-102-2",
+    "kanji_id": "kanji-102",
+    "word": "丸い",
+    "reading": "まるい",
+    "meaning_pt": "redondo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-103-1",
+    "kanji_id": "kanji-103",
+    "word": "岩石",
+    "reading": "がんせき",
+    "meaning_pt": "rocha",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-103-2",
+    "kanji_id": "kanji-103",
+    "word": "岩",
+    "reading": "いわ",
+    "meaning_pt": "pedra grande",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-104-1",
+    "kanji_id": "kanji-104",
+    "word": "顔色",
+    "reading": "かおいろ",
+    "meaning_pt": "aparência",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-104-2",
+    "kanji_id": "kanji-104",
+    "word": "顔",
+    "reading": "かお",
+    "meaning_pt": "rosto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-105-1",
+    "kanji_id": "kanji-105",
+    "word": "汽車",
+    "reading": "きしゃ",
+    "meaning_pt": "locomotiva a vapor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-105-2",
+    "kanji_id": "kanji-105",
+    "word": "汽水",
+    "reading": "きすい",
+    "meaning_pt": "água salobra",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-106-1",
+    "kanji_id": "kanji-106",
+    "word": "日記",
+    "reading": "にっき",
+    "meaning_pt": "diário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-106-2",
+    "kanji_id": "kanji-106",
+    "word": "記者",
+    "reading": "きしゃ",
+    "meaning_pt": "repórter",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-107-1",
+    "kanji_id": "kanji-107",
+    "word": "帰国",
+    "reading": "きこく",
+    "meaning_pt": "retorno ao país",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-107-2",
+    "kanji_id": "kanji-107",
+    "word": "帰る",
+    "reading": "かえる",
+    "meaning_pt": "voltar para casa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-108-1",
+    "kanji_id": "kanji-108",
+    "word": "弓道",
+    "reading": "きゅうどう",
+    "meaning_pt": "arqueria japonesa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-108-2",
+    "kanji_id": "kanji-108",
+    "word": "弓",
+    "reading": "ゆみ",
+    "meaning_pt": "arco",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-109-1",
+    "kanji_id": "kanji-109",
+    "word": "牛肉",
+    "reading": "ぎゅうにく",
+    "meaning_pt": "carne bovina",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-109-2",
+    "kanji_id": "kanji-109",
+    "word": "牛",
+    "reading": "うし",
+    "meaning_pt": "vaca",
     "priority": 2
   },
   {
@@ -176,6 +208,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-110-1",
+    "kanji_id": "kanji-110",
+    "word": "金魚",
+    "reading": "きんぎょ",
+    "meaning_pt": "peixe dourado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-110-2",
+    "kanji_id": "kanji-110",
+    "word": "魚",
+    "reading": "さかな",
+    "meaning_pt": "peixe",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-111-1",
+    "kanji_id": "kanji-111",
+    "word": "東京",
+    "reading": "とうきょう",
+    "meaning_pt": "Tóquio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-111-2",
+    "kanji_id": "kanji-111",
+    "word": "京都",
+    "reading": "きょうと",
+    "meaning_pt": "Quioto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-112-1",
+    "kanji_id": "kanji-112",
+    "word": "勉強",
+    "reading": "べんきょう",
+    "meaning_pt": "estudo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-112-2",
+    "kanji_id": "kanji-112",
+    "word": "強い",
+    "reading": "つよい",
+    "meaning_pt": "forte",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-113-1",
+    "kanji_id": "kanji-113",
+    "word": "教師",
+    "reading": "きょうし",
+    "meaning_pt": "professor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-113-2",
+    "kanji_id": "kanji-113",
+    "word": "教える",
+    "reading": "おしえる",
+    "meaning_pt": "ensinar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-114-1",
+    "kanji_id": "kanji-114",
+    "word": "近所",
+    "reading": "きんじょ",
+    "meaning_pt": "vizinhança",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-114-2",
+    "kanji_id": "kanji-114",
+    "word": "近い",
+    "reading": "ちかい",
+    "meaning_pt": "próximo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-115-1",
+    "kanji_id": "kanji-115",
+    "word": "兄弟",
+    "reading": "きょうだい",
+    "meaning_pt": "irmãos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-115-2",
+    "kanji_id": "kanji-115",
+    "word": "兄",
+    "reading": "あに",
+    "meaning_pt": "irmão mais velho",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-116-1",
+    "kanji_id": "kanji-116",
+    "word": "図形",
+    "reading": "ずけい",
+    "meaning_pt": "figura geométrica",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-116-2",
+    "kanji_id": "kanji-116",
+    "word": "形",
+    "reading": "かたち",
+    "meaning_pt": "forma",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-117-1",
+    "kanji_id": "kanji-117",
+    "word": "時計",
+    "reading": "とけい",
+    "meaning_pt": "relógio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-117-2",
+    "kanji_id": "kanji-117",
+    "word": "計画",
+    "reading": "けいかく",
+    "meaning_pt": "plano",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-118-1",
+    "kanji_id": "kanji-118",
+    "word": "元気",
+    "reading": "げんき",
+    "meaning_pt": "saudável / animado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-118-2",
+    "kanji_id": "kanji-118",
+    "word": "元",
+    "reading": "もと",
+    "meaning_pt": "origem",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-119-1",
+    "kanji_id": "kanji-119",
+    "word": "発言",
+    "reading": "はつげん",
+    "meaning_pt": "declaração",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-119-2",
+    "kanji_id": "kanji-119",
+    "word": "言う",
+    "reading": "いう",
+    "meaning_pt": "dizer",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-12-1",
     "kanji_id": "kanji-12",
     "word": "千円",
@@ -189,6 +381,166 @@
     "word": "千人",
     "reading": "せんにん",
     "meaning_pt": "mil pessoas",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-120-1",
+    "kanji_id": "kanji-120",
+    "word": "草原",
+    "reading": "そうげん",
+    "meaning_pt": "pradaria",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-120-2",
+    "kanji_id": "kanji-120",
+    "word": "原っぱ",
+    "reading": "はらっぱ",
+    "meaning_pt": "campo aberto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-121-1",
+    "kanji_id": "kanji-121",
+    "word": "戸口",
+    "reading": "とぐち",
+    "meaning_pt": "entrada",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-121-2",
+    "kanji_id": "kanji-121",
+    "word": "雨戸",
+    "reading": "あまど",
+    "meaning_pt": "veneziana",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-122-1",
+    "kanji_id": "kanji-122",
+    "word": "古代",
+    "reading": "こだい",
+    "meaning_pt": "antiguidade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-122-2",
+    "kanji_id": "kanji-122",
+    "word": "古い",
+    "reading": "ふるい",
+    "meaning_pt": "antigo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-123-1",
+    "kanji_id": "kanji-123",
+    "word": "午後",
+    "reading": "ごご",
+    "meaning_pt": "tarde",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-123-2",
+    "kanji_id": "kanji-123",
+    "word": "午前",
+    "reading": "ごぜん",
+    "meaning_pt": "manhã",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-124-1",
+    "kanji_id": "kanji-124",
+    "word": "午後",
+    "reading": "ごご",
+    "meaning_pt": "tarde",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-124-2",
+    "kanji_id": "kanji-124",
+    "word": "後ろ",
+    "reading": "うしろ",
+    "meaning_pt": "atrás",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-125-1",
+    "kanji_id": "kanji-125",
+    "word": "日本語",
+    "reading": "にほんご",
+    "meaning_pt": "japonês",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-125-2",
+    "kanji_id": "kanji-125",
+    "word": "英語",
+    "reading": "えいご",
+    "meaning_pt": "inglês",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-126-1",
+    "kanji_id": "kanji-126",
+    "word": "工場",
+    "reading": "こうじょう",
+    "meaning_pt": "fábrica",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-126-2",
+    "kanji_id": "kanji-126",
+    "word": "工事",
+    "reading": "こうじ",
+    "meaning_pt": "obra",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-127-1",
+    "kanji_id": "kanji-127",
+    "word": "公園",
+    "reading": "こうえん",
+    "meaning_pt": "parque",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-127-2",
+    "kanji_id": "kanji-127",
+    "word": "公共",
+    "reading": "こうきょう",
+    "meaning_pt": "público",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-128-1",
+    "kanji_id": "kanji-128",
+    "word": "広場",
+    "reading": "ひろば",
+    "meaning_pt": "praça",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-128-2",
+    "kanji_id": "kanji-128",
+    "word": "広い",
+    "reading": "ひろい",
+    "meaning_pt": "amplo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-129-1",
+    "kanji_id": "kanji-129",
+    "word": "交通",
+    "reading": "こうつう",
+    "meaning_pt": "trânsito",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-129-2",
+    "kanji_id": "kanji-129",
+    "word": "交換",
+    "reading": "こうかん",
+    "meaning_pt": "troca",
     "priority": 2
   },
   {
@@ -208,6 +560,150 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-130-1",
+    "kanji_id": "kanji-130",
+    "word": "日光",
+    "reading": "にっこう",
+    "meaning_pt": "luz solar",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-130-2",
+    "kanji_id": "kanji-130",
+    "word": "光",
+    "reading": "ひかり",
+    "meaning_pt": "luz",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-131-1",
+    "kanji_id": "kanji-131",
+    "word": "参考",
+    "reading": "さんこう",
+    "meaning_pt": "referência",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-131-2",
+    "kanji_id": "kanji-131",
+    "word": "考える",
+    "reading": "かんがえる",
+    "meaning_pt": "pensar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-132-1",
+    "kanji_id": "kanji-132",
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "meaning_pt": "banco",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-132-2",
+    "kanji_id": "kanji-132",
+    "word": "旅行",
+    "reading": "りょこう",
+    "meaning_pt": "viagem",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-133-1",
+    "kanji_id": "kanji-133",
+    "word": "高校",
+    "reading": "こうこう",
+    "meaning_pt": "ensino médio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-133-2",
+    "kanji_id": "kanji-133",
+    "word": "高い",
+    "reading": "たかい",
+    "meaning_pt": "alto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-135-1",
+    "kanji_id": "kanji-135",
+    "word": "集合",
+    "reading": "しゅうごう",
+    "meaning_pt": "reunião",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-135-2",
+    "kanji_id": "kanji-135",
+    "word": "合う",
+    "reading": "あう",
+    "meaning_pt": "combinar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-136-1",
+    "kanji_id": "kanji-136",
+    "word": "渓谷",
+    "reading": "けいこく",
+    "meaning_pt": "vale profundo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-136-2",
+    "kanji_id": "kanji-136",
+    "word": "谷",
+    "reading": "たに",
+    "meaning_pt": "vale",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-137-1",
+    "kanji_id": "kanji-137",
+    "word": "外国",
+    "reading": "がいこく",
+    "meaning_pt": "país estrangeiro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-137-2",
+    "kanji_id": "kanji-137",
+    "word": "国",
+    "reading": "くに",
+    "meaning_pt": "país",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-138-1",
+    "kanji_id": "kanji-138",
+    "word": "黒板",
+    "reading": "こくばん",
+    "meaning_pt": "lousa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-138-2",
+    "kanji_id": "kanji-138",
+    "word": "黒い",
+    "reading": "くろい",
+    "meaning_pt": "preto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-139-1",
+    "kanji_id": "kanji-139",
+    "word": "今日",
+    "reading": "きょう",
+    "meaning_pt": "hoje",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-139-2",
+    "kanji_id": "kanji-139",
+    "word": "今",
+    "reading": "いま",
+    "meaning_pt": "agora",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-14-1",
     "kanji_id": "kanji-14",
     "word": "下",
@@ -221,6 +717,166 @@
     "word": "地下",
     "reading": "ちか",
     "meaning_pt": "subterrâneo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-140-1",
+    "kanji_id": "kanji-140",
+    "word": "才能",
+    "reading": "さいのう",
+    "meaning_pt": "talento",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-140-2",
+    "kanji_id": "kanji-140",
+    "word": "十才",
+    "reading": "じゅっさい",
+    "meaning_pt": "dez anos de idade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-141-1",
+    "kanji_id": "kanji-141",
+    "word": "詳細",
+    "reading": "しょうさい",
+    "meaning_pt": "detalhes",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-141-2",
+    "kanji_id": "kanji-141",
+    "word": "細い",
+    "reading": "ほそい",
+    "meaning_pt": "fino",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-142-1",
+    "kanji_id": "kanji-142",
+    "word": "作文",
+    "reading": "さくぶん",
+    "meaning_pt": "redação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-142-2",
+    "kanji_id": "kanji-142",
+    "word": "作る",
+    "reading": "つくる",
+    "meaning_pt": "fazer",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-143-1",
+    "kanji_id": "kanji-143",
+    "word": "計算",
+    "reading": "けいさん",
+    "meaning_pt": "cálculo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-143-2",
+    "kanji_id": "kanji-143",
+    "word": "算数",
+    "reading": "さんすう",
+    "meaning_pt": "aritmética",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-144-1",
+    "kanji_id": "kanji-144",
+    "word": "中止",
+    "reading": "ちゅうし",
+    "meaning_pt": "cancelamento",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-144-2",
+    "kanji_id": "kanji-144",
+    "word": "止まる",
+    "reading": "とまる",
+    "meaning_pt": "parar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-145-1",
+    "kanji_id": "kanji-145",
+    "word": "市民",
+    "reading": "しみん",
+    "meaning_pt": "cidadão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-145-2",
+    "kanji_id": "kanji-145",
+    "word": "市",
+    "reading": "し",
+    "meaning_pt": "cidade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-146-1",
+    "kanji_id": "kanji-146",
+    "word": "矢印",
+    "reading": "やじるし",
+    "meaning_pt": "seta",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-146-2",
+    "kanji_id": "kanji-146",
+    "word": "矢",
+    "reading": "や",
+    "meaning_pt": "flecha",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-147-1",
+    "kanji_id": "kanji-147",
+    "word": "姉妹",
+    "reading": "しまい",
+    "meaning_pt": "irmãs",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-147-2",
+    "kanji_id": "kanji-147",
+    "word": "姉",
+    "reading": "あね",
+    "meaning_pt": "irmã mais velha",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-148-1",
+    "kanji_id": "kanji-148",
+    "word": "意思",
+    "reading": "いし",
+    "meaning_pt": "vontade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-148-2",
+    "kanji_id": "kanji-148",
+    "word": "思う",
+    "reading": "おもう",
+    "meaning_pt": "pensar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-149-1",
+    "kanji_id": "kanji-149",
+    "word": "手紙",
+    "reading": "てがみ",
+    "meaning_pt": "carta",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-149-2",
+    "kanji_id": "kanji-149",
+    "word": "紙",
+    "reading": "かみ",
+    "meaning_pt": "papel",
     "priority": 2
   },
   {
@@ -240,6 +896,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-150-1",
+    "kanji_id": "kanji-150",
+    "word": "寺院",
+    "reading": "じいん",
+    "meaning_pt": "templo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-150-2",
+    "kanji_id": "kanji-150",
+    "word": "寺",
+    "reading": "てら",
+    "meaning_pt": "templo budista",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-151-1",
+    "kanji_id": "kanji-151",
+    "word": "自分",
+    "reading": "じぶん",
+    "meaning_pt": "eu mesmo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-151-2",
+    "kanji_id": "kanji-151",
+    "word": "自然",
+    "reading": "しぜん",
+    "meaning_pt": "natureza",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-152-1",
+    "kanji_id": "kanji-152",
+    "word": "時間",
+    "reading": "じかん",
+    "meaning_pt": "tempo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-152-2",
+    "kanji_id": "kanji-152",
+    "word": "時計",
+    "reading": "とけい",
+    "meaning_pt": "relógio",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-153-1",
+    "kanji_id": "kanji-153",
+    "word": "教室",
+    "reading": "きょうしつ",
+    "meaning_pt": "sala de aula",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-153-2",
+    "kanji_id": "kanji-153",
+    "word": "室内",
+    "reading": "しつない",
+    "meaning_pt": "interior",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-154-1",
+    "kanji_id": "kanji-154",
+    "word": "会社",
+    "reading": "かいしゃ",
+    "meaning_pt": "empresa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-154-2",
+    "kanji_id": "kanji-154",
+    "word": "神社",
+    "reading": "じんじゃ",
+    "meaning_pt": "santuário xintoísta",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-155-1",
+    "kanji_id": "kanji-155",
+    "word": "弱点",
+    "reading": "じゃくてん",
+    "meaning_pt": "ponto fraco",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-155-2",
+    "kanji_id": "kanji-155",
+    "word": "弱い",
+    "reading": "よわい",
+    "meaning_pt": "fraco",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-156-1",
+    "kanji_id": "kanji-156",
+    "word": "首都",
+    "reading": "しゅと",
+    "meaning_pt": "capital",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-156-2",
+    "kanji_id": "kanji-156",
+    "word": "首",
+    "reading": "くび",
+    "meaning_pt": "pescoço",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-157-1",
+    "kanji_id": "kanji-157",
+    "word": "秋分",
+    "reading": "しゅうぶん",
+    "meaning_pt": "equinócio de outono",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-157-2",
+    "kanji_id": "kanji-157",
+    "word": "秋",
+    "reading": "あき",
+    "meaning_pt": "outono",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-158-1",
+    "kanji_id": "kanji-158",
+    "word": "毎週",
+    "reading": "まいしゅう",
+    "meaning_pt": "toda semana",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-158-2",
+    "kanji_id": "kanji-158",
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meaning_pt": "próxima semana",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-159-1",
+    "kanji_id": "kanji-159",
+    "word": "春休み",
+    "reading": "はるやすみ",
+    "meaning_pt": "férias de primavera",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-159-2",
+    "kanji_id": "kanji-159",
+    "word": "春",
+    "reading": "はる",
+    "meaning_pt": "primavera",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-16-1",
     "kanji_id": "kanji-16",
     "word": "右",
@@ -253,6 +1069,166 @@
     "word": "左右",
     "reading": "さゆう",
     "meaning_pt": "esquerda e direita",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-160-1",
+    "kanji_id": "kanji-160",
+    "word": "読書",
+    "reading": "どくしょ",
+    "meaning_pt": "leitura",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-160-2",
+    "kanji_id": "kanji-160",
+    "word": "書く",
+    "reading": "かく",
+    "meaning_pt": "escrever",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-161-1",
+    "kanji_id": "kanji-161",
+    "word": "少年",
+    "reading": "しょうねん",
+    "meaning_pt": "menino",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-161-2",
+    "kanji_id": "kanji-161",
+    "word": "少ない",
+    "reading": "すくない",
+    "meaning_pt": "pouco",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-162-1",
+    "kanji_id": "kanji-162",
+    "word": "工場",
+    "reading": "こうじょう",
+    "meaning_pt": "fábrica",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-162-2",
+    "kanji_id": "kanji-162",
+    "word": "場所",
+    "reading": "ばしょ",
+    "meaning_pt": "lugar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-163-1",
+    "kanji_id": "kanji-163",
+    "word": "景色",
+    "reading": "けしき",
+    "meaning_pt": "paisagem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-163-2",
+    "kanji_id": "kanji-163",
+    "word": "色",
+    "reading": "いろ",
+    "meaning_pt": "cor",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-164-1",
+    "kanji_id": "kanji-164",
+    "word": "食事",
+    "reading": "しょくじ",
+    "meaning_pt": "refeição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-164-2",
+    "kanji_id": "kanji-164",
+    "word": "食べる",
+    "reading": "たべる",
+    "meaning_pt": "comer",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-165-1",
+    "kanji_id": "kanji-165",
+    "word": "安心",
+    "reading": "あんしん",
+    "meaning_pt": "tranquilidade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-165-2",
+    "kanji_id": "kanji-165",
+    "word": "心",
+    "reading": "こころ",
+    "meaning_pt": "coração",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-166-1",
+    "kanji_id": "kanji-166",
+    "word": "新聞",
+    "reading": "しんぶん",
+    "meaning_pt": "jornal",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-166-2",
+    "kanji_id": "kanji-166",
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaning_pt": "novo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-167-1",
+    "kanji_id": "kanji-167",
+    "word": "親切",
+    "reading": "しんせつ",
+    "meaning_pt": "gentileza",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-167-2",
+    "kanji_id": "kanji-167",
+    "word": "親",
+    "reading": "おや",
+    "meaning_pt": "pais",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-168-1",
+    "kanji_id": "kanji-168",
+    "word": "地図",
+    "reading": "ちず",
+    "meaning_pt": "mapa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-168-2",
+    "kanji_id": "kanji-168",
+    "word": "図書館",
+    "reading": "としょかん",
+    "meaning_pt": "biblioteca",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-169-1",
+    "kanji_id": "kanji-169",
+    "word": "数学",
+    "reading": "すうがく",
+    "meaning_pt": "matemática",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-169-2",
+    "kanji_id": "kanji-169",
+    "word": "数える",
+    "reading": "かぞえる",
+    "meaning_pt": "contar",
     "priority": 2
   },
   {
@@ -272,6 +1248,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-170-1",
+    "kanji_id": "kanji-170",
+    "word": "西口",
+    "reading": "にしぐち",
+    "meaning_pt": "saída oeste",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-170-2",
+    "kanji_id": "kanji-170",
+    "word": "西",
+    "reading": "にし",
+    "meaning_pt": "oeste",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-171-1",
+    "kanji_id": "kanji-171",
+    "word": "発声",
+    "reading": "はっせい",
+    "meaning_pt": "vocalização",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-171-2",
+    "kanji_id": "kanji-171",
+    "word": "声",
+    "reading": "こえ",
+    "meaning_pt": "voz",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-172-1",
+    "kanji_id": "kanji-172",
+    "word": "惑星",
+    "reading": "わくせい",
+    "meaning_pt": "planeta",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-172-2",
+    "kanji_id": "kanji-172",
+    "word": "星",
+    "reading": "ほし",
+    "meaning_pt": "estrela",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-173-1",
+    "kanji_id": "kanji-173",
+    "word": "晴天",
+    "reading": "せいてん",
+    "meaning_pt": "tempo bom",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-173-2",
+    "kanji_id": "kanji-173",
+    "word": "晴れる",
+    "reading": "はれる",
+    "meaning_pt": "abrir o tempo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-174-1",
+    "kanji_id": "kanji-174",
+    "word": "親切",
+    "reading": "しんせつ",
+    "meaning_pt": "gentileza",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-174-2",
+    "kanji_id": "kanji-174",
+    "word": "切る",
+    "reading": "きる",
+    "meaning_pt": "cortar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-175-1",
+    "kanji_id": "kanji-175",
+    "word": "大雪",
+    "reading": "おおゆき",
+    "meaning_pt": "nevasca",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-175-2",
+    "kanji_id": "kanji-175",
+    "word": "雪",
+    "reading": "ゆき",
+    "meaning_pt": "neve",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-176-1",
+    "kanji_id": "kanji-176",
+    "word": "汽船",
+    "reading": "きせん",
+    "meaning_pt": "navio a vapor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-176-2",
+    "kanji_id": "kanji-176",
+    "word": "船",
+    "reading": "ふね",
+    "meaning_pt": "barco",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-177-1",
+    "kanji_id": "kanji-177",
+    "word": "直線",
+    "reading": "ちょくせん",
+    "meaning_pt": "linha reta",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-177-2",
+    "kanji_id": "kanji-177",
+    "word": "電線",
+    "reading": "でんせん",
+    "meaning_pt": "fio elétrico",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-178-1",
+    "kanji_id": "kanji-178",
+    "word": "午前",
+    "reading": "ごぜん",
+    "meaning_pt": "manhã",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-178-2",
+    "kanji_id": "kanji-178",
+    "word": "前",
+    "reading": "まえ",
+    "meaning_pt": "frente",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-179-1",
+    "kanji_id": "kanji-179",
+    "word": "組合",
+    "reading": "くみあい",
+    "meaning_pt": "associação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-179-2",
+    "kanji_id": "kanji-179",
+    "word": "組",
+    "reading": "くみ",
+    "meaning_pt": "turma",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-18-1",
     "kanji_id": "kanji-18",
     "word": "大きい",
@@ -285,6 +1421,166 @@
     "word": "大学",
     "reading": "だいがく",
     "meaning_pt": "universidade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-180-1",
+    "kanji_id": "kanji-180",
+    "word": "競走",
+    "reading": "きょうそう",
+    "meaning_pt": "corrida",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-180-2",
+    "kanji_id": "kanji-180",
+    "word": "走る",
+    "reading": "はしる",
+    "meaning_pt": "correr",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-181-1",
+    "kanji_id": "kanji-181",
+    "word": "多数",
+    "reading": "たすう",
+    "meaning_pt": "grande quantidade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-181-2",
+    "kanji_id": "kanji-181",
+    "word": "多い",
+    "reading": "おおい",
+    "meaning_pt": "muitos",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-182-1",
+    "kanji_id": "kanji-182",
+    "word": "太陽",
+    "reading": "たいよう",
+    "meaning_pt": "sol",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-182-2",
+    "kanji_id": "kanji-182",
+    "word": "太い",
+    "reading": "ふとい",
+    "meaning_pt": "grosso",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-183-1",
+    "kanji_id": "kanji-183",
+    "word": "体育",
+    "reading": "たいいく",
+    "meaning_pt": "educação física",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-183-2",
+    "kanji_id": "kanji-183",
+    "word": "体",
+    "reading": "からだ",
+    "meaning_pt": "corpo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-184-1",
+    "kanji_id": "kanji-184",
+    "word": "台風",
+    "reading": "たいふう",
+    "meaning_pt": "tufão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-184-2",
+    "kanji_id": "kanji-184",
+    "word": "台所",
+    "reading": "だいどころ",
+    "meaning_pt": "cozinha",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-185-1",
+    "kanji_id": "kanji-185",
+    "word": "地下",
+    "reading": "ちか",
+    "meaning_pt": "subsolo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-185-2",
+    "kanji_id": "kanji-185",
+    "word": "地図",
+    "reading": "ちず",
+    "meaning_pt": "mapa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-186-1",
+    "kanji_id": "kanji-186",
+    "word": "電池",
+    "reading": "でんち",
+    "meaning_pt": "bateria",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-186-2",
+    "kanji_id": "kanji-186",
+    "word": "池",
+    "reading": "いけ",
+    "meaning_pt": "lagoa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-187-1",
+    "kanji_id": "kanji-187",
+    "word": "知識",
+    "reading": "ちしき",
+    "meaning_pt": "conhecimento",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-187-2",
+    "kanji_id": "kanji-187",
+    "word": "知る",
+    "reading": "しる",
+    "meaning_pt": "saber",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-188-1",
+    "kanji_id": "kanji-188",
+    "word": "お茶",
+    "reading": "おちゃ",
+    "meaning_pt": "chá",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-188-2",
+    "kanji_id": "kanji-188",
+    "word": "茶色",
+    "reading": "ちゃいろ",
+    "meaning_pt": "marrom",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-189-1",
+    "kanji_id": "kanji-189",
+    "word": "昼食",
+    "reading": "ちゅうしょく",
+    "meaning_pt": "almoço",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-189-2",
+    "kanji_id": "kanji-189",
+    "word": "昼",
+    "reading": "ひる",
+    "meaning_pt": "meio-dia",
     "priority": 2
   },
   {
@@ -304,6 +1600,182 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-190-1",
+    "kanji_id": "kanji-190",
+    "word": "校長",
+    "reading": "こうちょう",
+    "meaning_pt": "diretor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-190-2",
+    "kanji_id": "kanji-190",
+    "word": "長い",
+    "reading": "ながい",
+    "meaning_pt": "longo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-191-1",
+    "kanji_id": "kanji-191",
+    "word": "小鳥",
+    "reading": "ことり",
+    "meaning_pt": "passarinho",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-191-2",
+    "kanji_id": "kanji-191",
+    "word": "鳥",
+    "reading": "とり",
+    "meaning_pt": "pássaro",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-192-1",
+    "kanji_id": "kanji-192",
+    "word": "朝食",
+    "reading": "ちょうしょく",
+    "meaning_pt": "café da manhã",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-192-2",
+    "kanji_id": "kanji-192",
+    "word": "朝",
+    "reading": "あさ",
+    "meaning_pt": "manhã",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-193-1",
+    "kanji_id": "kanji-193",
+    "word": "直線",
+    "reading": "ちょくせん",
+    "meaning_pt": "linha reta",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-193-2",
+    "kanji_id": "kanji-193",
+    "word": "直す",
+    "reading": "なおす",
+    "meaning_pt": "corrigir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-194-1",
+    "kanji_id": "kanji-194",
+    "word": "交通",
+    "reading": "こうつう",
+    "meaning_pt": "trânsito",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-194-2",
+    "kanji_id": "kanji-194",
+    "word": "通る",
+    "reading": "とおる",
+    "meaning_pt": "passar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-195-1",
+    "kanji_id": "kanji-195",
+    "word": "兄弟",
+    "reading": "きょうだい",
+    "meaning_pt": "irmãos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-195-2",
+    "kanji_id": "kanji-195",
+    "word": "弟",
+    "reading": "おとうと",
+    "meaning_pt": "irmão mais novo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-196-1",
+    "kanji_id": "kanji-196",
+    "word": "書店",
+    "reading": "しょてん",
+    "meaning_pt": "livraria",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-196-2",
+    "kanji_id": "kanji-196",
+    "word": "店",
+    "reading": "みせ",
+    "meaning_pt": "loja",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-197-1",
+    "kanji_id": "kanji-197",
+    "word": "満点",
+    "reading": "まんてん",
+    "meaning_pt": "nota máxima",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-197-2",
+    "kanji_id": "kanji-197",
+    "word": "点数",
+    "reading": "てんすう",
+    "meaning_pt": "pontuação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-198-1",
+    "kanji_id": "kanji-198",
+    "word": "電話",
+    "reading": "でんわ",
+    "meaning_pt": "telefone",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-198-2",
+    "kanji_id": "kanji-198",
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning_pt": "trem elétrico",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-199-1",
+    "kanji_id": "kanji-199",
+    "word": "刀",
+    "reading": "かたな",
+    "meaning_pt": "espada japonesa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-199-2",
+    "kanji_id": "kanji-199",
+    "word": "木刀",
+    "reading": "ぼくとう",
+    "meaning_pt": "espada de madeira",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-2-1",
+    "kanji_id": "kanji-2",
+    "word": "二つ",
+    "reading": "ふたつ",
+    "meaning_pt": "dois objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-2-2",
+    "kanji_id": "kanji-2",
+    "word": "二人",
+    "reading": "ふたり",
+    "meaning_pt": "duas pessoas",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-20-1",
     "kanji_id": "kanji-20",
     "word": "月",
@@ -317,6 +1789,166 @@
     "word": "月曜日",
     "reading": "げつようび",
     "meaning_pt": "segunda-feira",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-200-1",
+    "kanji_id": "kanji-200",
+    "word": "冬休み",
+    "reading": "ふゆやすみ",
+    "meaning_pt": "férias de inverno",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-200-2",
+    "kanji_id": "kanji-200",
+    "word": "冬",
+    "reading": "ふゆ",
+    "meaning_pt": "inverno",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-201-1",
+    "kanji_id": "kanji-201",
+    "word": "当日",
+    "reading": "とうじつ",
+    "meaning_pt": "no mesmo dia",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-201-2",
+    "kanji_id": "kanji-201",
+    "word": "当たる",
+    "reading": "あたる",
+    "meaning_pt": "acertar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-202-1",
+    "kanji_id": "kanji-202",
+    "word": "東京",
+    "reading": "とうきょう",
+    "meaning_pt": "Tóquio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-202-2",
+    "kanji_id": "kanji-202",
+    "word": "東",
+    "reading": "ひがし",
+    "meaning_pt": "leste",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-203-1",
+    "kanji_id": "kanji-203",
+    "word": "答案",
+    "reading": "とうあん",
+    "meaning_pt": "resposta escrita",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-203-2",
+    "kanji_id": "kanji-203",
+    "word": "答える",
+    "reading": "こたえる",
+    "meaning_pt": "responder",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-204-1",
+    "kanji_id": "kanji-204",
+    "word": "先頭",
+    "reading": "せんとう",
+    "meaning_pt": "dianteira",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-204-2",
+    "kanji_id": "kanji-204",
+    "word": "頭",
+    "reading": "あたま",
+    "meaning_pt": "cabeça",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-205-1",
+    "kanji_id": "kanji-205",
+    "word": "同級生",
+    "reading": "どうきゅうせい",
+    "meaning_pt": "colega de classe",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-205-2",
+    "kanji_id": "kanji-205",
+    "word": "同じ",
+    "reading": "おなじ",
+    "meaning_pt": "igual",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-206-1",
+    "kanji_id": "kanji-206",
+    "word": "道路",
+    "reading": "どうろ",
+    "meaning_pt": "estrada",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-206-2",
+    "kanji_id": "kanji-206",
+    "word": "道",
+    "reading": "みち",
+    "meaning_pt": "caminho",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-207-1",
+    "kanji_id": "kanji-207",
+    "word": "読書",
+    "reading": "どくしょ",
+    "meaning_pt": "leitura",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-207-2",
+    "kanji_id": "kanji-207",
+    "word": "読む",
+    "reading": "よむ",
+    "meaning_pt": "ler",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-208-1",
+    "kanji_id": "kanji-208",
+    "word": "案内",
+    "reading": "あんない",
+    "meaning_pt": "guia / informação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-208-2",
+    "kanji_id": "kanji-208",
+    "word": "内",
+    "reading": "うち",
+    "meaning_pt": "dentro",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-209-1",
+    "kanji_id": "kanji-209",
+    "word": "南口",
+    "reading": "みなみぐち",
+    "meaning_pt": "saída sul",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-209-2",
+    "kanji_id": "kanji-209",
+    "word": "南",
+    "reading": "みなみ",
+    "meaning_pt": "sul",
     "priority": 2
   },
   {
@@ -336,6 +1968,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-210-1",
+    "kanji_id": "kanji-210",
+    "word": "牛肉",
+    "reading": "ぎゅうにく",
+    "meaning_pt": "carne bovina",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-210-2",
+    "kanji_id": "kanji-210",
+    "word": "肉",
+    "reading": "にく",
+    "meaning_pt": "carne",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-211-1",
+    "kanji_id": "kanji-211",
+    "word": "馬車",
+    "reading": "ばしゃ",
+    "meaning_pt": "carruagem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-211-2",
+    "kanji_id": "kanji-211",
+    "word": "馬",
+    "reading": "うま",
+    "meaning_pt": "cavalo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-212-1",
+    "kanji_id": "kanji-212",
+    "word": "売店",
+    "reading": "ばいてん",
+    "meaning_pt": "quiosque",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-212-2",
+    "kanji_id": "kanji-212",
+    "word": "売る",
+    "reading": "うる",
+    "meaning_pt": "vender",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-213-1",
+    "kanji_id": "kanji-213",
+    "word": "買物",
+    "reading": "かいもの",
+    "meaning_pt": "compras",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-213-2",
+    "kanji_id": "kanji-213",
+    "word": "買う",
+    "reading": "かう",
+    "meaning_pt": "comprar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-214-1",
+    "kanji_id": "kanji-214",
+    "word": "小麦",
+    "reading": "こむぎ",
+    "meaning_pt": "trigo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-214-2",
+    "kanji_id": "kanji-214",
+    "word": "麦茶",
+    "reading": "むぎちゃ",
+    "meaning_pt": "chá de cevada",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-215-1",
+    "kanji_id": "kanji-215",
+    "word": "半分",
+    "reading": "はんぶん",
+    "meaning_pt": "metade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-215-2",
+    "kanji_id": "kanji-215",
+    "word": "半年",
+    "reading": "はんとし",
+    "meaning_pt": "meio ano",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-216-1",
+    "kanji_id": "kanji-216",
+    "word": "一番",
+    "reading": "いちばん",
+    "meaning_pt": "o melhor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-216-2",
+    "kanji_id": "kanji-216",
+    "word": "番号",
+    "reading": "ばんごう",
+    "meaning_pt": "número",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-217-1",
+    "kanji_id": "kanji-217",
+    "word": "父親",
+    "reading": "ちちおや",
+    "meaning_pt": "pai",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-217-2",
+    "kanji_id": "kanji-217",
+    "word": "父",
+    "reading": "ちち",
+    "meaning_pt": "pai",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-218-1",
+    "kanji_id": "kanji-218",
+    "word": "台風",
+    "reading": "たいふう",
+    "meaning_pt": "tufão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-218-2",
+    "kanji_id": "kanji-218",
+    "word": "風",
+    "reading": "かぜ",
+    "meaning_pt": "vento",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-219-1",
+    "kanji_id": "kanji-219",
+    "word": "十分",
+    "reading": "じゅうぶん",
+    "meaning_pt": "suficiente",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-219-2",
+    "kanji_id": "kanji-219",
+    "word": "分かる",
+    "reading": "わかる",
+    "meaning_pt": "entender",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-22-1",
     "kanji_id": "kanji-22",
     "word": "今年",
@@ -349,6 +2141,166 @@
     "word": "一年",
     "reading": "いちねん",
     "meaning_pt": "um ano",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-220-1",
+    "kanji_id": "kanji-220",
+    "word": "新聞",
+    "reading": "しんぶん",
+    "meaning_pt": "jornal",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-220-2",
+    "kanji_id": "kanji-220",
+    "word": "聞く",
+    "reading": "きく",
+    "meaning_pt": "ouvir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-221-1",
+    "kanji_id": "kanji-221",
+    "word": "米国",
+    "reading": "べいこく",
+    "meaning_pt": "Estados Unidos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-221-2",
+    "kanji_id": "kanji-221",
+    "word": "米",
+    "reading": "こめ",
+    "meaning_pt": "arroz",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-222-1",
+    "kanji_id": "kanji-222",
+    "word": "散歩",
+    "reading": "さんぽ",
+    "meaning_pt": "passeio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-222-2",
+    "kanji_id": "kanji-222",
+    "word": "歩く",
+    "reading": "あるく",
+    "meaning_pt": "caminhar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-223-1",
+    "kanji_id": "kanji-223",
+    "word": "母親",
+    "reading": "ははおや",
+    "meaning_pt": "mãe",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-223-2",
+    "kanji_id": "kanji-223",
+    "word": "母",
+    "reading": "はは",
+    "meaning_pt": "mãe",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-224-1",
+    "kanji_id": "kanji-224",
+    "word": "地方",
+    "reading": "ちほう",
+    "meaning_pt": "região",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-224-2",
+    "kanji_id": "kanji-224",
+    "word": "方",
+    "reading": "かた",
+    "meaning_pt": "pessoa (forma educada)",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-225-1",
+    "kanji_id": "kanji-225",
+    "word": "北海道",
+    "reading": "ほっかいどう",
+    "meaning_pt": "Hokkaido",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-225-2",
+    "kanji_id": "kanji-225",
+    "word": "北",
+    "reading": "きた",
+    "meaning_pt": "norte",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-226-1",
+    "kanji_id": "kanji-226",
+    "word": "毎日",
+    "reading": "まいにち",
+    "meaning_pt": "todos os dias",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-226-2",
+    "kanji_id": "kanji-226",
+    "word": "毎週",
+    "reading": "まいしゅう",
+    "meaning_pt": "toda semana",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-227-1",
+    "kanji_id": "kanji-227",
+    "word": "姉妹",
+    "reading": "しまい",
+    "meaning_pt": "irmãs",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-227-2",
+    "kanji_id": "kanji-227",
+    "word": "妹",
+    "reading": "いもうと",
+    "meaning_pt": "irmã mais nova",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-228-1",
+    "kanji_id": "kanji-228",
+    "word": "万年筆",
+    "reading": "まんねんひつ",
+    "meaning_pt": "caneta-tinteiro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-228-2",
+    "kanji_id": "kanji-228",
+    "word": "一万",
+    "reading": "いちまん",
+    "meaning_pt": "dez mil",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-229-1",
+    "kanji_id": "kanji-229",
+    "word": "説明",
+    "reading": "せつめい",
+    "meaning_pt": "explicação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-229-2",
+    "kanji_id": "kanji-229",
+    "word": "明るい",
+    "reading": "あかるい",
+    "meaning_pt": "claro",
     "priority": 2
   },
   {
@@ -368,6 +2320,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-230-1",
+    "kanji_id": "kanji-230",
+    "word": "悲鳴",
+    "reading": "ひめい",
+    "meaning_pt": "grito",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-230-2",
+    "kanji_id": "kanji-230",
+    "word": "鳴く",
+    "reading": "なく",
+    "meaning_pt": "cantar (animal)",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-231-1",
+    "kanji_id": "kanji-231",
+    "word": "毛糸",
+    "reading": "けいと",
+    "meaning_pt": "lã",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-231-2",
+    "kanji_id": "kanji-231",
+    "word": "毛",
+    "reading": "け",
+    "meaning_pt": "pelo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-232-1",
+    "kanji_id": "kanji-232",
+    "word": "専門",
+    "reading": "せんもん",
+    "meaning_pt": "especialidade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-232-2",
+    "kanji_id": "kanji-232",
+    "word": "門",
+    "reading": "もん",
+    "meaning_pt": "portão",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-233-1",
+    "kanji_id": "kanji-233",
+    "word": "今夜",
+    "reading": "こんや",
+    "meaning_pt": "esta noite",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-233-2",
+    "kanji_id": "kanji-233",
+    "word": "夜",
+    "reading": "よる",
+    "meaning_pt": "noite",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-234-1",
+    "kanji_id": "kanji-234",
+    "word": "野球",
+    "reading": "やきゅう",
+    "meaning_pt": "beisebol",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-234-2",
+    "kanji_id": "kanji-234",
+    "word": "野原",
+    "reading": "のはら",
+    "meaning_pt": "campo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-235-1",
+    "kanji_id": "kanji-235",
+    "word": "友人",
+    "reading": "ゆうじん",
+    "meaning_pt": "amigo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-235-2",
+    "kanji_id": "kanji-235",
+    "word": "友達",
+    "reading": "ともだち",
+    "meaning_pt": "amigo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-236-1",
+    "kanji_id": "kanji-236",
+    "word": "用事",
+    "reading": "ようじ",
+    "meaning_pt": "tarefa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-236-2",
+    "kanji_id": "kanji-236",
+    "word": "用いる",
+    "reading": "もちいる",
+    "meaning_pt": "utilizar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-237-1",
+    "kanji_id": "kanji-237",
+    "word": "月曜",
+    "reading": "げつよう",
+    "meaning_pt": "segunda-feira",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-237-2",
+    "kanji_id": "kanji-237",
+    "word": "日曜",
+    "reading": "にちよう",
+    "meaning_pt": "domingo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-238-1",
+    "kanji_id": "kanji-238",
+    "word": "来年",
+    "reading": "らいねん",
+    "meaning_pt": "ano que vem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-238-2",
+    "kanji_id": "kanji-238",
+    "word": "来る",
+    "reading": "くる",
+    "meaning_pt": "vir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-239-1",
+    "kanji_id": "kanji-239",
+    "word": "故郷",
+    "reading": "ふるさと",
+    "meaning_pt": "terra natal",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-239-2",
+    "kanji_id": "kanji-239",
+    "word": "里",
+    "reading": "さと",
+    "meaning_pt": "vila",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-24-1",
     "kanji_id": "kanji-24",
     "word": "木",
@@ -381,6 +2493,22 @@
     "word": "木曜日",
     "reading": "もくようび",
     "meaning_pt": "quinta-feira",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-240-1",
+    "kanji_id": "kanji-240",
+    "word": "理科",
+    "reading": "りか",
+    "meaning_pt": "ciências",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-240-2",
+    "kanji_id": "kanji-240",
+    "word": "理由",
+    "reading": "りゆう",
+    "meaning_pt": "motivo",
     "priority": 2
   },
   {
@@ -461,6 +2589,22 @@
     "word": "空気",
     "reading": "くうき",
     "meaning_pt": "ar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-3-1",
+    "kanji_id": "kanji-3",
+    "word": "三つ",
+    "reading": "みっつ",
+    "meaning_pt": "três objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-3-2",
+    "kanji_id": "kanji-3",
+    "word": "三人",
+    "reading": "さんにん",
+    "meaning_pt": "três pessoas",
     "priority": 2
   },
   {
@@ -624,6 +2768,22 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-4-1",
+    "kanji_id": "kanji-4",
+    "word": "四つ",
+    "reading": "よっつ",
+    "meaning_pt": "quatro objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-4-2",
+    "kanji_id": "kanji-4",
+    "word": "四人",
+    "reading": "よにん",
+    "meaning_pt": "quatro pessoas",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-40-1",
     "kanji_id": "kanji-40",
     "word": "男",
@@ -781,6 +2941,22 @@
     "word": "宝石",
     "reading": "ほうせき",
     "meaning_pt": "joia",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-5-1",
+    "kanji_id": "kanji-5",
+    "word": "五つ",
+    "reading": "いつつ",
+    "meaning_pt": "cinco objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-5-2",
+    "kanji_id": "kanji-5",
+    "word": "五月",
+    "reading": "ごがつ",
+    "meaning_pt": "maio",
     "priority": 2
   },
   {
@@ -944,6 +3120,22 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-6-1",
+    "kanji_id": "kanji-6",
+    "word": "六つ",
+    "reading": "むっつ",
+    "meaning_pt": "seis objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-6-2",
+    "kanji_id": "kanji-6",
+    "word": "六月",
+    "reading": "ろくがつ",
+    "meaning_pt": "junho",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-60-1",
     "kanji_id": "kanji-60",
     "word": "竹",
@@ -1101,6 +3293,22 @@
     "word": "目玉",
     "reading": "めだま",
     "meaning_pt": "globo ocular",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-7-1",
+    "kanji_id": "kanji-7",
+    "word": "七つ",
+    "reading": "ななつ",
+    "meaning_pt": "sete objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-7-2",
+    "kanji_id": "kanji-7",
+    "word": "七日",
+    "reading": "なのか",
+    "meaning_pt": "dia sete",
     "priority": 2
   },
   {
@@ -1264,6 +3472,22 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-8-1",
+    "kanji_id": "kanji-8",
+    "word": "八つ",
+    "reading": "やっつ",
+    "meaning_pt": "oito objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-8-2",
+    "kanji_id": "kanji-8",
+    "word": "八日",
+    "reading": "ようか",
+    "meaning_pt": "dia oito",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-80-1",
     "kanji_id": "kanji-80",
     "word": "雨",
@@ -1277,6 +3501,326 @@
     "word": "大雨",
     "reading": "おおあめ",
     "meaning_pt": "chuva forte",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-81-1",
+    "kanji_id": "kanji-81",
+    "word": "引力",
+    "reading": "いんりょく",
+    "meaning_pt": "gravidade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-81-2",
+    "kanji_id": "kanji-81",
+    "word": "引く",
+    "reading": "ひく",
+    "meaning_pt": "puxar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-82-1",
+    "kanji_id": "kanji-82",
+    "word": "羽毛",
+    "reading": "うもう",
+    "meaning_pt": "plumagem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-82-2",
+    "kanji_id": "kanji-82",
+    "word": "羽",
+    "reading": "は",
+    "meaning_pt": "asa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-83-1",
+    "kanji_id": "kanji-83",
+    "word": "雲海",
+    "reading": "うんかい",
+    "meaning_pt": "mar de nuvens",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-83-2",
+    "kanji_id": "kanji-83",
+    "word": "雲",
+    "reading": "くも",
+    "meaning_pt": "nuvem",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-84-1",
+    "kanji_id": "kanji-84",
+    "word": "公園",
+    "reading": "こうえん",
+    "meaning_pt": "parque",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-84-2",
+    "kanji_id": "kanji-84",
+    "word": "園児",
+    "reading": "えんじ",
+    "meaning_pt": "criança de jardim de infância",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-85-1",
+    "kanji_id": "kanji-85",
+    "word": "遠足",
+    "reading": "えんそく",
+    "meaning_pt": "passeio escolar",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-85-2",
+    "kanji_id": "kanji-85",
+    "word": "遠い",
+    "reading": "とおい",
+    "meaning_pt": "distante",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-86-1",
+    "kanji_id": "kanji-86",
+    "word": "黄色",
+    "reading": "きいろ",
+    "meaning_pt": "cor amarela",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-86-2",
+    "kanji_id": "kanji-86",
+    "word": "黄身",
+    "reading": "きみ",
+    "meaning_pt": "gema de ovo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-87-1",
+    "kanji_id": "kanji-87",
+    "word": "何人",
+    "reading": "なんにん",
+    "meaning_pt": "quantas pessoas",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-87-2",
+    "kanji_id": "kanji-87",
+    "word": "何時",
+    "reading": "なんじ",
+    "meaning_pt": "que horas",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-88-1",
+    "kanji_id": "kanji-88",
+    "word": "夏休み",
+    "reading": "なつやすみ",
+    "meaning_pt": "férias de verão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-88-2",
+    "kanji_id": "kanji-88",
+    "word": "夏",
+    "reading": "なつ",
+    "meaning_pt": "verão",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-89-1",
+    "kanji_id": "kanji-89",
+    "word": "家族",
+    "reading": "かぞく",
+    "meaning_pt": "família",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-89-2",
+    "kanji_id": "kanji-89",
+    "word": "家",
+    "reading": "いえ",
+    "meaning_pt": "casa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-9-1",
+    "kanji_id": "kanji-9",
+    "word": "九つ",
+    "reading": "ここのつ",
+    "meaning_pt": "nove objetos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-9-2",
+    "kanji_id": "kanji-9",
+    "word": "九人",
+    "reading": "きゅうにん",
+    "meaning_pt": "nove pessoas",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-90-1",
+    "kanji_id": "kanji-90",
+    "word": "理科",
+    "reading": "りか",
+    "meaning_pt": "ciências",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-90-2",
+    "kanji_id": "kanji-90",
+    "word": "教科書",
+    "reading": "きょうかしょ",
+    "meaning_pt": "livro didático",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-91-1",
+    "kanji_id": "kanji-91",
+    "word": "歌手",
+    "reading": "かしゅ",
+    "meaning_pt": "cantor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-91-2",
+    "kanji_id": "kanji-91",
+    "word": "歌",
+    "reading": "うた",
+    "meaning_pt": "canção",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-92-1",
+    "kanji_id": "kanji-92",
+    "word": "映画",
+    "reading": "えいが",
+    "meaning_pt": "filme",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-92-2",
+    "kanji_id": "kanji-92",
+    "word": "画家",
+    "reading": "がか",
+    "meaning_pt": "pintor",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-93-1",
+    "kanji_id": "kanji-93",
+    "word": "今回",
+    "reading": "こんかい",
+    "meaning_pt": "desta vez",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-93-2",
+    "kanji_id": "kanji-93",
+    "word": "回る",
+    "reading": "まわる",
+    "meaning_pt": "girar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-94-1",
+    "kanji_id": "kanji-94",
+    "word": "会社",
+    "reading": "かいしゃ",
+    "meaning_pt": "empresa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-94-2",
+    "kanji_id": "kanji-94",
+    "word": "会う",
+    "reading": "あう",
+    "meaning_pt": "encontrar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-95-1",
+    "kanji_id": "kanji-95",
+    "word": "海外",
+    "reading": "かいがい",
+    "meaning_pt": "exterior",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-95-2",
+    "kanji_id": "kanji-95",
+    "word": "海",
+    "reading": "うみ",
+    "meaning_pt": "mar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-96-1",
+    "kanji_id": "kanji-96",
+    "word": "絵本",
+    "reading": "えほん",
+    "meaning_pt": "livro ilustrado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-96-2",
+    "kanji_id": "kanji-96",
+    "word": "絵画",
+    "reading": "かいが",
+    "meaning_pt": "pintura",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-97-1",
+    "kanji_id": "kanji-97",
+    "word": "外国",
+    "reading": "がいこく",
+    "meaning_pt": "país estrangeiro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-97-2",
+    "kanji_id": "kanji-97",
+    "word": "外",
+    "reading": "そと",
+    "meaning_pt": "fora",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-98-1",
+    "kanji_id": "kanji-98",
+    "word": "三角",
+    "reading": "さんかく",
+    "meaning_pt": "triângulo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-98-2",
+    "kanji_id": "kanji-98",
+    "word": "角",
+    "reading": "かど",
+    "meaning_pt": "canto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-99-1",
+    "kanji_id": "kanji-99",
+    "word": "音楽",
+    "reading": "おんがく",
+    "meaning_pt": "música",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-99-2",
+    "kanji_id": "kanji-99",
+    "word": "楽しい",
+    "reading": "たのしい",
+    "meaning_pt": "divertido",
     "priority": 2
   }
 ]

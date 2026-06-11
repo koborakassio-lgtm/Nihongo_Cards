@@ -17,15 +17,15 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
   const [stats, setStats] = useState<ProgressStats | null>(null);
 
   useEffect(() => {
-    // Atualiza estatísticas do progresso local
-    setStats(getProgressStats(MOCK_KANJI.length));
+    setStats(getProgressStats(MOCK_KANJI));
   }, []);
 
   if (!stats) return <div className="text-center py-10">Carregando painel...</div>;
 
-  const progressPercentage = stats.totalKanjisCount > 0 
-    ? Math.round((stats.masteredKanjisCount / stats.totalKanjisCount) * 100) 
-    : 0;
+  const studiedPercentage =
+    stats.totalKanjisCount > 0
+      ? Math.round((stats.studiedKanjisCount / stats.totalKanjisCount) * 100)
+      : 0;
 
   return (
     <div className="space-y-8 animate-fade-in">
@@ -49,7 +49,7 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
               asChild
               className="bg-red-500 hover:bg-red-600 text-white rounded-full font-medium transition-all shadow-sm hover:shadow"
             >
-              <Link href="/study/shou1">
+              <Link href="/study">
                 Iniciar Lições <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -119,19 +119,25 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
       {/* Progresso de Kanji Geral */}
       <Card className="border-none shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] bg-white dark:bg-zinc-950">
         <CardHeader>
-          <CardTitle className="text-lg font-bold text-zinc-800 dark:text-zinc-100">Progresso Geral de Kanji (Grade 1)</CardTitle>
-          <CardDescription>Percentual de Kanjis dominados de um total de {stats.totalKanjisCount} disponíveis.</CardDescription>
+          <CardTitle className="text-lg font-bold text-zinc-800 dark:text-zinc-100">Progresso Geral de Kanji</CardTitle>
+          <CardDescription>
+            Kanji estudados de um total de {stats.totalKanjisCount} disponíveis.
+          </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="flex items-center justify-between text-sm font-semibold">
-            <span className="text-zinc-600 dark:text-zinc-400">Taxa de Conclusão</span>
-            <span className="text-red-500">{progressPercentage}%</span>
+            <span className="text-zinc-600 dark:text-zinc-400">Kanji estudados</span>
+            <span className="text-red-500">{studiedPercentage}%</span>
           </div>
-          <Progress value={progressPercentage} className="h-3 bg-zinc-100 dark:bg-zinc-900" />
+          <Progress value={studiedPercentage} className="h-3 bg-zinc-100 dark:bg-zinc-900" />
           <div className="flex justify-between text-xs text-zinc-400 pt-1">
-            <span>0 aprendidos</span>
-            <span>{stats.totalKanjisCount} Kanjis da Lição</span>
+            <span>{stats.studiedKanjisCount} estudados</span>
+            <span>{stats.totalKanjisCount} kanji no total</span>
           </div>
+          <p className="text-xs text-zinc-500 pt-1">
+            {stats.masteredKanjisCount} dominados · {stats.completedLessonsCount} de{" "}
+            {stats.totalLessonsCount} lições concluídas
+          </p>
         </CardContent>
       </Card>
 
@@ -172,12 +178,12 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
             asChild
             className="h-20 justify-start px-6 border-zinc-100 hover:border-zinc-200 dark:border-zinc-900 bg-white dark:bg-zinc-950 hover:bg-zinc-50 text-left font-medium rounded-xl"
           >
-            <Link href="/study/shou1">
+            <Link href="/study">
               <div className="flex items-center gap-4">
                 <span className="text-2xl font-bold text-red-500">日</span>
                 <div>
                   <div className="font-semibold text-zinc-800 dark:text-zinc-200">Kanji</div>
-                  <div className="text-xs text-zinc-400 font-normal">Shougakko 1st Grade</div>
+                  <div className="text-xs text-zinc-400 font-normal">Shougakko 1º e 2º ano</div>
                 </div>
               </div>
             </Link>

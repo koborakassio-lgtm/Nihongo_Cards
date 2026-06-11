@@ -1,4 +1,10 @@
-import type { KanjiDatasetId } from "@/lib/kanji/datasets";
+import {
+  KANJI_DATASETS,
+  filterKanjiByDataset,
+  type KanjiDatasetId,
+} from "@/lib/kanji/datasets";
+import { buildLessonSummaries, getKanjiForLesson } from "@/lib/kanji/lessons";
+import type { Kanji } from "@/lib/mock/db";
 
 const LESSON_PROGRESS_KEY = "nihongo_cards_completed_lessons";
 
@@ -47,4 +53,38 @@ export function markLessonComplete(
   }
 
   return store[datasetId] ?? [];
+}
+
+export function getStudiedKanjiIds(allKanji: Kanji[]): Set<string> {
+  const studied = new Set<string>();
+
+  for (const datasetId of Object.keys(KANJI_DATASETS) as KanjiDatasetId[]) {
+    const datasetKanji = filterKanjiByDataset(allKanji, datasetId);
+    const completedLessons = getCompletedLessons(datasetId);
+
+    for (const lessonNumber of completedLessons) {
+      for (const entry of getKanjiForLesson(datasetKanji, lessonNumber)) {
+        studied.add(entry.id);
+      }
+    }
+  }
+
+  return studied;
+}
+
+export function getLessonCompletionTotals(allKanji: Kanji[]): {
+  completedLessonsCount: number;
+  totalLessonsCount: number;
+} {
+  let completedLessonsCount = 0;
+  let totalLessonsCount = 0;
+
+  for (const datasetId of Object.keys(KANJI_DATASETS) as KanjiDatasetId[]) {
+    const datasetKanji = filterKanjiByDataset(allKanji, datasetId);
+    const lessons = buildLessonSummaries(datasetKanji);
+    totalLessonsCount += lessons.length;
+    completedLessonsCount += getCompletedLessons(datasetId).length;
+  }
+
+  return { completedLessonsCount, totalLessonsCount };
 }

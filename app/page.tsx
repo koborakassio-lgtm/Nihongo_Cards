@@ -58,7 +58,7 @@ export default function Home() {
               Katakana
             </button>
             <Link
-              href="/study/shou1"
+              href="/study"
               className="px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-200"
             >
               Kanji
@@ -119,7 +119,7 @@ export default function Home() {
           <span className="text-[10px] font-bold mt-0.5">Katakana</span>
         </button>
         <Link
-          href="/study/shou1"
+          href="/study"
           className="flex flex-col items-center justify-center flex-1 text-center transition-colors text-zinc-400 hover:text-red-500"
         >
           <span className="text-base font-bold font-japanese leading-5">日</span>
