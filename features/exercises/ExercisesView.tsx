@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -33,6 +33,8 @@ const CARD_TINTS = [
   "bg-teal-50 dark:bg-teal-950/20",
   "bg-indigo-50 dark:bg-indigo-950/20",
 ] as const;
+
+const MAX_QUESTIONS = 10;
 
 type ExerciseStep = "select-dataset" | "select-scope" | "select-type" | "playing";
 type ExerciseType = "multiple-choice" | "match-kanji" | "match-vocab" | null;
@@ -116,6 +118,40 @@ function LessonScopeCard({
   );
 }
 
+function SessionCompleteCard({
+  title,
+  description,
+  onRepeat,
+  onBackToMenu,
+}: {
+  title: string;
+  description: string;
+  onRepeat: () => void;
+  onBackToMenu: () => void;
+}) {
+  return (
+    <Card className="text-center border-none shadow-[0_10px_30px_-5px_rgba(0,0,0,0.08)] bg-white dark:bg-zinc-950 py-10 px-6">
+      <div className="mx-auto rounded-full bg-emerald-100 dark:bg-emerald-950/40 p-4 w-16 h-16 flex items-center justify-center mb-4 text-emerald-600">
+        <Check className="h-8 w-8" />
+      </div>
+      <CardTitle className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">{title}</CardTitle>
+      <CardDescription className="mt-1">{description}</CardDescription>
+      <CardContent className="pt-6 flex flex-col gap-3">
+        <Button onClick={onRepeat} className="bg-red-500 hover:bg-red-600 text-white rounded-xl h-11">
+          <RefreshCw className="h-4 w-4 mr-2" /> Repetir
+        </Button>
+        <Button
+          onClick={onBackToMenu}
+          variant="outline"
+          className="rounded-xl h-11 border-zinc-200"
+        >
+          Voltar ao Menu
+        </Button>
+      </CardContent>
+    </Card>
+  );
+}
+
 export default function ExercisesView() {
   const [exerciseStep, setExerciseStep] = useState<ExerciseStep>("select-dataset");
   const [datasetId, setDatasetId] = useState<KanjiDatasetId | null>(null);
@@ -135,6 +171,7 @@ export default function ExercisesView() {
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
   const [score, setScore] = useState<number>(0);
   const [questionsCount, setQuestionsCount] = useState<number>(0);
+  const [sessionFinished, setSessionFinished] = useState<boolean>(false);
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
 
   const [leftItems, setLeftItems] = useState<MatchItem[]>([]);
@@ -142,6 +179,7 @@ export default function ExercisesView() {
   const [selectedLeft, setSelectedLeft] = useState<MatchItem | null>(null);
   const [selectedRight, setSelectedRight] = useState<MatchItem | null>(null);
   const [matchFinished, setMatchFinished] = useState<boolean>(false);
+  const roundCountedRef = useRef(false);
 
   const refreshProgress = useCallback(() => {
     if (!datasetId) return;
@@ -151,6 +189,14 @@ export default function ExercisesView() {
   useEffect(() => {
     refreshProgress();
   }, [refreshProgress]);
+
+  const resetSessionState = () => {
+    setScore(0);
+    setQuestionsCount(0);
+    setSessionFinished(false);
+    setMatchFinished(false);
+    roundCountedRef.current = false;
+  };
 
   const selectDataset = (id: KanjiDatasetId) => {
     const kanji = filterKanjiByDataset(MOCK_KANJI, id);
@@ -174,9 +220,7 @@ export default function ExercisesView() {
     setVocabPool([]);
     setScopeLabel("");
     setActiveExercise(null);
-    setScore(0);
-    setQuestionsCount(0);
-    setMatchFinished(false);
+    resetSessionState();
   };
 
   const applyScope = (pool: Kanji[], label: string) => {
@@ -284,7 +328,13 @@ export default function ExercisesView() {
     setSelectedOptionId(optionId);
     const correct = optionId === mcQuestion.id;
     setIsAnswered(true);
-    setQuestionsCount((prev) => prev + 1);
+    setQuestionsCount((prev) => {
+      const newCount = prev + 1;
+      if (newCount >= MAX_QUESTIONS) {
+        setSessionFinished(true);
+      }
+      return newCount;
+    });
     if (correct) {
       setScore((prev) => prev + 1);
       updateItemProgress(mcQuestion.id, "kanji", true);
@@ -339,12 +389,36 @@ export default function ExercisesView() {
   };
 
   useEffect(() => {
-    if (activeExercise === "match-kanji" || activeExercise === "match-vocab") {
-      if (leftItems.length > 0 && leftItems.every((item) => item.isMatched)) {
-        setMatchFinished(true);
-      }
+    if (activeExercise !== "match-kanji" && activeExercise !== "match-vocab") return;
+
+    if (leftItems.length === 0 || !leftItems.every((item) => item.isMatched)) {
+      roundCountedRef.current = false;
+      return;
     }
+
+    if (roundCountedRef.current) return;
+    roundCountedRef.current = true;
+
+    setMatchFinished(true);
+    setQuestionsCount((prev) => {
+      const newCount = prev + 1;
+      if (newCount >= MAX_QUESTIONS) {
+        setSessionFinished(true);
+      }
+      return newCount;
+    });
   }, [leftItems, activeExercise]);
+
+  const repeatSession = () => {
+    resetSessionState();
+    if (activeExercise === "multiple-choice") {
+      generateMultipleChoice();
+    } else if (activeExercise === "match-kanji") {
+      generateMatchKanji();
+    } else if (activeExercise === "match-vocab") {
+      generateMatchVocab();
+    }
+  };
 
   const backToScope = () => {
     setExerciseStep("select-scope");
@@ -352,26 +426,20 @@ export default function ExercisesView() {
     setKanjiPool([]);
     setVocabPool([]);
     setScopeLabel("");
-    setScore(0);
-    setQuestionsCount(0);
-    setMatchFinished(false);
+    resetSessionState();
     refreshProgress();
   };
 
   const backToTypeSelect = () => {
     setExerciseStep("select-type");
     setActiveExercise(null);
-    setScore(0);
-    setQuestionsCount(0);
-    setMatchFinished(false);
+    resetSessionState();
   };
 
   const startExercise = (type: Exclude<ExerciseType, null>) => {
     setActiveExercise(type);
     setExerciseStep("playing");
-    setScore(0);
-    setQuestionsCount(0);
-    setMatchFinished(false);
+    resetSessionState();
 
     if (type === "multiple-choice") {
       setTimeout(() => generateMultipleChoice(), 50);
@@ -585,73 +653,90 @@ export default function ExercisesView() {
               <span className="flex items-center text-amber-500">
                 <Star className="h-4 w-4 mr-1 fill-amber-500" /> {score} Acertos
               </span>
-              <span>Pergunta {questionsCount}</span>
+              <span>
+                Pergunta{" "}
+                {sessionFinished
+                  ? MAX_QUESTIONS
+                  : isAnswered
+                    ? questionsCount
+                    : questionsCount + 1}
+                /{MAX_QUESTIONS}
+              </span>
             </div>
           </div>
           <p className="text-center text-xs text-zinc-400">{scopeLabel}</p>
 
-          {mcQuestion && (
-            <Card className="border-none shadow-[0_10px_30px_-5px_rgba(0,0,0,0.08)] bg-white dark:bg-zinc-950 overflow-hidden">
-              <CardHeader className="text-center py-10 border-b border-zinc-100/50 dark:border-zinc-900/40">
-                <span className="text-xs text-zinc-400 font-bold uppercase tracking-widest">
-                  Qual é a tradução deste Kanji?
-                </span>
-                <div className="text-8xl font-bold font-japanese text-zinc-950 dark:text-zinc-50 pt-4 select-none">
-                  {mcQuestion.kanji}
-                </div>
-              </CardHeader>
-              <CardContent className="p-6 space-y-3">
-                {mcOptions.map((option) => {
-                  const isSelected = selectedOptionId === option.id;
-                  const isCorrectOption = option.id === mcQuestion.id;
-
-                  let btnClass =
-                    "w-full justify-start h-12 rounded-xl text-base font-semibold border-zinc-200 transition-all ";
-
-                  if (isAnswered) {
-                    if (isCorrectOption) {
-                      btnClass +=
-                        "bg-emerald-50 border-emerald-500 text-emerald-700 hover:bg-emerald-50 dark:bg-emerald-950/20 dark:text-emerald-400";
-                    } else if (isSelected) {
-                      btnClass +=
-                        "bg-red-50 border-red-500 text-red-700 hover:bg-red-50 dark:bg-red-950/20 dark:text-red-400";
-                    } else {
-                      btnClass += "opacity-50 border-zinc-100";
-                    }
-                  } else {
-                    btnClass += "hover:bg-zinc-50 hover:border-zinc-300";
-                  }
-
-                  return (
-                    <button
-                      key={option.id}
-                      onClick={() => handleMcAnswer(option.id)}
-                      disabled={isAnswered}
-                      className={`flex items-center justify-between px-4 py-3 border rounded-xl w-full text-left font-medium transition-all ${btnClass}`}
-                    >
-                      <span>{option.meaning_pt}</span>
-                      {isAnswered && isCorrectOption && (
-                        <Check className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
-                      )}
-                      {isAnswered && isSelected && !isCorrectOption && (
-                        <X className="h-5 w-5 text-red-600 dark:text-red-400" />
-                      )}
-                    </button>
-                  );
-                })}
-
-                {isAnswered && (
-                  <div className="pt-4 animate-fade-in">
-                    <Button
-                      onClick={generateMultipleChoice}
-                      className="w-full bg-red-500 hover:bg-red-600 text-white rounded-xl h-12 font-medium"
-                    >
-                      Próxima Pergunta <ChevronRight className="h-4 w-4 ml-1" />
-                    </Button>
+          {sessionFinished ? (
+            <SessionCompleteCard
+              title="Sessão concluída!"
+              description={`${score} de ${MAX_QUESTIONS} acertos`}
+              onRepeat={repeatSession}
+              onBackToMenu={backToTypeSelect}
+            />
+          ) : (
+            mcQuestion && (
+              <Card className="border-none shadow-[0_10px_30px_-5px_rgba(0,0,0,0.08)] bg-white dark:bg-zinc-950 overflow-hidden">
+                <CardHeader className="text-center py-10 border-b border-zinc-100/50 dark:border-zinc-900/40">
+                  <span className="text-xs text-zinc-400 font-bold uppercase tracking-widest">
+                    Qual é a tradução deste Kanji?
+                  </span>
+                  <div className="text-8xl font-bold font-japanese text-zinc-950 dark:text-zinc-50 pt-4 select-none">
+                    {mcQuestion.kanji}
                   </div>
-                )}
-              </CardContent>
-            </Card>
+                </CardHeader>
+                <CardContent className="p-6 space-y-3">
+                  {mcOptions.map((option) => {
+                    const isSelected = selectedOptionId === option.id;
+                    const isCorrectOption = option.id === mcQuestion.id;
+
+                    let btnClass =
+                      "w-full justify-start h-12 rounded-xl text-base font-semibold border-zinc-200 transition-all ";
+
+                    if (isAnswered) {
+                      if (isCorrectOption) {
+                        btnClass +=
+                          "bg-emerald-50 border-emerald-500 text-emerald-700 hover:bg-emerald-50 dark:bg-emerald-950/20 dark:text-emerald-400";
+                      } else if (isSelected) {
+                        btnClass +=
+                          "bg-red-50 border-red-500 text-red-700 hover:bg-red-50 dark:bg-red-950/20 dark:text-red-400";
+                      } else {
+                        btnClass += "opacity-50 border-zinc-100";
+                      }
+                    } else {
+                      btnClass += "hover:bg-zinc-50 hover:border-zinc-300";
+                    }
+
+                    return (
+                      <button
+                        key={option.id}
+                        onClick={() => handleMcAnswer(option.id)}
+                        disabled={isAnswered}
+                        className={`flex items-center justify-between px-4 py-3 border rounded-xl w-full text-left font-medium transition-all ${btnClass}`}
+                      >
+                        <span>{option.meaning_pt}</span>
+                        {isAnswered && isCorrectOption && (
+                          <Check className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
+                        )}
+                        {isAnswered && isSelected && !isCorrectOption && (
+                          <X className="h-5 w-5 text-red-600 dark:text-red-400" />
+                        )}
+                      </button>
+                    );
+                  })}
+
+                  {isAnswered && !sessionFinished && (
+                    <div className="pt-4 animate-fade-in">
+                      <Button
+                        onClick={generateMultipleChoice}
+                        className="w-full bg-red-500 hover:bg-red-600 text-white rounded-xl h-12 font-medium"
+                      >
+                        Próxima Pergunta <ChevronRight className="h-4 w-4 ml-1" />
+                      </Button>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            )
           )}
         </div>
       )}
@@ -664,35 +749,43 @@ export default function ExercisesView() {
                 Sair
               </Button>
               <div className="font-semibold text-zinc-700 dark:text-zinc-300">
-                Relacione os pares correspondentes
+                Rodada{" "}
+                {sessionFinished
+                  ? MAX_QUESTIONS
+                  : matchFinished
+                    ? questionsCount
+                    : questionsCount + 1}
+                /{MAX_QUESTIONS}
               </div>
             </div>
             <p className="text-center text-xs text-zinc-400">{scopeLabel}</p>
 
-            {matchFinished ? (
+            {sessionFinished ? (
+              <SessionCompleteCard
+                title="Sessão concluída!"
+                description={`${MAX_QUESTIONS} rodadas concluídas!`}
+                onRepeat={repeatSession}
+                onBackToMenu={backToTypeSelect}
+              />
+            ) : matchFinished ? (
               <Card className="text-center border-none shadow-[0_10px_30px_-5px_rgba(0,0,0,0.08)] bg-white dark:bg-zinc-950 py-10 px-6">
                 <div className="mx-auto rounded-full bg-emerald-100 dark:bg-emerald-950/40 p-4 w-16 h-16 flex items-center justify-center mb-4 text-emerald-600">
                   <Check className="h-8 w-8" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">Parabéns!</CardTitle>
+                <CardTitle className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+                  Rodada {questionsCount}/{MAX_QUESTIONS} concluída
+                </CardTitle>
                 <CardDescription className="mt-1">
                   Você relacionou todos os pares com sucesso.
                 </CardDescription>
-                <CardContent className="pt-6 flex flex-col gap-3">
+                <CardContent className="pt-6">
                   <Button
                     onClick={
                       activeExercise === "match-kanji" ? generateMatchKanji : generateMatchVocab
                     }
-                    className="bg-red-500 hover:bg-red-600 text-white rounded-xl h-11"
+                    className="w-full bg-red-500 hover:bg-red-600 text-white rounded-xl h-11"
                   >
-                    <RefreshCw className="h-4 w-4 mr-2" /> Jogar Novamente
-                  </Button>
-                  <Button
-                    onClick={backToTypeSelect}
-                    variant="outline"
-                    className="rounded-xl h-11 border-zinc-200"
-                  >
-                    Voltar ao Menu
+                    Próxima Rodada <ChevronRight className="h-4 w-4 ml-1" />
                   </Button>
                 </CardContent>
               </Card>

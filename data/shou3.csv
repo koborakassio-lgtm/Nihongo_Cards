@@ -1,0 +1,201 @@
+id,group,grade,order,kanji,unicode,radical,onyomi,kunyomi,meaning_pt,jlpt,svg_path,vocabulary_1,reading_1,meaning_1,vocabulary_2,reading_2,meaning_2
+241,Shougakko,3,1,悪,U+60AA,心,アク|オ,わるい,mal / ruim,N4,/kanji/60AA.svg,悪人,あくにん,pessoa má,悪い,わるい,ruim
+242,Shougakko,3,2,安,U+5B89,宀,アン,やすい,barato / tranquilo,N5,/kanji/5B89.svg,安全,あんぜん,segurança,安い,やすい,barato
+243,Shougakko,3,3,暗,U+6697,日,アン,くらい,escuro,N3,/kanji/6697.svg,暗記,あんき,memorização,暗い,くらい,escuro
+244,Shougakko,3,4,医,U+533B,匚,イ,,medicina / médico,N4,/kanji/533B.svg,医者,いしゃ,médico,医学,いがく,medicina
+245,Shougakko,3,5,委,U+59D4,女,イ,ゆだねる,confiar / encarregar,N2,/kanji/59D4.svg,委員,いいん,membro de comissão,委任,いにん,delegação
+246,Shougakko,3,6,意,U+610F,心,イ,,intenção / significado,N3,/kanji/610F.svg,意味,いみ,significado,意見,いけん,opinião
+247,Shougakko,3,7,育,U+80B2,肉,イク,そだつ|そだてる,criar / crescer,N4,/kanji/80B2.svg,教育,きょういく,educação,育つ,そだつ,crescer
+248,Shougakko,3,8,員,U+54E1,口,イン,,membro,N4,/kanji/54E1.svg,会社員,かいしゃいん,funcionário,店員,てんいん,atendente
+249,Shougakko,3,9,院,U+9662,阜,イン,,instituição,N3,/kanji/9662.svg,病院,びょういん,hospital,入院,にゅういん,hospitalização
+250,Shougakko,3,10,飲,U+98F2,食,イン,のむ,beber,N4,/kanji/98F2.svg,飲料,いんりょう,bebida,飲む,のむ,beber
+251,Shougakko,3,11,運,U+904B,辶,ウン,はこぶ,transportar / sorte,N4,/kanji/904B.svg,運動,うんどう,exercício,運ぶ,はこぶ,transportar
+252,Shougakko,3,12,泳,U+6CF3,水,エイ,およぐ,nadar,N4,/kanji/6CF3.svg,水泳,すいえい,natação,泳ぐ,およぐ,nadar
+253,Shougakko,3,13,駅,U+99C5,馬,エキ,,estação,N4,/kanji/99C5.svg,駅前,えきまえ,em frente à estação,駅員,えきいん,funcionário da estação
+254,Shougakko,3,14,央,U+592E,大,オウ,,centro,N3,/kanji/592E.svg,中央,ちゅうおう,centro,中央線,ちゅうおうせん,Linha Chuo
+255,Shougakko,3,15,横,U+6A2A,木,オウ,よこ,lado / horizontal,N3,/kanji/6A2A.svg,横断,おうだん,travessia,横,よこ,lado
+256,Shougakko,3,16,屋,U+5C4B,尸,オク,や,loja / telhado,N4,/kanji/5C4B.svg,本屋,ほんや,livraria,屋根,やね,telhado
+257,Shougakko,3,17,温,U+6E29,水,オン,あたたかい|あたためる,morno / aquecer,N3,/kanji/6E29.svg,温度,おんど,temperatura,温かい,あたたかい,morno
+258,Shougakko,3,18,化,U+5316,匕,カ|ケ,ばける,mudança / transformar,N4,/kanji/5316.svg,文化,ぶんか,cultura,化学,かがく,química
+259,Shougakko,3,19,荷,U+8377,艸,カ,に,carga / bagagem,N3,/kanji/8377.svg,荷物,にもつ,bagagem,出荷,しゅっか,expedição
+260,Shougakko,3,20,界,U+754C,田,カイ,,mundo / limite,N3,/kanji/754C.svg,世界,せかい,mundo,業界,ぎょうかい,setor
+261,Shougakko,3,21,開,U+958B,門,カイ,ひらく|あける,abrir,N4,/kanji/958B.svg,開始,かいし,começo,開く,ひらく,abrir
+262,Shougakko,3,22,階,U+968E,阜,カイ,,andar / piso,N3,/kanji/968E.svg,階段,かいだん,escada,二階,にかい,segundo andar
+263,Shougakko,3,23,寒,U+5BD2,宀,カン,さむい,frio,N4,/kanji/5BD2.svg,寒気,さむけ,calafrio,寒い,さむい,frio
+264,Shougakko,3,24,感,U+611F,心,カン,,sentimento,N3,/kanji/611F.svg,感謝,かんしゃ,gratidão,感動,かんどう,emoção
+265,Shougakko,3,25,漢,U+6F22,水,カン,,chinês / Han,N3,/kanji/6F22.svg,漢字,かんじ,kanji,漢語,かんご,palavra de origem chinesa
+266,Shougakko,3,26,館,U+9928,食,カン,,edifício / salão,N3,/kanji/9928.svg,図書館,としょかん,biblioteca,体育館,たいいくかん,ginásio
+267,Shougakko,3,27,岸,U+5CB8,山,ガン,きし,margem / costa,N3,/kanji/5CB8.svg,海岸,かいがん,litoral,岸,きし,margem
+268,Shougakko,3,28,起,U+8D77,走,キ,おきる|おこす,levantar / acontecer,N4,/kanji/8D77.svg,起立,きりつ,levantar-se,起きる,おきる,acordar
+269,Shougakko,3,29,期,U+671F,月,キ|ゴ,,período,N3,/kanji/671F.svg,学期,がっき,semestre escolar,期限,きげん,prazo
+270,Shougakko,3,30,客,U+5BA2,宀,キャク|カク,,cliente / visitante,N4,/kanji/5BA2.svg,乗客,じょうきゃく,passageiro,客,きゃく,cliente
+271,Shougakko,3,31,究,U+7A76,穴,キュウ|ク,,investigar,N3,/kanji/7A76.svg,研究,けんきゅう,pesquisa,究極,きゅうきょく,extremo
+272,Shougakko,3,32,急,U+6025,心,キュウ,いそぐ,rápido / urgente,N4,/kanji/6025.svg,急行,きゅうこう,trem expresso,急ぐ,いそぐ,apressar-se
+273,Shougakko,3,33,級,U+7D1A,糸,キュウ,,classe / nível,N4,/kanji/7D1A.svg,学級,がっきゅう,turma,上級,じょうきゅう,avançado
+274,Shougakko,3,34,宮,U+5BAE,宀,キュウ|グウ,みや,palácio / santuário,N3,/kanji/5BAE.svg,神宮,じんぐう,santuário imperial,宮殿,きゅうでん,palácio
+275,Shougakko,3,35,球,U+7403,玉,キュウ,たま,bola / esfera,N4,/kanji/7403.svg,野球,やきゅう,beisebol,地球,ちきゅう,Terra
+276,Shougakko,3,36,去,U+53BB,厶,キョ|コ,さる,partir / ir embora,N3,/kanji/53BB.svg,過去,かこ,passado,去る,さる,partir
+277,Shougakko,3,37,橋,U+6A4B,木,キョウ,はし,ponte,N3,/kanji/6A4B.svg,鉄橋,てっきょう,ponte de ferro,橋,はし,ponte
+278,Shougakko,3,38,業,U+696D,木,ギョウ|ゴウ,,trabalho / negócio,N3,/kanji/696D.svg,授業,じゅぎょう,aula,工業,こうぎょう,indústria
+279,Shougakko,3,39,曲,U+66F2,曰,キョク,まがる|まげる,curva / música,N4,/kanji/66F2.svg,楽曲,がっきょく,composição musical,曲がる,まがる,virar
+280,Shougakko,3,40,局,U+5C40,尸,キョク,,repartição / estação,N3,/kanji/5C40.svg,郵便局,ゆうびんきょく,agência postal,放送局,ほうそうきょく,emissora
+281,Shougakko,3,41,銀,U+9280,金,ギン,,prata,N4,/kanji/9280.svg,銀行,ぎんこう,banco,銀色,ぎんいろ,cor prata
+282,Shougakko,3,42,区,U+533A,匚,ク,,distrito / região,N3,/kanji/533A.svg,地区,ちく,região,区別,くべつ,distinção
+283,Shougakko,3,43,苦,U+82E6,艸,ク,くるしい|にがい,sofrimento / amargo,N4,/kanji/82E6.svg,苦手,にがて,não gostar,苦い,にがい,amargo
+284,Shougakko,3,44,具,U+5177,八,グ,,ferramenta / utensílio,N3,/kanji/5177.svg,文房具,ぶんぼうぐ,materiais escolares,道具,どうぐ,ferramenta
+285,Shougakko,3,45,君,U+541B,口,クン,きみ,você / senhor,N4,/kanji/541B.svg,君主,くんしゅ,monarca,君,きみ,você
+286,Shougakko,3,46,係,U+4FC2,人,ケイ,かかる,ligação / responsável,N3,/kanji/4FC2.svg,関係,かんけい,relação,係員,かかりいん,funcionário responsável
+287,Shougakko,3,47,軽,U+8EFD,車,ケイ,かるい,leve,N4,/kanji/8EFD.svg,軽食,けいしょく,lanche leve,軽い,かるい,leve
+288,Shougakko,3,48,血,U+8840,血,ケツ,ち,sangue,N3,/kanji/8840.svg,血液,けつえき,sangue,血,ち,sangue
+289,Shougakko,3,49,決,U+6C7A,水,ケツ,きめる|きまる,decidir,N4,/kanji/6C7A.svg,決定,けってい,decisão,決める,きめる,decidir
+290,Shougakko,3,50,県,U+770C,目,ケン,,província / prefeitura,N4,/kanji/770C.svg,県立,けんりつ,público provincial,県庁,けんちょう,governo provincial
+291,Shougakko,3,51,庫,U+5EAB,广,コ|ク,,depósito / armazém,N3,/kanji/5EAB.svg,車庫,しゃこ,garagem,文庫,ぶんこ,biblioteca de bolso
+292,Shougakko,3,52,湖,U+6E56,水,コ,みずうみ,lago,N3,/kanji/6E56.svg,湖岸,こがん,margem do lago,湖,みずうみ,lago
+293,Shougakko,3,53,向,U+5411,口,コウ,むく|むこう,direção / voltar-se,N4,/kanji/5411.svg,方向,ほうこう,direção,向く,むく,virar-se
+294,Shougakko,3,54,幸,U+5E78,干,コウ,さいわい|しあわせ,felicidade,N4,/kanji/5E78.svg,幸福,こうふく,felicidade,幸せ,しあわせ,feliz
+295,Shougakko,3,55,港,U+6E2F,水,コウ,みなと,porto,N3,/kanji/6E2F.svg,空港,くうこう,aeroporto,港,みなと,porto
+296,Shougakko,3,56,号,U+53F7,口,ゴウ,,número / edição,N4,/kanji/53F7.svg,番号,ばんごう,número,信号,しんごう,semáforo
+297,Shougakko,3,57,根,U+6839,木,コン,ね,raiz,N3,/kanji/6839.svg,根本,こんぽん,base,根,ね,raiz
+298,Shougakko,3,58,祭,U+796D,示,サイ,まつり,festival,N3,/kanji/796D.svg,文化祭,ぶんかさい,festival cultural,祭り,まつり,festa
+299,Shougakko,3,59,皿,U+76BF,皿,さら,さら,prato,N3,/kanji/76BF.svg,灰皿,はいざら,cinzeiro,皿,さら,prato
+300,Shougakko,3,60,仕,U+4ED5,人,シ|ジ,つかえる,servir / trabalho,N4,/kanji/4ED5.svg,仕事,しごと,trabalho,仕方,しかた,maneira
+301,Shougakko,3,61,死,U+6B7B,歹,シ,しぬ,morrer,N4,/kanji/6B7B.svg,死亡,しぼう,morte,死ぬ,しぬ,morrer
+302,Shougakko,3,62,使,U+4F7F,人,シ,つかう,usar,N5,/kanji/4F7F.svg,大使館,たいしかん,embaixada,使う,つかう,usar
+303,Shougakko,3,63,始,U+59CB,女,シ,はじめる|はじまる,começar,N4,/kanji/59CB.svg,開始,かいし,começo,始める,はじめる,iniciar
+304,Shougakko,3,64,指,U+6307,手,シ,ゆび|さす,dedo / apontar,N4,/kanji/6307.svg,指導,しどう,orientação,指,ゆび,dedo
+305,Shougakko,3,65,歯,U+6B6F,歯,シ,は,dente,N4,/kanji/6B6F.svg,歯科,しか,odontologia,歯,は,dente
+306,Shougakko,3,66,詩,U+8A69,言,シ,,poesia,N3,/kanji/8A69.svg,詩人,しじん,poeta,詩,し,poesia
+307,Shougakko,3,67,次,U+6B21,欠,ジ|シ,つぎ,próximo / seguinte,N4,/kanji/6B21.svg,次回,じかい,próxima vez,次,つぎ,seguinte
+308,Shougakko,3,68,事,U+4E8B,亅,ジ|ズ,こと,assunto / acontecimento,N5,/kanji/4E8B.svg,仕事,しごと,trabalho,大事,だいじ,importante
+309,Shougakko,3,69,持,U+6301,手,ジ,もつ,segurar / possuir,N5,/kanji/6301.svg,気持ち,きもち,sentimento,持つ,もつ,segurar
+310,Shougakko,3,70,式,U+5F0F,弋,シキ,,cerimônia / fórmula,N3,/kanji/5F0F.svg,入学式,にゅうがくしき,cerimônia de entrada,式,しき,cerimônia
+311,Shougakko,3,71,実,U+5B9F,宀,ジツ,み|みのる,realidade / fruto,N4,/kanji/5B9F.svg,実験,じっけん,experimento,実る,みのる,dar frutos
+312,Shougakko,3,72,写,U+5199,冖,シャ,うつす,copiar / fotografar,N5,/kanji/5199.svg,写真,しゃしん,fotografia,写す,うつす,copiar
+313,Shougakko,3,73,者,U+8005,老,シャ,もの,pessoa,N4,/kanji/8005.svg,医者,いしゃ,médico,読者,どくしゃ,leitor
+314,Shougakko,3,74,主,U+4E3B,丶,シュ,ぬし,principal / dono,N5,/kanji/4E3B.svg,主人,しゅじん,marido / dono,主語,しゅご,sujeito gramatical
+315,Shougakko,3,75,守,U+5B88,宀,シュ,まもる,proteger,N4,/kanji/5B88.svg,留守,るす,ausência,守る,まもる,proteger
+316,Shougakko,3,76,取,U+53D6,又,シュ,とる,pegar / obter,N5,/kanji/53D6.svg,取引,とりひき,negócio,取る,とる,pegar
+317,Shougakko,3,77,酒,U+9152,酉,シュ,さけ,bebida alcoólica,N4,/kanji/9152.svg,日本酒,にほんしゅ,saquê,酒,さけ,bebida alcoólica
+318,Shougakko,3,78,受,U+53D7,又,ジュ,うける,receber,N4,/kanji/53D7.svg,受験,じゅけん,prestar exame,受ける,うける,receber
+319,Shougakko,3,79,州,U+5DDE,川,シュウ,す,estado / província,N3,/kanji/5DDE.svg,九州,きゅうしゅう,Kyushu,州,しゅう,estado
+320,Shougakko,3,80,拾,U+62FE,手,シュウ|ジュウ,ひろう,recolher,N3,/kanji/62FE.svg,拾得物,しゅうとくぶつ,objeto perdido,拾う,ひろう,pegar do chão
+321,Shougakko,3,81,終,U+7D42,糸,シュウ,おわる|おえる,terminar,N4,/kanji/7D42.svg,最終,さいしゅう,final,終わる,おわる,terminar
+322,Shougakko,3,82,習,U+7FD2,羽,シュウ,ならう,aprender,N5,/kanji/7FD2.svg,学習,がくしゅう,aprendizagem,習う,ならう,aprender
+323,Shougakko,3,83,集,U+96C6,隹,シュウ,あつまる|あつめる,reunir,N4,/kanji/96C6.svg,集合,しゅうごう,reunião,集める,あつめる,coletar
+324,Shougakko,3,84,住,U+4F4F,人,ジュウ,すむ,morar,N5,/kanji/4F4F.svg,住所,じゅうしょ,endereço,住む,すむ,morar
+325,Shougakko,3,85,重,U+91CD,里,ジュウ|チョウ,おもい,pesado,N4,/kanji/91CD.svg,重要,じゅうよう,importante,重い,おもい,pesado
+326,Shougakko,3,86,宿,U+5BBF,宀,シュク,やど|やどる,hospedagem,N3,/kanji/5BBF.svg,宿題,しゅくだい,lição de casa,宿,やど,pousada
+327,Shougakko,3,87,所,U+6240,戸,ショ,ところ,lugar,N5,/kanji/6240.svg,場所,ばしょ,lugar,台所,だいどころ,cozinha
+328,Shougakko,3,88,暑,U+6691,日,ショ,あつい,quente (clima),N4,/kanji/6691.svg,残暑,ざんしょ,calor tardio,暑い,あつい,quente
+329,Shougakko,3,89,助,U+52A9,力,ジョ,たすける,ajudar,N4,/kanji/52A9.svg,助手,じょしゅ,assistente,助ける,たすける,ajudar
+330,Shougakko,3,90,昭,U+662D,日,ショウ,,brilhante,N3,/kanji/662D.svg,昭和,しょうわ,Era Showa,昭然,しょうぜん,evidente
+331,Shougakko,3,91,消,U+6D88,水,ショウ,きえる|けす,apagar / desaparecer,N4,/kanji/6D88.svg,消防,しょうぼう,bombeiros,消す,けす,apagar
+332,Shougakko,3,92,商,U+5546,口,ショウ,あきなう,comércio,N4,/kanji/5546.svg,商品,しょうひん,produto,商店,しょうてん,loja
+333,Shougakko,3,93,章,U+7AE0,立,ショウ,,capítulo,N3,/kanji/7AE0.svg,文章,ぶんしょう,texto,第一章,だいいっしょう,capítulo 1
+334,Shougakko,3,94,勝,U+52DD,力,ショウ,かつ,vencer,N4,/kanji/52DD.svg,優勝,ゆうしょう,campeonato,勝つ,かつ,vencer
+335,Shougakko,3,95,乗,U+4E57,丿,ジョウ,のる|のせる,embarcar / carregar,N4,/kanji/4E57.svg,乗車,じょうしゃ,embarque,乗る,のる,embarcar
+336,Shougakko,3,96,植,U+690D,木,ショク,うえる,plantar,N4,/kanji/690D.svg,植物,しょくぶつ,planta,植える,うえる,plantar
+337,Shougakko,3,97,申,U+7533,田,シン,もうす,declarar,N3,/kanji/7533.svg,申請,しんせい,solicitação,申し込む,もうしこむ,inscrever-se
+338,Shougakko,3,98,身,U+8EAB,身,シン,み,corpo,N5,/kanji/8EAB.svg,身体,しんたい,corpo,身,み,corpo
+339,Shougakko,3,99,神,U+795E,示,シン|ジン,かみ,divindade,N4,/kanji/795E.svg,神社,じんじゃ,santuário xintoísta,神,かみ,deus
+340,Shougakko,3,100,真,U+771F,目,シン,ま,verdadeiro,N4,/kanji/771F.svg,写真,しゃしん,fotografia,真実,しんじつ,verdade
+341,Shougakko,3,101,深,U+6DF1,水,シン,ふかい,profundo,N4,/kanji/6DF1.svg,深夜,しんや,madrugada,深い,ふかい,profundo
+342,Shougakko,3,102,進,U+9032,辶,シン,すすむ,avançar,N4,/kanji/9032.svg,進学,しんがく,prosseguir estudos,進む,すすむ,avançar
+343,Shougakko,3,103,世,U+4E16,一,セイ|セ,よ,mundo / geração,N4,/kanji/4E16.svg,世界,せかい,mundo,世代,せだい,geração
+344,Shougakko,3,104,整,U+6574,攴,セイ,ととのえる,organizar,N3,/kanji/6574.svg,整理,せいり,organização,整える,ととのえる,arrumar
+345,Shougakko,3,105,昔,U+6614,日,セキ|シャク,むかし,antigamente,N4,/kanji/6614.svg,昔話,むかしばなし,conto antigo,昔,むかし,antigamente
+346,Shougakko,3,106,全,U+5168,入,ゼン,まったく,todo / completo,N4,/kanji/5168.svg,安全,あんぜん,segurança,全部,ぜんぶ,tudo
+347,Shougakko,3,107,相,U+76F8,目,ソウ|ショウ,あい,mutuamente / aparência,N3,/kanji/76F8.svg,相談,そうだん,consulta,相手,あいて,parceiro
+348,Shougakko,3,108,送,U+9001,辶,ソウ,おくる,enviar,N4,/kanji/9001.svg,放送,ほうそう,transmissão,送る,おくる,enviar
+349,Shougakko,3,109,想,U+60F3,心,ソウ|ソ,おもう,pensamento / imaginar,N3,/kanji/60F3.svg,感想,かんそう,impressão,想像,そうぞう,imaginação
+350,Shougakko,3,110,息,U+606F,心,ソク,いき,respiração,N3,/kanji/606F.svg,休息,きゅうそく,descanso,息,いき,respiração
+351,Shougakko,3,111,速,U+901F,辶,ソク,はやい,rápido,N4,/kanji/901F.svg,速度,そくど,velocidade,速い,はやい,rápido
+352,Shougakko,3,112,族,U+65CF,方,ゾク,,família / tribo,N4,/kanji/65CF.svg,家族,かぞく,família,民族,みんぞく,povo
+353,Shougakko,3,113,他,U+4ED6,人,タ,ほか,outro,N5,/kanji/4ED6.svg,その他,そのた,outros,他,ほか,outro
+354,Shougakko,3,114,打,U+6253,手,ダ|ダア,うつ,bater,N4,/kanji/6253.svg,打席,だせき,posição de rebatedor,打つ,うつ,bater
+355,Shougakko,3,115,対,U+5BFE,寸,タイ|ツイ,,oposição / contra,N3,/kanji/5BFE.svg,対話,たいわ,diálogo,反対,はんたい,oposição
+356,Shougakko,3,116,待,U+5F85,彳,タイ,まつ,esperar,N4,/kanji/5F85.svg,期待,きたい,expectativa,待つ,まつ,esperar
+357,Shougakko,3,117,代,U+4EE3,人,ダイ|タイ,かわる,substituir / geração,N4,/kanji/4EE3.svg,時代,じだい,era,代わる,かわる,substituir
+358,Shougakko,3,118,第,U+7B2C,竹,ダイ,,ordem numérica,N3,/kanji/7B2C.svg,第一,だいいち,primeiro,第二,だいに,segundo
+359,Shougakko,3,119,題,U+984C,頁,ダイ,,tema / questão,N3,/kanji/984C.svg,問題,もんだい,problema,宿題,しゅくだい,lição de casa
+360,Shougakko,3,120,炭,U+70AD,火,タン,すみ,carvão,N3,/kanji/70AD.svg,石炭,せきたん,carvão mineral,炭,すみ,carvão
+361,Shougakko,3,121,短,U+77ED,矢,タン,みじかい,curto,N4,/kanji/77ED.svg,短所,たんしょ,ponto fraco,短い,みじかい,curto
+362,Shougakko,3,122,談,U+8AC7,言,ダン,,conversa,N3,/kanji/8AC7.svg,相談,そうだん,consulta,会談,かいだん,reunião
+363,Shougakko,3,123,着,U+7740,羊,チャク|ジャク,きる|つく,vestir / chegar,N4,/kanji/7740.svg,到着,とうちゃく,chegada,着る,きる,vestir
+364,Shougakko,3,124,注,U+6CE8,水,チュウ,そそぐ,derramar / prestar atenção,N4,/kanji/6CE8.svg,注意,ちゅうい,atenção,注ぐ,そそぐ,derramar
+365,Shougakko,3,125,柱,U+67F1,木,チュウ,はしら,coluna / pilar,N3,/kanji/67F1.svg,電柱,でんちゅう,poste elétrico,柱,はしら,pilar
+366,Shougakko,3,126,丁,U+4E01,一,チョウ|テイ,,bloco / distrito,N3,/kanji/4E01.svg,丁目,ちょうめ,quarteirão,丁寧,ていねい,educado
+367,Shougakko,3,127,帳,U+5E33,巾,チョウ,,caderno / livro de registros,N3,/kanji/5E33.svg,手帳,てちょう,agenda,帳面,ちょうめん,caderno
+368,Shougakko,3,128,調,U+8ABF,言,チョウ,しらべる,investigar / ajustar,N3,/kanji/8ABF.svg,調査,ちょうさ,pesquisa,調べる,しらべる,investigar
+369,Shougakko,3,129,追,U+8FFD,辶,ツイ,おう,seguir / perseguir,N3,/kanji/8FFD.svg,追記,ついき,observação adicional,追う,おう,seguir
+370,Shougakko,3,130,定,U+5B9A,宀,テイ|ジョウ,さだめる,decidir / fixar,N4,/kanji/5B9A.svg,予定,よてい,plano,定める,さだめる,determinar
+371,Shougakko,3,131,庭,U+5EAD,广,テイ,にわ,jardim,N4,/kanji/5EAD.svg,家庭,かてい,família,庭,にわ,jardim
+372,Shougakko,3,132,笛,U+7B1B,竹,テキ,ふえ,flauta,N3,/kanji/7B1B.svg,汽笛,きてき,apito de navio,笛,ふえ,flauta
+373,Shougakko,3,133,鉄,U+9244,金,テツ,,ferro,N4,/kanji/9244.svg,鉄道,てつどう,ferrovia,地下鉄,ちかてつ,metrô
+374,Shougakko,3,134,転,U+8EE2,車,テン,ころがる|ころぶ,girar / cair,N3,/kanji/8EE2.svg,運転,うんてん,dirigir,転ぶ,ころぶ,cair
+375,Shougakko,3,135,都,U+90FD,邑,ト|ツ,みやこ,capital / metrópole,N3,/kanji/90FD.svg,東京都,とうきょうと,Metrópole de Tóquio,都,みやこ,capital
+376,Shougakko,3,136,度,U+5EA6,广,ド|ト|タク,,grau / vez,N4,/kanji/5EA6.svg,温度,おんど,temperatura,今度,こんど,da próxima vez
+377,Shougakko,3,137,投,U+6295,手,トウ,なげる,arremessar,N3,/kanji/6295.svg,投票,とうひょう,votação,投げる,なげる,arremessar
+378,Shougakko,3,138,豆,U+8C46,豆,トウ|ズ,まめ,feijão,N4,/kanji/8C46.svg,大豆,だいず,soja,豆,まめ,feijão
+379,Shougakko,3,139,島,U+5CF6,山,トウ,しま,ilha,N5,/kanji/5CF6.svg,半島,はんとう,península,島,しま,ilha
+380,Shougakko,3,140,湯,U+6E6F,水,トウ,ゆ,água quente,N4,/kanji/6E6F.svg,温泉湯,おんせんゆ,água termal,湯,ゆ,água quente
+381,Shougakko,3,141,登,U+767B,癶,トウ|ト,のぼる,subir,N4,/kanji/767B.svg,登山,とざん,alpinismo,登る,のぼる,subir
+382,Shougakko,3,142,等,U+7B49,竹,トウ,ひとしい,igual,N4,/kanji/7B49.svg,平等,びょうどう,igualdade,等しい,ひとしい,igual
+383,Shougakko,3,143,動,U+52D5,力,ドウ,うごく,mover,N5,/kanji/52D5.svg,動物,どうぶつ,animal,動く,うごく,mover
+384,Shougakko,3,144,童,U+7AE5,立,ドウ,わらべ,criança,N3,/kanji/7AE5.svg,児童,じどう,criança,童話,どうわ,conto infantil
+385,Shougakko,3,145,農,U+8FB2,辰,ノウ,,agricultura,N3,/kanji/8FB2.svg,農業,のうぎょう,agricultura,農家,のうか,agricultor
+386,Shougakko,3,146,波,U+6CE2,水,ハ,なみ,onda,N4,/kanji/6CE2.svg,電波,でんぱ,onda de rádio,波,なみ,onda
+387,Shougakko,3,147,配,U+914D,酉,ハイ,くばる,distribuir,N3,/kanji/914D.svg,心配,しんぱい,preocupação,配る,くばる,distribuir
+388,Shougakko,3,148,倍,U+500D,人,バイ,,dobro,N3,/kanji/500D.svg,倍増,ばいぞう,aumento dobrado,二倍,にばい,o dobro
+389,Shougakko,3,149,箱,U+7BB1,竹,はこ,はこ,caixa,N4,/kanji/7BB1.svg,箱庭,はこにわ,jardim em miniatura,箱,はこ,caixa
+390,Shougakko,3,150,畑,U+7551,田,はたけ,はたけ,campo cultivado,N4,/kanji/7551.svg,畑仕事,はたけしごと,trabalho agrícola,畑,はたけ,plantação
+391,Shougakko,3,151,発,U+767A,癶,ハツ|ホツ,,partida / emissão,N4,/kanji/767A.svg,出発,しゅっぱつ,partida,発見,はっけん,descoberta
+392,Shougakko,3,152,反,U+53CD,又,ハン,そる|そらす,oposição,N4,/kanji/53CD.svg,反対,はんたい,oposição,反省,はんせい,reflexão
+393,Shougakko,3,153,坂,U+5742,土,ハン,さか,ladeira,N4,/kanji/5742.svg,坂道,さかみち,rua inclinada,坂,さか,ladeira
+394,Shougakko,3,154,板,U+677F,木,ハン|バン,いた,tábua,N3,/kanji/677F.svg,黒板,こくばん,lousa,板,いた,tábua
+395,Shougakko,3,155,皮,U+76AE,皮,ヒ,かわ,pele,N4,/kanji/76AE.svg,毛皮,けがわ,pele com pelos,皮,かわ,casca
+396,Shougakko,3,156,悲,U+60B2,心,ヒ,かなしい,triste,N3,/kanji/60B2.svg,悲劇,ひげき,tragédia,悲しい,かなしい,triste
+397,Shougakko,3,157,美,U+7F8E,羊,ビ,うつくしい,belo,N4,/kanji/7F8E.svg,美術,びじゅつ,arte,美しい,うつくしい,belo
+398,Shougakko,3,158,鼻,U+9F3B,鼻,ビ,はな,nariz,N4,/kanji/9F3B.svg,鼻声,はなごえ,voz anasalada,鼻,はな,nariz
+399,Shougakko,3,159,筆,U+7B46,竹,ヒツ,ふで,pincel,N4,/kanji/7B46.svg,毛筆,もうひつ,pincel de caligrafia,筆,ふで,pincel
+400,Shougakko,3,160,氷,U+6C37,水,ヒョウ,こおり,gelo,N4,/kanji/6C37.svg,氷山,ひょうざん,iceberg,氷,こおり,gelo
+401,Shougakko,3,161,表,U+8868,衣,ヒョウ,おもて,superfície / tabela,N4,/kanji/8868.svg,発表,はっぴょう,apresentação,表,おもて,frente
+402,Shougakko,3,162,秒,U+79D2,禾,ビョウ,,segundo,N4,/kanji/79D2.svg,秒針,びょうしん,ponteiro dos segundos,一秒,いちびょう,um segundo
+403,Shougakko,3,163,病,U+75C5,疒,ビョウ,やむ|やまい,doença,N4,/kanji/75C5.svg,病院,びょういん,hospital,病気,びょうき,doença
+404,Shougakko,3,164,品,U+54C1,口,ヒン|ホン,,produto / qualidade,N4,/kanji/54C1.svg,商品,しょうひん,produto,作品,さくひん,obra
+405,Shougakko,3,165,負,U+8CA0,貝,フ,まける|おう,perder / carregar,N4,/kanji/8CA0.svg,勝負,しょうぶ,disputa,負ける,まける,perder
+406,Shougakko,3,166,部,U+90E8,邑,ブ,,seção / departamento,N4,/kanji/90E8.svg,全部,ぜんぶ,tudo,部屋,へや,quarto
+407,Shougakko,3,167,服,U+670D,月,フク,,roupa,N4,/kanji/670D.svg,洋服,ようふく,roupa ocidental,制服,せいふく,uniforme
+408,Shougakko,3,168,福,U+798F,示,フク,,felicidade / bênção,N3,/kanji/798F.svg,幸福,こうふく,felicidade,福祉,ふくし,bem-estar
+409,Shougakko,3,169,物,U+7269,牛,ブツ|モツ,もの,objeto / coisa,N5,/kanji/7269.svg,動物,どうぶつ,animal,買物,かいもの,compras
+410,Shougakko,3,170,平,U+5E73,干,ヘイ|ビョウ,たいら,plano / paz,N4,/kanji/5E73.svg,平和,へいわ,paz,平ら,たいら,plano
+411,Shougakko,3,171,返,U+8FD4,辶,ヘン,かえす,devolver,N4,/kanji/8FD4.svg,返事,へんじ,resposta,返す,かえす,devolver
+412,Shougakko,3,172,勉,U+52C9,力,ベン,,esforçar-se,N3,/kanji/52C9.svg,勉強,べんきょう,estudo,勉学,べんがく,aprendizagem
+413,Shougakko,3,173,放,U+653E,攴,ホウ,はなす|はなつ,soltar / liberar,N4,/kanji/653E.svg,放送,ほうそう,transmissão,放課後,ほうかご,após a aula
+414,Shougakko,3,174,味,U+5473,口,ミ,あじ,sabor,N4,/kanji/5473.svg,意味,いみ,significado,味,あじ,sabor
+415,Shougakko,3,175,命,U+547D,口,メイ|ミョウ,いのち,vida,N4,/kanji/547D.svg,生命,せいめい,vida,命,いのち,vida
+416,Shougakko,3,176,面,U+9762,面,メン,おも|おもて,rosto / superfície,N4,/kanji/9762.svg,正面,しょうめん,frente,面白い,おもしろい,interessante
+417,Shougakko,3,177,問,U+554F,口,モン,とう,pergunta,N5,/kanji/554F.svg,問題,もんだい,problema,質問,しつもん,pergunta
+418,Shougakko,3,178,役,U+5F79,彳,ヤク|エキ,,função / papel,N3,/kanji/5F79.svg,役所,やくしょ,órgão público,主役,しゅやく,personagem principal
+419,Shougakko,3,179,薬,U+85AC,艸,ヤク,くすり,remédio,N4,/kanji/85AC.svg,薬局,やっきょく,farmácia,薬,くすり,remédio
+420,Shougakko,3,180,由,U+7531,田,ユ|ユウ|ユイ,よし,motivo / razão,N3,/kanji/7531.svg,理由,りゆう,motivo,自由,じゆう,liberdade
+421,Shougakko,3,181,油,U+6CB9,水,ユ,あぶら,óleo,N4,/kanji/6CB9.svg,石油,せきゆ,petróleo,油,あぶら,óleo
+422,Shougakko,3,182,有,U+6709,月,ユウ|ウ,ある,existir / possuir,N4,/kanji/6709.svg,有名,ゆうめい,famoso,有る,ある,existir
+423,Shougakko,3,183,遊,U+904A,辶,ユウ|ユ,あそぶ,brincar,N5,/kanji/904A.svg,遊園地,ゆうえんち,parque de diversões,遊ぶ,あそぶ,brincar
+424,Shougakko,3,184,予,U+4E88,亅,ヨ,,antecipado,N3,/kanji/4E88.svg,予定,よてい,plano,予習,よしゅう,preparação
+425,Shougakko,3,185,羊,U+7F8A,羊,ヨウ,ひつじ,ovelha,N4,/kanji/7F8A.svg,羊毛,ようもう,lã,羊,ひつじ,ovelha
+426,Shougakko,3,186,洋,U+6D0B,水,ヨウ,,oceano / ocidental,N3,/kanji/6D0B.svg,洋服,ようふく,roupa ocidental,太平洋,たいへいよう,Oceano Pacífico
+427,Shougakko,3,187,葉,U+8449,艸,ヨウ,は,folha,N4,/kanji/8449.svg,落葉,らくよう,folha caída,葉,は,folha
+428,Shougakko,3,188,陽,U+967D,阜,ヨウ,,sol / positivo,N3,/kanji/967D.svg,太陽,たいよう,sol,陽気,ようき,alegre
+429,Shougakko,3,189,様,U+69D8,木,ヨウ,さま,aparência / forma,N3,/kanji/69D8.svg,様子,ようす,situação,お客様,おきゃくさま,cliente (formal)
+430,Shougakko,3,190,落,U+843D,艸,ラク,おちる|おとす,cair,N4,/kanji/843D.svg,落第,らくだい,reprovação,落ちる,おちる,cair
+431,Shougakko,3,191,流,U+6D41,水,リュウ|ル,ながれる,fluir,N4,/kanji/6D41.svg,流行,りゅうこう,moda,流れる,ながれる,fluir
+432,Shougakko,3,192,旅,U+65C5,方,リョ,たび,viagem,N4,/kanji/65C5.svg,旅行,りょこう,viagem,旅館,りょかん,ryokan
+433,Shougakko,3,193,両,U+4E21,入,リョウ,,ambos,N4,/kanji/4E21.svg,両方,りょうほう,ambos os lados,両親,りょうしん,pais
+434,Shougakko,3,194,緑,U+7DD1,糸,リョク|ロク,みどり,verde,N4,/kanji/7DD1.svg,緑色,みどりいろ,cor verde,緑,みどり,verde
+435,Shougakko,3,195,礼,U+793C,示,レイ|ライ,,cortesia,N4,/kanji/793C.svg,お礼,おれい,agradecimento,礼儀,れいぎ,boas maneiras
+436,Shougakko,3,196,列,U+5217,刀,レツ,,fila / linha,N3,/kanji/5217.svg,行列,ぎょうれつ,fila,列車,れっしゃ,trem
+437,Shougakko,3,197,練,U+7DF4,糸,レン,,praticar / treinar,N3,/kanji/7DF4.svg,練習,れんしゅう,prática,訓練,くんれん,treinamento
+438,Shougakko,3,198,路,U+8DEF,足,ロ,じ,caminho / estrada,N3,/kanji/8DEF.svg,道路,どうろ,estrada,線路,せんろ,trilho ferroviário
+439,Shougakko,3,199,和,U+548C,口,ワ|オ,やわらぐ,harmonia / Japão,N4,/kanji/548C.svg,平和,へいわ,paz,和食,わしょく,culinária japonesa
+440,Shougakko,3,200,忘,U+5FD8,心,ボウ,わすれる,esquecer,N4,/kanji/5FD8.svg,忘年会,ぼうねんかい,festa de fim de ano,忘れる,わすれる,esquecer

@@ -58,6 +58,7 @@ Source files (por ano escolar):
 |---------|----------|
 | [`data/shou1.csv`](../data/shou1.csv) | Shougakko 1º ano — 80 kanji |
 | [`data/shou2.csv`](../data/shou2.csv) | Shougakko 2º ano — 159 kanji |
+| [`data/shou3.csv`](../data/shou3.csv) | Shougakko 3º ano — 200 kanji |
 | [`data/kanji.csv`](../data/kanji.csv) | Dataset genérico (legado) |
 
 Registro de datasets ativos: [`lib/kanji/datasets.ts`](../lib/kanji/datasets.ts).

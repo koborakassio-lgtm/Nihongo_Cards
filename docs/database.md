@@ -69,7 +69,16 @@ daily_review
 
 Especificação completa: [`kanji-dataset.md`](kanji-dataset.md)
 
-- Fontes por ano: `data/shou1.csv`, `data/shou2.csv`, … (UTF-8, versionados)
+Fontes por ano (UTF-8, versionados):
+
+| Arquivo | Ano | Kanji |
+|---------|-----|-------|
+| `data/shou1.csv` | Shougakko 1º ano | 80 |
+| `data/shou2.csv` | Shougakko 2º ano | 159 |
+| `data/shou3.csv` | Shougakko 3º ano | 200 |
+
+Total em `lib/data/kanji.json` após merge: **439 kanji**.
+
 - Comando padrão: `npm run import:kanji`
 - Merge (novo ano): `npm run import:kanji -- data/shouN.csv --merge`
 - Saída: `lib/data/kanji.json`, `lib/data/vocabulary.json`
@@ -83,7 +92,7 @@ Dois stores integrados no dashboard:
 | Chave | Serviço | Conteúdo |
 |-------|---------|----------|
 | `nihongo_cards_progress` | `services/progress.ts` | Progresso por card (hiragana, katakana, kanji) |
-| `nihongo_cards_completed_lessons` | `services/lesson-progress.ts` | Lições concluídas por dataset (`shou1`, `shou2`, …) |
+| `nihongo_cards_completed_lessons` | `services/lesson-progress.ts` | Lições concluídas por dataset (`shou1`, `shou2`, `shou3`, …) |
 | `nihongo_cards_streak` | `services/progress.ts` | Sequência diária |
 | `nihongo_cards_last_access` | `services/progress.ts` | Último acesso (streak) |
 

@@ -39,7 +39,7 @@ features/
   kana/KanaStudy.tsx
   kanji/KanjiLessons.tsx                  # Legado (não usado na nav atual)
   study/
-    StudyIndexView.tsx                    # Cards de escolha shou1 / shou2
+    StudyIndexView.tsx                    # Cards de escolha do ano (lê KANJI_DATASETS)
     LessonListView.tsx                    # Lista de lições por dataset
     LessonKanjiView.tsx                   # Estudo kanji dentro de uma lição
   exercises/ExercisesView.tsx
@@ -49,6 +49,7 @@ data/
   kanji.csv                               # Dataset genérico (import legado)
   shou1.csv                               # Shougakko 1º ano — 80 kanji (UTF-8)
   shou2.csv                               # Shougakko 2º ano — 159 kanji (UTF-8)
+  shou3.csv                               # Shougakko 3º ano — 200 kanji (UTF-8)
 lib/
   data/                                   # kanji.json + vocabulary.json (gerados)
   import/
@@ -101,14 +102,17 @@ Datasets registrados em `lib/kanji/datasets.ts`:
 |----|-----|-----------|-------|-------|--------|
 | `shou1` | `shou1.csv` | Shougakko — 1º ano | 1 | 80 | 8 |
 | `shou2` | `shou2.csv` | Shougakko — 2º ano | 2 | 159 | 16 |
+| `shou3` | `shou3.csv` | Shougakko — 3º ano | 3 | 200 | 20 |
 
-Total em `lib/data/kanji.json` após merge: **239 kanji**.
+Total em `lib/data/kanji.json` após merge: **439 kanji**.
 
 ### Exercícios (`ExercisesView`)
 
 Fluxo em 4 passos: **escolher ano → escolher lição/revisão geral → escolher tipo → jogar**.
 
 Tipos: Múltipla Escolha, Relacionar Kanji, Palavra & Leitura. Só lições **concluídas** do dataset selecionado entram no pool.
+
+Sessões limitadas a **10 perguntas/rodadas** (`MAX_QUESTIONS = 10`). Ao terminar, exibe `SessionCompleteCard` com pontuação e opções **Repetir** (mesma sessão) ou **Voltar ao Menu**. Nos exercícios de relacionar, cada rodada completa conta como 1 pergunta; entre rodadas, botão "Próxima Rodada".
 
 ## Onde alterar cards da UI
 
@@ -212,10 +216,10 @@ Ao concluir lição (`LessonKanjiView.handleComplete`):
 |---------|--------|
 | Dashboard com stats unificados | ✅ lições + cartões |
 | Hiragana / Katakana study | ✅ |
-| Kanji por lições (rotas `/study/...`) | ✅ shou1 (80) + shou2 (159) |
+| Kanji por lições (rotas `/study/...`) | ✅ shou1 (80) + shou2 (159) + shou3 (200) |
 | Índice `/study` (escolha do ano) | ✅ |
 | Progresso de lições concluídas | ✅ localStorage, por dataset |
-| Exercícios (3 tipos) | ✅ seletor de ano |
+| Exercícios (3 tipos) | ✅ seletor de ano + sessões de 10 |
 | Botão Início no header | ✅ home + study layout |
 | UI pt-BR nas telas de estudo | ✅ |
 | Canvas de escrita kanji | ❌ removido |
@@ -223,7 +227,7 @@ Ao concluir lição (`LessonKanjiView.handleComplete`):
 | Revisão espaçada real | ❌ básica apenas |
 | SVG ordem de traços | ❌ campo existe, UI não |
 | Completar frases (exercício 4) | ❌ pendente |
-| shou3–shou6 / Chūgakkō | ❌ pendente |
+| shou3–shou6 / Chūgakkō | ⚠️ shou3 ✅; shou4–shou6 / Chūgakkō ❌ pendente |
 
 ## Comandos
 

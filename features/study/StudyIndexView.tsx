@@ -59,7 +59,7 @@ export default function StudyIndexView({ datasets }: StudyIndexViewProps) {
                 {dataset.totalLessons === 1 ? "lição" : "lições"} · {dataset.totalKanji} kanji
               </p>
               <p className="text-sm font-medium text-zinc-400 dark:text-zinc-500 mt-1">
-                {dataset.totalKanji} kanji do {dataset.id === "shou1" ? "1º" : "2º"} ano
+                {dataset.totalKanji} kanji do {config.grade}º ano
               </p>
             </Link>
           );

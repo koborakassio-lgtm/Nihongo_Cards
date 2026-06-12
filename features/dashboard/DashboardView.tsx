@@ -183,7 +183,7 @@ export default function DashboardView({ setActiveTab }: DashboardViewProps) {
                 <span className="text-2xl font-bold text-red-500">日</span>
                 <div>
                   <div className="font-semibold text-zinc-800 dark:text-zinc-200">Kanji</div>
-                  <div className="text-xs text-zinc-400 font-normal">Shougakko 1º e 2º ano</div>
+                  <div className="text-xs text-zinc-400 font-normal">Shougakko — 1º ao 3º ano</div>
                 </div>
               </div>
             </Link>
