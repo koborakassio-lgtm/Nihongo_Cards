@@ -82,9 +82,16 @@ function rowToRecord(headers: string[], values: string[]): KanjiCsvRow {
 
 function validateRow(row: KanjiCsvRow, lineNumber: number): void {
   for (const column of REQUIRED_COLUMNS) {
+    if (column === "onyomi") continue;
     if (!row[column]?.trim()) {
       throw new Error(`Linha ${lineNumber}: coluna obrigatória "${column}" vazia.`);
     }
+  }
+
+  if (!row.onyomi?.trim() && !row.kunyomi?.trim()) {
+    throw new Error(
+      `Linha ${lineNumber}: informe ao menos onyomi ou kunyomi.`
+    );
   }
 
   if (!/^U\+[0-9A-F]{4,5}$/i.test(row.unicode.trim())) {

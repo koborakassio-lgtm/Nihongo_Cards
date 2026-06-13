@@ -50,6 +50,7 @@ data/
   shou1.csv                               # Shougakko 1º ano — 80 kanji (UTF-8)
   shou2.csv                               # Shougakko 2º ano — 159 kanji (UTF-8)
   shou3.csv                               # Shougakko 3º ano — 200 kanji (UTF-8)
+  shou4.csv                               # Shougakko 4º ano — 201 kanji (UTF-8)
 lib/
   data/                                   # kanji.json + vocabulary.json (gerados)
   import/
@@ -103,8 +104,9 @@ Datasets registrados em `lib/kanji/datasets.ts`:
 | `shou1` | `shou1.csv` | Shougakko — 1º ano | 1 | 80 | 8 |
 | `shou2` | `shou2.csv` | Shougakko — 2º ano | 2 | 159 | 16 |
 | `shou3` | `shou3.csv` | Shougakko — 3º ano | 3 | 200 | 20 |
+| `shou4` | `shou4.csv` | Shougakko — 4º ano | 4 | 201 | 21 |
 
-Total em `lib/data/kanji.json` após merge: **439 kanji**.
+Total em `lib/data/kanji.json` após merge: **640 kanji**, **1280** vocabulários.
 
 ### Exercícios (`ExercisesView`)
 
@@ -191,12 +193,12 @@ Ao concluir lição (`LessonKanjiView.handleComplete`):
 | `completedLessonsCount` / `totalLessonsCount` | Soma entre todos os datasets |
 | Barra "Progresso Geral" | `studiedKanjisCount / totalKanjisCount` |
 
-## Adicionar um novo ano escolar (ex: shou3)
+## Adicionar um novo ano escolar (ex: shou4)
 
-1. Criar `data/shou3.csv` (mesmo cabeçalho de `shou1.csv`, `group=Shougakko`, `unicode=U+XXXX`)
-2. Registrar em `lib/kanji/datasets.ts` (`shou3`, grade 3, título pt-BR)
-3. Importar: `npm run import:kanji -- data/shou3.csv --merge`
-4. Rotas `/study/shou3` funcionam automaticamente; atualizar `StudyIndexView` se necessário (lê `KANJI_DATASETS` dinamicamente)
+1. Criar `data/shou4.csv` (mesmo cabeçalho de `shou1.csv`, `group=Shougakko`, `unicode=U+XXXX`, IDs únicos)
+2. Registrar em `lib/kanji/datasets.ts` (`shou4`, grade 4, título pt-BR)
+3. Importar: `npm run import:kanji -- data/shou4.csv --merge`
+4. Rotas `/study/shou4` funcionam automaticamente (`StudyIndexView` lê `KANJI_DATASETS`)
 5. Exercícios: dataset aparece no seletor de ano automaticamente
 
 ## Padrões de código
@@ -216,7 +218,7 @@ Ao concluir lição (`LessonKanjiView.handleComplete`):
 |---------|--------|
 | Dashboard com stats unificados | ✅ lições + cartões |
 | Hiragana / Katakana study | ✅ |
-| Kanji por lições (rotas `/study/...`) | ✅ shou1 (80) + shou2 (159) + shou3 (200) |
+| Kanji por lições (rotas `/study/...`) | ✅ shou1 (80) + shou2 (159) + shou3 (200) + shou4 (201) |
 | Índice `/study` (escolha do ano) | ✅ |
 | Progresso de lições concluídas | ✅ localStorage, por dataset |
 | Exercícios (3 tipos) | ✅ seletor de ano + sessões de 10 |
@@ -227,7 +229,7 @@ Ao concluir lição (`LessonKanjiView.handleComplete`):
 | Revisão espaçada real | ❌ básica apenas |
 | SVG ordem de traços | ❌ campo existe, UI não |
 | Completar frases (exercício 4) | ❌ pendente |
-| shou3–shou6 / Chūgakkō | ⚠️ shou3 ✅; shou4–shou6 / Chūgakkō ❌ pendente |
+| shou3–shou6 / Chūgakkō | ⚠️ shou3–shou4 ✅; shou5–shou6 / Chūgakkō ❌ pendente |
 
 ## Comandos
 
@@ -237,7 +239,7 @@ npm run build
 npm run start         # produção local
 npm run lint
 npm run import:kanji  # data/shou1.csv → lib/data/*.json (padrão)
-npm run import:kanji -- data/shou2.csv --merge  # mescla sem apagar anos anteriores
+npm run import:kanji -- data/shou4.csv --merge  # mescla sem apagar anos anteriores
 ```
 
 Se porta 3000 ocupada: `pkill -f "next dev"` e rodar de novo.

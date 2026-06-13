@@ -6064,6 +6064,150 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-441-1",
+    "kanji_id": "kanji-441",
+    "word": "愛情",
+    "reading": "あいじょう",
+    "meaning_pt": "afeição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-441-2",
+    "kanji_id": "kanji-441",
+    "word": "愛する",
+    "reading": "あいする",
+    "meaning_pt": "amar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-442-1",
+    "kanji_id": "kanji-442",
+    "word": "案内",
+    "reading": "あんない",
+    "meaning_pt": "guia",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-442-2",
+    "kanji_id": "kanji-442",
+    "word": "提案",
+    "reading": "ていあん",
+    "meaning_pt": "proposta",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-443-1",
+    "kanji_id": "kanji-443",
+    "word": "以上",
+    "reading": "いじょう",
+    "meaning_pt": "mais que",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-443-2",
+    "kanji_id": "kanji-443",
+    "word": "以前",
+    "reading": "いぜん",
+    "meaning_pt": "antes",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-444-1",
+    "kanji_id": "kanji-444",
+    "word": "衣服",
+    "reading": "いふく",
+    "meaning_pt": "vestuário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-444-2",
+    "kanji_id": "kanji-444",
+    "word": "衣",
+    "reading": "ころも",
+    "meaning_pt": "roupa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-445-1",
+    "kanji_id": "kanji-445",
+    "word": "地位",
+    "reading": "ちい",
+    "meaning_pt": "status",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-445-2",
+    "kanji_id": "kanji-445",
+    "word": "順位",
+    "reading": "じゅんい",
+    "meaning_pt": "classificação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-446-1",
+    "kanji_id": "kanji-446",
+    "word": "周囲",
+    "reading": "しゅうい",
+    "meaning_pt": "arredores",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-446-2",
+    "kanji_id": "kanji-446",
+    "word": "囲む",
+    "reading": "かこむ",
+    "meaning_pt": "cercar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-447-1",
+    "kanji_id": "kanji-447",
+    "word": "胃腸",
+    "reading": "いちょう",
+    "meaning_pt": "sistema digestivo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-447-2",
+    "kanji_id": "kanji-447",
+    "word": "胃",
+    "reading": "い",
+    "meaning_pt": "estômago",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-448-1",
+    "kanji_id": "kanji-448",
+    "word": "印刷",
+    "reading": "いんさつ",
+    "meaning_pt": "impressão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-448-2",
+    "kanji_id": "kanji-448",
+    "word": "印",
+    "reading": "しるし",
+    "meaning_pt": "marca",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-449-1",
+    "kanji_id": "kanji-449",
+    "word": "英語",
+    "reading": "えいご",
+    "meaning_pt": "inglês",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-449-2",
+    "kanji_id": "kanji-449",
+    "word": "英雄",
+    "reading": "えいゆう",
+    "meaning_pt": "herói",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-45-1",
     "kanji_id": "kanji-45",
     "word": "本",
@@ -6077,6 +6221,166 @@
     "word": "日本",
     "reading": "にほん",
     "meaning_pt": "Japão",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-450-1",
+    "kanji_id": "kanji-450",
+    "word": "栄養",
+    "reading": "えいよう",
+    "meaning_pt": "nutrição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-450-2",
+    "kanji_id": "kanji-450",
+    "word": "栄える",
+    "reading": "さかえる",
+    "meaning_pt": "prosperar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-451-1",
+    "kanji_id": "kanji-451",
+    "word": "食塩",
+    "reading": "しょくえん",
+    "meaning_pt": "sal de cozinha",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-451-2",
+    "kanji_id": "kanji-451",
+    "word": "塩",
+    "reading": "しお",
+    "meaning_pt": "sal",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-452-1",
+    "kanji_id": "kanji-452",
+    "word": "一億",
+    "reading": "いちおく",
+    "meaning_pt": "cem milhões",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-452-2",
+    "kanji_id": "kanji-452",
+    "word": "億円",
+    "reading": "おくえん",
+    "meaning_pt": "cem milhões de ienes",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-453-1",
+    "kanji_id": "kanji-453",
+    "word": "参加",
+    "reading": "さんか",
+    "meaning_pt": "participação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-453-2",
+    "kanji_id": "kanji-453",
+    "word": "加える",
+    "reading": "くわえる",
+    "meaning_pt": "adicionar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-454-1",
+    "kanji_id": "kanji-454",
+    "word": "結果",
+    "reading": "けっか",
+    "meaning_pt": "resultado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-454-2",
+    "kanji_id": "kanji-454",
+    "word": "果物",
+    "reading": "くだもの",
+    "meaning_pt": "fruta",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-455-1",
+    "kanji_id": "kanji-455",
+    "word": "貨物",
+    "reading": "かもつ",
+    "meaning_pt": "carga",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-455-2",
+    "kanji_id": "kanji-455",
+    "word": "通貨",
+    "reading": "つうか",
+    "meaning_pt": "moeda",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-456-1",
+    "kanji_id": "kanji-456",
+    "word": "課題",
+    "reading": "かだい",
+    "meaning_pt": "tarefa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-456-2",
+    "kanji_id": "kanji-456",
+    "word": "課長",
+    "reading": "かちょう",
+    "meaning_pt": "chefe de seção",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-457-1",
+    "kanji_id": "kanji-457",
+    "word": "発芽",
+    "reading": "はつが",
+    "meaning_pt": "germinação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-457-2",
+    "kanji_id": "kanji-457",
+    "word": "芽",
+    "reading": "め",
+    "meaning_pt": "broto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-458-1",
+    "kanji_id": "kanji-458",
+    "word": "年賀状",
+    "reading": "ねんがじょう",
+    "meaning_pt": "cartão de ano novo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-458-2",
+    "kanji_id": "kanji-458",
+    "word": "祝賀",
+    "reading": "しゅくが",
+    "meaning_pt": "celebração",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-459-1",
+    "kanji_id": "kanji-459",
+    "word": "改善",
+    "reading": "かいぜん",
+    "meaning_pt": "melhoria",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-459-2",
+    "kanji_id": "kanji-459",
+    "word": "改める",
+    "reading": "あらためる",
+    "meaning_pt": "revisar",
     "priority": 2
   },
   {
@@ -6096,6 +6400,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-460-1",
+    "kanji_id": "kanji-460",
+    "word": "機械",
+    "reading": "きかい",
+    "meaning_pt": "máquina",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-460-2",
+    "kanji_id": "kanji-460",
+    "word": "器械",
+    "reading": "きかい",
+    "meaning_pt": "aparelho",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-461-1",
+    "kanji_id": "kanji-461",
+    "word": "被害",
+    "reading": "ひがい",
+    "meaning_pt": "dano sofrido",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-461-2",
+    "kanji_id": "kanji-461",
+    "word": "害虫",
+    "reading": "がいちゅう",
+    "meaning_pt": "inseto nocivo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-462-1",
+    "kanji_id": "kanji-462",
+    "word": "商店街",
+    "reading": "しょうてんがい",
+    "meaning_pt": "rua comercial",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-462-2",
+    "kanji_id": "kanji-462",
+    "word": "街",
+    "reading": "まち",
+    "meaning_pt": "cidade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-463-1",
+    "kanji_id": "kanji-463",
+    "word": "各国",
+    "reading": "かっこく",
+    "meaning_pt": "cada país",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-463-2",
+    "kanji_id": "kanji-463",
+    "word": "各自",
+    "reading": "かくじ",
+    "meaning_pt": "cada pessoa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-464-1",
+    "kanji_id": "kanji-464",
+    "word": "感覚",
+    "reading": "かんかく",
+    "meaning_pt": "sensação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-464-2",
+    "kanji_id": "kanji-464",
+    "word": "覚える",
+    "reading": "おぼえる",
+    "meaning_pt": "memorizar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-465-1",
+    "kanji_id": "kanji-465",
+    "word": "完成",
+    "reading": "かんせい",
+    "meaning_pt": "conclusão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-465-2",
+    "kanji_id": "kanji-465",
+    "word": "完全",
+    "reading": "かんぜん",
+    "meaning_pt": "completo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-466-1",
+    "kanji_id": "kanji-466",
+    "word": "警官",
+    "reading": "けいかん",
+    "meaning_pt": "policial",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-466-2",
+    "kanji_id": "kanji-466",
+    "word": "官庁",
+    "reading": "かんちょう",
+    "meaning_pt": "órgão governamental",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-467-1",
+    "kanji_id": "kanji-467",
+    "word": "管理",
+    "reading": "かんり",
+    "meaning_pt": "gerenciamento",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-467-2",
+    "kanji_id": "kanji-467",
+    "word": "水管",
+    "reading": "すいかん",
+    "meaning_pt": "cano de água",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-468-1",
+    "kanji_id": "kanji-468",
+    "word": "関係",
+    "reading": "かんけい",
+    "meaning_pt": "relação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-468-2",
+    "kanji_id": "kanji-468",
+    "word": "関心",
+    "reading": "かんしん",
+    "meaning_pt": "interesse",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-469-1",
+    "kanji_id": "kanji-469",
+    "word": "観光",
+    "reading": "かんこう",
+    "meaning_pt": "turismo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-469-2",
+    "kanji_id": "kanji-469",
+    "word": "観察",
+    "reading": "かんさつ",
+    "meaning_pt": "observação",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-47-1",
     "kanji_id": "kanji-47",
     "word": "白",
@@ -6109,6 +6573,166 @@
     "word": "白い",
     "reading": "しろい",
     "meaning_pt": "branco",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-470-1",
+    "kanji_id": "kanji-470",
+    "word": "願書",
+    "reading": "がんしょ",
+    "meaning_pt": "formulário de inscrição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-470-2",
+    "kanji_id": "kanji-470",
+    "word": "願う",
+    "reading": "ねがう",
+    "meaning_pt": "desejar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-471-1",
+    "kanji_id": "kanji-471",
+    "word": "希望",
+    "reading": "きぼう",
+    "meaning_pt": "esperança",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-471-2",
+    "kanji_id": "kanji-471",
+    "word": "希少",
+    "reading": "きしょう",
+    "meaning_pt": "raro",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-472-1",
+    "kanji_id": "kanji-472",
+    "word": "季節",
+    "reading": "きせつ",
+    "meaning_pt": "estação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-472-2",
+    "kanji_id": "kanji-472",
+    "word": "雨季",
+    "reading": "うき",
+    "meaning_pt": "estação chuvosa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-473-1",
+    "kanji_id": "kanji-473",
+    "word": "世紀",
+    "reading": "せいき",
+    "meaning_pt": "século",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-473-2",
+    "kanji_id": "kanji-473",
+    "word": "紀元",
+    "reading": "きげん",
+    "meaning_pt": "era",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-474-1",
+    "kanji_id": "kanji-474",
+    "word": "喜劇",
+    "reading": "きげき",
+    "meaning_pt": "comédia",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-474-2",
+    "kanji_id": "kanji-474",
+    "word": "喜ぶ",
+    "reading": "よろこぶ",
+    "meaning_pt": "alegrar-se",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-475-1",
+    "kanji_id": "kanji-475",
+    "word": "国旗",
+    "reading": "こっき",
+    "meaning_pt": "bandeira nacional",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-475-2",
+    "kanji_id": "kanji-475",
+    "word": "旗",
+    "reading": "はた",
+    "meaning_pt": "bandeira",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-476-1",
+    "kanji_id": "kanji-476",
+    "word": "楽器",
+    "reading": "がっき",
+    "meaning_pt": "instrumento musical",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-476-2",
+    "kanji_id": "kanji-476",
+    "word": "器",
+    "reading": "うつわ",
+    "meaning_pt": "recipiente",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-477-1",
+    "kanji_id": "kanji-477",
+    "word": "飛行機",
+    "reading": "ひこうき",
+    "meaning_pt": "avião",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-477-2",
+    "kanji_id": "kanji-477",
+    "word": "機会",
+    "reading": "きかい",
+    "meaning_pt": "oportunidade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-478-1",
+    "kanji_id": "kanji-478",
+    "word": "会議",
+    "reading": "かいぎ",
+    "meaning_pt": "reunião",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-478-2",
+    "kanji_id": "kanji-478",
+    "word": "議員",
+    "reading": "ぎいん",
+    "meaning_pt": "parlamentar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-479-1",
+    "kanji_id": "kanji-479",
+    "word": "要求",
+    "reading": "ようきゅう",
+    "meaning_pt": "exigência",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-479-2",
+    "kanji_id": "kanji-479",
+    "word": "求める",
+    "reading": "もとめる",
+    "meaning_pt": "buscar",
     "priority": 2
   },
   {
@@ -6128,6 +6752,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-480-1",
+    "kanji_id": "kanji-480",
+    "word": "号泣",
+    "reading": "ごうきゅう",
+    "meaning_pt": "choro intenso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-480-2",
+    "kanji_id": "kanji-480",
+    "word": "泣く",
+    "reading": "なく",
+    "meaning_pt": "chorar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-481-1",
+    "kanji_id": "kanji-481",
+    "word": "救急車",
+    "reading": "きゅうきゅうしゃ",
+    "meaning_pt": "ambulância",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-481-2",
+    "kanji_id": "kanji-481",
+    "word": "救う",
+    "reading": "すくう",
+    "meaning_pt": "salvar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-482-1",
+    "kanji_id": "kanji-482",
+    "word": "給食",
+    "reading": "きゅうしょく",
+    "meaning_pt": "merenda escolar",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-482-2",
+    "kanji_id": "kanji-482",
+    "word": "給与",
+    "reading": "きゅうよ",
+    "meaning_pt": "salário",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-483-1",
+    "kanji_id": "kanji-483",
+    "word": "選挙",
+    "reading": "せんきょ",
+    "meaning_pt": "eleição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-483-2",
+    "kanji_id": "kanji-483",
+    "word": "挙げる",
+    "reading": "あげる",
+    "meaning_pt": "erguer",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-484-1",
+    "kanji_id": "kanji-484",
+    "word": "漁業",
+    "reading": "ぎょぎょう",
+    "meaning_pt": "indústria pesqueira",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-484-2",
+    "kanji_id": "kanji-484",
+    "word": "漁船",
+    "reading": "ぎょせん",
+    "meaning_pt": "barco de pesca",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-485-1",
+    "kanji_id": "kanji-485",
+    "word": "共同",
+    "reading": "きょうどう",
+    "meaning_pt": "cooperação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-485-2",
+    "kanji_id": "kanji-485",
+    "word": "共に",
+    "reading": "ともに",
+    "meaning_pt": "juntos",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-486-1",
+    "kanji_id": "kanji-486",
+    "word": "協力",
+    "reading": "きょうりょく",
+    "meaning_pt": "colaboração",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-486-2",
+    "kanji_id": "kanji-486",
+    "word": "協会",
+    "reading": "きょうかい",
+    "meaning_pt": "associação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-487-1",
+    "kanji_id": "kanji-487",
+    "word": "望遠鏡",
+    "reading": "ぼうえんきょう",
+    "meaning_pt": "telescópio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-487-2",
+    "kanji_id": "kanji-487",
+    "word": "鏡",
+    "reading": "かがみ",
+    "meaning_pt": "espelho",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-488-1",
+    "kanji_id": "kanji-488",
+    "word": "競争",
+    "reading": "きょうそう",
+    "meaning_pt": "competição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-488-2",
+    "kanji_id": "kanji-488",
+    "word": "競う",
+    "reading": "きそう",
+    "meaning_pt": "competir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-489-1",
+    "kanji_id": "kanji-489",
+    "word": "南極",
+    "reading": "なんきょく",
+    "meaning_pt": "Polo Sul",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-489-2",
+    "kanji_id": "kanji-489",
+    "word": "極める",
+    "reading": "きわめる",
+    "meaning_pt": "aperfeiçoar",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-49-1",
     "kanji_id": "kanji-49",
     "word": "石",
@@ -6141,6 +6925,166 @@
     "word": "宝石",
     "reading": "ほうせき",
     "meaning_pt": "joia",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-490-1",
+    "kanji_id": "kanji-490",
+    "word": "訓練",
+    "reading": "くんれん",
+    "meaning_pt": "treinamento",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-490-2",
+    "kanji_id": "kanji-490",
+    "word": "教訓",
+    "reading": "きょうくん",
+    "meaning_pt": "lição",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-491-1",
+    "kanji_id": "kanji-491",
+    "word": "軍隊",
+    "reading": "ぐんたい",
+    "meaning_pt": "forças armadas",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-491-2",
+    "kanji_id": "kanji-491",
+    "word": "海軍",
+    "reading": "かいぐん",
+    "meaning_pt": "marinha",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-492-1",
+    "kanji_id": "kanji-492",
+    "word": "郡部",
+    "reading": "ぐんぶ",
+    "meaning_pt": "área distrital",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-492-2",
+    "kanji_id": "kanji-492",
+    "word": "○○郡",
+    "reading": "ぐん",
+    "meaning_pt": "distrito",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-493-1",
+    "kanji_id": "kanji-493",
+    "word": "直径",
+    "reading": "ちょっけい",
+    "meaning_pt": "diâmetro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-493-2",
+    "kanji_id": "kanji-493",
+    "word": "半径",
+    "reading": "はんけい",
+    "meaning_pt": "raio",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-494-1",
+    "kanji_id": "kanji-494",
+    "word": "大型",
+    "reading": "おおがた",
+    "meaning_pt": "grande porte",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-494-2",
+    "kanji_id": "kanji-494",
+    "word": "型",
+    "reading": "かた",
+    "meaning_pt": "modelo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-495-1",
+    "kanji_id": "kanji-495",
+    "word": "風景",
+    "reading": "ふうけい",
+    "meaning_pt": "paisagem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-495-2",
+    "kanji_id": "kanji-495",
+    "word": "景色",
+    "reading": "けしき",
+    "meaning_pt": "cenário",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-496-1",
+    "kanji_id": "kanji-496",
+    "word": "芸術",
+    "reading": "げいじゅつ",
+    "meaning_pt": "arte",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-496-2",
+    "kanji_id": "kanji-496",
+    "word": "芸人",
+    "reading": "げいにん",
+    "meaning_pt": "artista",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-497-1",
+    "kanji_id": "kanji-497",
+    "word": "欠席",
+    "reading": "けっせき",
+    "meaning_pt": "ausência",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-497-2",
+    "kanji_id": "kanji-497",
+    "word": "欠ける",
+    "reading": "かける",
+    "meaning_pt": "faltar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-498-1",
+    "kanji_id": "kanji-498",
+    "word": "結果",
+    "reading": "けっか",
+    "meaning_pt": "resultado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-498-2",
+    "kanji_id": "kanji-498",
+    "word": "結ぶ",
+    "reading": "むすぶ",
+    "meaning_pt": "amarrar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-499-1",
+    "kanji_id": "kanji-499",
+    "word": "建物",
+    "reading": "たてもの",
+    "meaning_pt": "edifício",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-499-2",
+    "kanji_id": "kanji-499",
+    "word": "建設",
+    "reading": "けんせつ",
+    "meaning_pt": "construção",
     "priority": 2
   },
   {
@@ -6176,6 +7120,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-500-1",
+    "kanji_id": "kanji-500",
+    "word": "健康",
+    "reading": "けんこう",
+    "meaning_pt": "saúde",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-500-2",
+    "kanji_id": "kanji-500",
+    "word": "健全",
+    "reading": "けんぜん",
+    "meaning_pt": "sadio",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-501-1",
+    "kanji_id": "kanji-501",
+    "word": "試験",
+    "reading": "しけん",
+    "meaning_pt": "prova",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-501-2",
+    "kanji_id": "kanji-501",
+    "word": "経験",
+    "reading": "けいけん",
+    "meaning_pt": "experiência",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-502-1",
+    "kanji_id": "kanji-502",
+    "word": "固定",
+    "reading": "こてい",
+    "meaning_pt": "fixação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-502-2",
+    "kanji_id": "kanji-502",
+    "word": "固い",
+    "reading": "かたい",
+    "meaning_pt": "duro",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-503-1",
+    "kanji_id": "kanji-503",
+    "word": "成功",
+    "reading": "せいこう",
+    "meaning_pt": "sucesso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-503-2",
+    "kanji_id": "kanji-503",
+    "word": "功績",
+    "reading": "こうせき",
+    "meaning_pt": "realização",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-504-1",
+    "kanji_id": "kanji-504",
+    "word": "好物",
+    "reading": "こうぶつ",
+    "meaning_pt": "comida favorita",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-504-2",
+    "kanji_id": "kanji-504",
+    "word": "好き",
+    "reading": "すき",
+    "meaning_pt": "gostar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-505-1",
+    "kanji_id": "kanji-505",
+    "word": "天候",
+    "reading": "てんこう",
+    "meaning_pt": "tempo climático",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-505-2",
+    "kanji_id": "kanji-505",
+    "word": "気候",
+    "reading": "きこう",
+    "meaning_pt": "clima",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-506-1",
+    "kanji_id": "kanji-506",
+    "word": "健康",
+    "reading": "けんこう",
+    "meaning_pt": "saúde",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-506-2",
+    "kanji_id": "kanji-506",
+    "word": "康復",
+    "reading": "こうふく",
+    "meaning_pt": "recuperação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-507-1",
+    "kanji_id": "kanji-507",
+    "word": "航空",
+    "reading": "こうくう",
+    "meaning_pt": "aviação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-507-2",
+    "kanji_id": "kanji-507",
+    "word": "航海",
+    "reading": "こうかい",
+    "meaning_pt": "navegação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-508-1",
+    "kanji_id": "kanji-508",
+    "word": "広告",
+    "reading": "こうこく",
+    "meaning_pt": "anúncio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-508-2",
+    "kanji_id": "kanji-508",
+    "word": "告げる",
+    "reading": "つげる",
+    "meaning_pt": "informar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-509-1",
+    "kanji_id": "kanji-509",
+    "word": "時差",
+    "reading": "じさ",
+    "meaning_pt": "fuso horário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-509-2",
+    "kanji_id": "kanji-509",
+    "word": "差",
+    "reading": "さ",
+    "meaning_pt": "diferença",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-51-1",
     "kanji_id": "kanji-51",
     "word": "先生",
@@ -6189,6 +7293,166 @@
     "word": "先月",
     "reading": "せんげつ",
     "meaning_pt": "mês passado",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-510-1",
+    "kanji_id": "kanji-510",
+    "word": "野菜",
+    "reading": "やさい",
+    "meaning_pt": "vegetais",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-510-2",
+    "kanji_id": "kanji-510",
+    "word": "白菜",
+    "reading": "はくさい",
+    "meaning_pt": "repolho chinês",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-511-1",
+    "kanji_id": "kanji-511",
+    "word": "最高",
+    "reading": "さいこう",
+    "meaning_pt": "o melhor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-511-2",
+    "kanji_id": "kanji-511",
+    "word": "最近",
+    "reading": "さいきん",
+    "meaning_pt": "recentemente",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-512-1",
+    "kanji_id": "kanji-512",
+    "word": "教材",
+    "reading": "きょうざい",
+    "meaning_pt": "material didático",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-512-2",
+    "kanji_id": "kanji-512",
+    "word": "木材",
+    "reading": "もくざい",
+    "meaning_pt": "madeira",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-513-1",
+    "kanji_id": "kanji-513",
+    "word": "昨日",
+    "reading": "きのう",
+    "meaning_pt": "ontem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-513-2",
+    "kanji_id": "kanji-513",
+    "word": "昨年",
+    "reading": "さくねん",
+    "meaning_pt": "ano passado",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-514-1",
+    "kanji_id": "kanji-514",
+    "word": "改札",
+    "reading": "かいさつ",
+    "meaning_pt": "catraca",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-514-2",
+    "kanji_id": "kanji-514",
+    "word": "名札",
+    "reading": "なふだ",
+    "meaning_pt": "crachá",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-515-1",
+    "kanji_id": "kanji-515",
+    "word": "印刷",
+    "reading": "いんさつ",
+    "meaning_pt": "impressão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-515-2",
+    "kanji_id": "kanji-515",
+    "word": "刷る",
+    "reading": "する",
+    "meaning_pt": "imprimir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-516-1",
+    "kanji_id": "kanji-516",
+    "word": "警察",
+    "reading": "けいさつ",
+    "meaning_pt": "polícia",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-516-2",
+    "kanji_id": "kanji-516",
+    "word": "観察",
+    "reading": "かんさつ",
+    "meaning_pt": "observação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-517-1",
+    "kanji_id": "kanji-517",
+    "word": "参加",
+    "reading": "さんか",
+    "meaning_pt": "participação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-517-2",
+    "kanji_id": "kanji-517",
+    "word": "参る",
+    "reading": "まいる",
+    "meaning_pt": "ir (humilde)",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-518-1",
+    "kanji_id": "kanji-518",
+    "word": "生産",
+    "reading": "せいさん",
+    "meaning_pt": "produção",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-518-2",
+    "kanji_id": "kanji-518",
+    "word": "産業",
+    "reading": "さんぎょう",
+    "meaning_pt": "indústria",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-519-1",
+    "kanji_id": "kanji-519",
+    "word": "散歩",
+    "reading": "さんぽ",
+    "meaning_pt": "passeio",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-519-2",
+    "kanji_id": "kanji-519",
+    "word": "散る",
+    "reading": "ちる",
+    "meaning_pt": "espalhar-se",
     "priority": 2
   },
   {
@@ -6208,6 +7472,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-520-1",
+    "kanji_id": "kanji-520",
+    "word": "残業",
+    "reading": "ざんぎょう",
+    "meaning_pt": "hora extra",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-520-2",
+    "kanji_id": "kanji-520",
+    "word": "残る",
+    "reading": "のこる",
+    "meaning_pt": "restar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-521-1",
+    "kanji_id": "kanji-521",
+    "word": "氏名",
+    "reading": "しめい",
+    "meaning_pt": "nome completo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-521-2",
+    "kanji_id": "kanji-521",
+    "word": "○○氏",
+    "reading": "し",
+    "meaning_pt": "senhor(a)",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-522-1",
+    "kanji_id": "kanji-522",
+    "word": "司法",
+    "reading": "しほう",
+    "meaning_pt": "poder judiciário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-522-2",
+    "kanji_id": "kanji-522",
+    "word": "上司",
+    "reading": "じょうし",
+    "meaning_pt": "superior",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-523-1",
+    "kanji_id": "kanji-523",
+    "word": "試験",
+    "reading": "しけん",
+    "meaning_pt": "prova",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-523-2",
+    "kanji_id": "kanji-523",
+    "word": "試す",
+    "reading": "ためす",
+    "meaning_pt": "testar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-524-1",
+    "kanji_id": "kanji-524",
+    "word": "児童",
+    "reading": "じどう",
+    "meaning_pt": "criança",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-524-2",
+    "kanji_id": "kanji-524",
+    "word": "小児科",
+    "reading": "しょうにか",
+    "meaning_pt": "pediatria",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-525-1",
+    "kanji_id": "kanji-525",
+    "word": "政治",
+    "reading": "せいじ",
+    "meaning_pt": "política",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-525-2",
+    "kanji_id": "kanji-525",
+    "word": "治療",
+    "reading": "ちりょう",
+    "meaning_pt": "tratamento",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-526-1",
+    "kanji_id": "kanji-526",
+    "word": "辞書",
+    "reading": "じしょ",
+    "meaning_pt": "dicionário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-526-2",
+    "kanji_id": "kanji-526",
+    "word": "辞める",
+    "reading": "やめる",
+    "meaning_pt": "desistir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-527-1",
+    "kanji_id": "kanji-527",
+    "word": "失敗",
+    "reading": "しっぱい",
+    "meaning_pt": "fracasso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-527-2",
+    "kanji_id": "kanji-527",
+    "word": "失う",
+    "reading": "うしなう",
+    "meaning_pt": "perder",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-528-1",
+    "kanji_id": "kanji-528",
+    "word": "借金",
+    "reading": "しゃっきん",
+    "meaning_pt": "dívida",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-528-2",
+    "kanji_id": "kanji-528",
+    "word": "借りる",
+    "reading": "かりる",
+    "meaning_pt": "pegar emprestado",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-529-1",
+    "kanji_id": "kanji-529",
+    "word": "種類",
+    "reading": "しゅるい",
+    "meaning_pt": "tipo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-529-2",
+    "kanji_id": "kanji-529",
+    "word": "種",
+    "reading": "たね",
+    "meaning_pt": "semente",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-53-1",
     "kanji_id": "kanji-53",
     "word": "口",
@@ -6221,6 +7645,166 @@
     "word": "出口",
     "reading": "でぐち",
     "meaning_pt": "saída",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-530-1",
+    "kanji_id": "kanji-530",
+    "word": "周囲",
+    "reading": "しゅうい",
+    "meaning_pt": "arredores",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-530-2",
+    "kanji_id": "kanji-530",
+    "word": "一周",
+    "reading": "いっしゅう",
+    "meaning_pt": "uma volta",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-531-1",
+    "kanji_id": "kanji-531",
+    "word": "祝日",
+    "reading": "しゅくじつ",
+    "meaning_pt": "feriado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-531-2",
+    "kanji_id": "kanji-531",
+    "word": "祝う",
+    "reading": "いわう",
+    "meaning_pt": "celebrar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-532-1",
+    "kanji_id": "kanji-532",
+    "word": "順番",
+    "reading": "じゅんばん",
+    "meaning_pt": "ordem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-532-2",
+    "kanji_id": "kanji-532",
+    "word": "順調",
+    "reading": "じゅんちょう",
+    "meaning_pt": "tranquilo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-533-1",
+    "kanji_id": "kanji-533",
+    "word": "最初",
+    "reading": "さいしょ",
+    "meaning_pt": "começo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-533-2",
+    "kanji_id": "kanji-533",
+    "word": "初めて",
+    "reading": "はじめて",
+    "meaning_pt": "pela primeira vez",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-534-1",
+    "kanji_id": "kanji-534",
+    "word": "松林",
+    "reading": "まつばやし",
+    "meaning_pt": "floresta de pinheiros",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-534-2",
+    "kanji_id": "kanji-534",
+    "word": "松",
+    "reading": "まつ",
+    "meaning_pt": "pinheiro",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-535-1",
+    "kanji_id": "kanji-535",
+    "word": "笑顔",
+    "reading": "えがお",
+    "meaning_pt": "sorriso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-535-2",
+    "kanji_id": "kanji-535",
+    "word": "笑う",
+    "reading": "わらう",
+    "meaning_pt": "rir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-536-1",
+    "kanji_id": "kanji-536",
+    "word": "合唱",
+    "reading": "がっしょう",
+    "meaning_pt": "coro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-536-2",
+    "kanji_id": "kanji-536",
+    "word": "唱える",
+    "reading": "となえる",
+    "meaning_pt": "recitar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-537-1",
+    "kanji_id": "kanji-537",
+    "word": "焼肉",
+    "reading": "やきにく",
+    "meaning_pt": "churrasco japonês",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-537-2",
+    "kanji_id": "kanji-537",
+    "word": "焼く",
+    "reading": "やく",
+    "meaning_pt": "assar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-538-1",
+    "kanji_id": "kanji-538",
+    "word": "気象",
+    "reading": "きしょう",
+    "meaning_pt": "meteorologia",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-538-2",
+    "kanji_id": "kanji-538",
+    "word": "象",
+    "reading": "ぞう",
+    "meaning_pt": "elefante",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-539-1",
+    "kanji_id": "kanji-539",
+    "word": "写真照明",
+    "reading": "しゃしんしょうめい",
+    "meaning_pt": "iluminação fotográfica",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-539-2",
+    "kanji_id": "kanji-539",
+    "word": "照る",
+    "reading": "てる",
+    "meaning_pt": "brilhar",
     "priority": 2
   },
   {
@@ -6240,6 +7824,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-540-1",
+    "kanji_id": "kanji-540",
+    "word": "受賞",
+    "reading": "じゅしょう",
+    "meaning_pt": "premiação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-540-2",
+    "kanji_id": "kanji-540",
+    "word": "賞品",
+    "reading": "しょうひん",
+    "meaning_pt": "prêmio",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-541-1",
+    "kanji_id": "kanji-541",
+    "word": "大臣",
+    "reading": "だいじん",
+    "meaning_pt": "ministro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-541-2",
+    "kanji_id": "kanji-541",
+    "word": "家臣",
+    "reading": "かしん",
+    "meaning_pt": "vassalo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-542-1",
+    "kanji_id": "kanji-542",
+    "word": "信用",
+    "reading": "しんよう",
+    "meaning_pt": "confiança",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-542-2",
+    "kanji_id": "kanji-542",
+    "word": "信じる",
+    "reading": "しんじる",
+    "meaning_pt": "acreditar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-543-1",
+    "kanji_id": "kanji-543",
+    "word": "成功",
+    "reading": "せいこう",
+    "meaning_pt": "sucesso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-543-2",
+    "kanji_id": "kanji-543",
+    "word": "成長",
+    "reading": "せいちょう",
+    "meaning_pt": "crescimento",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-544-1",
+    "kanji_id": "kanji-544",
+    "word": "反省",
+    "reading": "はんせい",
+    "meaning_pt": "reflexão",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-544-2",
+    "kanji_id": "kanji-544",
+    "word": "省エネ",
+    "reading": "しょうエネ",
+    "meaning_pt": "economia de energia",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-545-1",
+    "kanji_id": "kanji-545",
+    "word": "清潔",
+    "reading": "せいけつ",
+    "meaning_pt": "limpeza",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-545-2",
+    "kanji_id": "kanji-545",
+    "word": "清い",
+    "reading": "きよい",
+    "meaning_pt": "puro",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-546-1",
+    "kanji_id": "kanji-546",
+    "word": "静か",
+    "reading": "しずか",
+    "meaning_pt": "silencioso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-546-2",
+    "kanji_id": "kanji-546",
+    "word": "冷静",
+    "reading": "れいせい",
+    "meaning_pt": "calmo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-547-1",
+    "kanji_id": "kanji-547",
+    "word": "出席",
+    "reading": "しゅっせき",
+    "meaning_pt": "presença",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-547-2",
+    "kanji_id": "kanji-547",
+    "word": "座席",
+    "reading": "ざせき",
+    "meaning_pt": "assento",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-548-1",
+    "kanji_id": "kanji-548",
+    "word": "面積",
+    "reading": "めんせき",
+    "meaning_pt": "área",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-548-2",
+    "kanji_id": "kanji-548",
+    "word": "積む",
+    "reading": "つむ",
+    "meaning_pt": "empilhar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-549-1",
+    "kanji_id": "kanji-549",
+    "word": "骨折",
+    "reading": "こっせつ",
+    "meaning_pt": "fratura",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-549-2",
+    "kanji_id": "kanji-549",
+    "word": "折る",
+    "reading": "おる",
+    "meaning_pt": "dobrar",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-55-1",
     "kanji_id": "kanji-55",
     "word": "文字",
@@ -6253,6 +7997,166 @@
     "word": "作文",
     "reading": "さくぶん",
     "meaning_pt": "redação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-550-1",
+    "kanji_id": "kanji-550",
+    "word": "季節",
+    "reading": "きせつ",
+    "meaning_pt": "estação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-550-2",
+    "kanji_id": "kanji-550",
+    "word": "節約",
+    "reading": "せつやく",
+    "meaning_pt": "economia",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-551-1",
+    "kanji_id": "kanji-551",
+    "word": "説明",
+    "reading": "せつめい",
+    "meaning_pt": "explicação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-551-2",
+    "kanji_id": "kanji-551",
+    "word": "小説",
+    "reading": "しょうせつ",
+    "meaning_pt": "romance",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-552-1",
+    "kanji_id": "kanji-552",
+    "word": "浅海",
+    "reading": "せんかい",
+    "meaning_pt": "mar raso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-552-2",
+    "kanji_id": "kanji-552",
+    "word": "浅い",
+    "reading": "あさい",
+    "meaning_pt": "raso",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-553-1",
+    "kanji_id": "kanji-553",
+    "word": "戦争",
+    "reading": "せんそう",
+    "meaning_pt": "guerra",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-553-2",
+    "kanji_id": "kanji-553",
+    "word": "戦う",
+    "reading": "たたかう",
+    "meaning_pt": "lutar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-554-1",
+    "kanji_id": "kanji-554",
+    "word": "選手",
+    "reading": "せんしゅ",
+    "meaning_pt": "atleta",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-554-2",
+    "kanji_id": "kanji-554",
+    "word": "選ぶ",
+    "reading": "えらぶ",
+    "meaning_pt": "escolher",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-555-1",
+    "kanji_id": "kanji-555",
+    "word": "当然",
+    "reading": "とうぜん",
+    "meaning_pt": "naturalmente",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-555-2",
+    "kanji_id": "kanji-555",
+    "word": "自然",
+    "reading": "しぜん",
+    "meaning_pt": "natureza",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-556-1",
+    "kanji_id": "kanji-556",
+    "word": "戦争",
+    "reading": "せんそう",
+    "meaning_pt": "guerra",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-556-2",
+    "kanji_id": "kanji-556",
+    "word": "争う",
+    "reading": "あらそう",
+    "meaning_pt": "disputar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-557-1",
+    "kanji_id": "kanji-557",
+    "word": "倉庫",
+    "reading": "そうこ",
+    "meaning_pt": "depósito",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-557-2",
+    "kanji_id": "kanji-557",
+    "word": "土蔵",
+    "reading": "どぞう",
+    "meaning_pt": "armazém tradicional",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-558-1",
+    "kanji_id": "kanji-558",
+    "word": "鳥の巣",
+    "reading": "とりのす",
+    "meaning_pt": "ninho de pássaro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-558-2",
+    "kanji_id": "kanji-558",
+    "word": "巣",
+    "reading": "す",
+    "meaning_pt": "ninho",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-559-1",
+    "kanji_id": "kanji-559",
+    "word": "約束",
+    "reading": "やくそく",
+    "meaning_pt": "promessa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-559-2",
+    "kanji_id": "kanji-559",
+    "word": "花束",
+    "reading": "はなたば",
+    "meaning_pt": "buquê",
     "priority": 2
   },
   {
@@ -6272,6 +8176,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-560-1",
+    "kanji_id": "kanji-560",
+    "word": "右側",
+    "reading": "みぎがわ",
+    "meaning_pt": "lado direito",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-560-2",
+    "kanji_id": "kanji-560",
+    "word": "側",
+    "reading": "がわ",
+    "meaning_pt": "lado",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-561-1",
+    "kanji_id": "kanji-561",
+    "word": "連続",
+    "reading": "れんぞく",
+    "meaning_pt": "continuidade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-561-2",
+    "kanji_id": "kanji-561",
+    "word": "続ける",
+    "reading": "つづける",
+    "meaning_pt": "continuar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-562-1",
+    "kanji_id": "kanji-562",
+    "word": "卒業",
+    "reading": "そつぎょう",
+    "meaning_pt": "formatura",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-562-2",
+    "kanji_id": "kanji-562",
+    "word": "卒業生",
+    "reading": "そつぎょうせい",
+    "meaning_pt": "formado",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-563-1",
+    "kanji_id": "kanji-563",
+    "word": "孫",
+    "reading": "まご",
+    "meaning_pt": "neto",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-563-2",
+    "kanji_id": "kanji-563",
+    "word": "子孫",
+    "reading": "しそん",
+    "meaning_pt": "descendentes",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-564-1",
+    "kanji_id": "kanji-564",
+    "word": "携帯",
+    "reading": "けいたい",
+    "meaning_pt": "portátil",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-564-2",
+    "kanji_id": "kanji-564",
+    "word": "地帯",
+    "reading": "ちたい",
+    "meaning_pt": "zona",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-565-1",
+    "kanji_id": "kanji-565",
+    "word": "隊長",
+    "reading": "たいちょう",
+    "meaning_pt": "comandante",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-565-2",
+    "kanji_id": "kanji-565",
+    "word": "部隊",
+    "reading": "ぶたい",
+    "meaning_pt": "tropa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-566-1",
+    "kanji_id": "kanji-566",
+    "word": "友達",
+    "reading": "ともだち",
+    "meaning_pt": "amigo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-566-2",
+    "kanji_id": "kanji-566",
+    "word": "達成",
+    "reading": "たっせい",
+    "meaning_pt": "realização",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-567-1",
+    "kanji_id": "kanji-567",
+    "word": "簡単",
+    "reading": "かんたん",
+    "meaning_pt": "fácil",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-567-2",
+    "kanji_id": "kanji-567",
+    "word": "単語",
+    "reading": "たんご",
+    "meaning_pt": "palavra",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-568-1",
+    "kanji_id": "kanji-568",
+    "word": "放置",
+    "reading": "ほうち",
+    "meaning_pt": "abandono",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-568-2",
+    "kanji_id": "kanji-568",
+    "word": "置く",
+    "reading": "おく",
+    "meaning_pt": "colocar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-569-1",
+    "kanji_id": "kanji-569",
+    "word": "仲間",
+    "reading": "なかま",
+    "meaning_pt": "companheiro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-569-2",
+    "kanji_id": "kanji-569",
+    "word": "仲良し",
+    "reading": "なかよし",
+    "meaning_pt": "bom amigo",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-57-1",
     "kanji_id": "kanji-57",
     "word": "青",
@@ -6285,6 +8349,166 @@
     "word": "青い",
     "reading": "あおい",
     "meaning_pt": "azul",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-570-1",
+    "kanji_id": "kanji-570",
+    "word": "貯金",
+    "reading": "ちょきん",
+    "meaning_pt": "poupança",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-570-2",
+    "kanji_id": "kanji-570",
+    "word": "貯める",
+    "reading": "ためる",
+    "meaning_pt": "juntar dinheiro",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-571-1",
+    "kanji_id": "kanji-571",
+    "word": "兆候",
+    "reading": "ちょうこう",
+    "meaning_pt": "sinal",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-571-2",
+    "kanji_id": "kanji-571",
+    "word": "一兆",
+    "reading": "いっちょう",
+    "meaning_pt": "um trilhão",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-572-1",
+    "kanji_id": "kanji-572",
+    "word": "胃腸",
+    "reading": "いちょう",
+    "meaning_pt": "sistema digestivo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-572-2",
+    "kanji_id": "kanji-572",
+    "word": "大腸",
+    "reading": "だいちょう",
+    "meaning_pt": "intestino grosso",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-573-1",
+    "kanji_id": "kanji-573",
+    "word": "最低",
+    "reading": "さいてい",
+    "meaning_pt": "o pior",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-573-2",
+    "kanji_id": "kanji-573",
+    "word": "低い",
+    "reading": "ひくい",
+    "meaning_pt": "baixo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-574-1",
+    "kanji_id": "kanji-574",
+    "word": "海底",
+    "reading": "かいてい",
+    "meaning_pt": "fundo do mar",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-574-2",
+    "kanji_id": "kanji-574",
+    "word": "底",
+    "reading": "そこ",
+    "meaning_pt": "fundo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-575-1",
+    "kanji_id": "kanji-575",
+    "word": "停止",
+    "reading": "ていし",
+    "meaning_pt": "parada",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-575-2",
+    "kanji_id": "kanji-575",
+    "word": "停車",
+    "reading": "ていしゃ",
+    "meaning_pt": "parada de veículo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-576-1",
+    "kanji_id": "kanji-576",
+    "word": "目的",
+    "reading": "もくてき",
+    "meaning_pt": "objetivo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-576-2",
+    "kanji_id": "kanji-576",
+    "word": "具体的",
+    "reading": "ぐたいてき",
+    "meaning_pt": "concreto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-577-1",
+    "kanji_id": "kanji-577",
+    "word": "辞典",
+    "reading": "じてん",
+    "meaning_pt": "dicionário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-577-2",
+    "kanji_id": "kanji-577",
+    "word": "典型",
+    "reading": "てんけい",
+    "meaning_pt": "típico",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-578-1",
+    "kanji_id": "kanji-578",
+    "word": "伝説",
+    "reading": "でんせつ",
+    "meaning_pt": "lenda",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-578-2",
+    "kanji_id": "kanji-578",
+    "word": "伝える",
+    "reading": "つたえる",
+    "meaning_pt": "transmitir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-579-1",
+    "kanji_id": "kanji-579",
+    "word": "生徒",
+    "reading": "せいと",
+    "meaning_pt": "estudante",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-579-2",
+    "kanji_id": "kanji-579",
+    "word": "徒競走",
+    "reading": "ときょうそう",
+    "meaning_pt": "corrida escolar",
     "priority": 2
   },
   {
@@ -6304,6 +8528,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-580-1",
+    "kanji_id": "kanji-580",
+    "word": "努力",
+    "reading": "どりょく",
+    "meaning_pt": "esforço",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-580-2",
+    "kanji_id": "kanji-580",
+    "word": "努める",
+    "reading": "つとめる",
+    "meaning_pt": "esforçar-se",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-581-1",
+    "kanji_id": "kanji-581",
+    "word": "電灯",
+    "reading": "でんとう",
+    "meaning_pt": "lâmpada elétrica",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-581-2",
+    "kanji_id": "kanji-581",
+    "word": "街灯",
+    "reading": "がいとう",
+    "meaning_pt": "poste de iluminação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-582-1",
+    "kanji_id": "kanji-582",
+    "word": "講堂",
+    "reading": "こうどう",
+    "meaning_pt": "auditório",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-582-2",
+    "kanji_id": "kanji-582",
+    "word": "食堂",
+    "reading": "しょくどう",
+    "meaning_pt": "refeitório",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-583-1",
+    "kanji_id": "kanji-583",
+    "word": "労働",
+    "reading": "ろうどう",
+    "meaning_pt": "trabalho",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-583-2",
+    "kanji_id": "kanji-583",
+    "word": "働く",
+    "reading": "はたらく",
+    "meaning_pt": "trabalhar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-584-1",
+    "kanji_id": "kanji-584",
+    "word": "特別",
+    "reading": "とくべつ",
+    "meaning_pt": "especial",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-584-2",
+    "kanji_id": "kanji-584",
+    "word": "特急",
+    "reading": "とっきゅう",
+    "meaning_pt": "trem expresso",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-585-1",
+    "kanji_id": "kanji-585",
+    "word": "中毒",
+    "reading": "ちゅうどく",
+    "meaning_pt": "intoxicação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-585-2",
+    "kanji_id": "kanji-585",
+    "word": "毒",
+    "reading": "どく",
+    "meaning_pt": "veneno",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-586-1",
+    "kanji_id": "kanji-586",
+    "word": "熱心",
+    "reading": "ねっしん",
+    "meaning_pt": "dedicado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-586-2",
+    "kanji_id": "kanji-586",
+    "word": "熱い",
+    "reading": "あつい",
+    "meaning_pt": "quente",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-587-1",
+    "kanji_id": "kanji-587",
+    "word": "記念",
+    "reading": "きねん",
+    "meaning_pt": "comemoração",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-587-2",
+    "kanji_id": "kanji-587",
+    "word": "残念",
+    "reading": "ざんねん",
+    "meaning_pt": "pena",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-588-1",
+    "kanji_id": "kanji-588",
+    "word": "失敗",
+    "reading": "しっぱい",
+    "meaning_pt": "fracasso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-588-2",
+    "kanji_id": "kanji-588",
+    "word": "敗れる",
+    "reading": "やぶれる",
+    "meaning_pt": "ser derrotado",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-589-1",
+    "kanji_id": "kanji-589",
+    "word": "梅雨",
+    "reading": "つゆ",
+    "meaning_pt": "estação das chuvas",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-589-2",
+    "kanji_id": "kanji-589",
+    "word": "梅",
+    "reading": "うめ",
+    "meaning_pt": "ameixeira",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-59-1",
     "kanji_id": "kanji-59",
     "word": "車",
@@ -6317,6 +8701,166 @@
     "word": "電車",
     "reading": "でんしゃ",
     "meaning_pt": "trem",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-590-1",
+    "kanji_id": "kanji-590",
+    "word": "博士",
+    "reading": "はかせ",
+    "meaning_pt": "doutor",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-590-2",
+    "kanji_id": "kanji-590",
+    "word": "博物館",
+    "reading": "はくぶつかん",
+    "meaning_pt": "museu",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-591-1",
+    "kanji_id": "kanji-591",
+    "word": "ご飯",
+    "reading": "ごはん",
+    "meaning_pt": "arroz cozido / refeição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-591-2",
+    "kanji_id": "kanji-591",
+    "word": "朝飯",
+    "reading": "あさめし",
+    "meaning_pt": "café da manhã",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-592-1",
+    "kanji_id": "kanji-592",
+    "word": "飛行機",
+    "reading": "ひこうき",
+    "meaning_pt": "avião",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-592-2",
+    "kanji_id": "kanji-592",
+    "word": "飛ぶ",
+    "reading": "とぶ",
+    "meaning_pt": "voar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-593-1",
+    "kanji_id": "kanji-593",
+    "word": "学費",
+    "reading": "がくひ",
+    "meaning_pt": "mensalidade escolar",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-593-2",
+    "kanji_id": "kanji-593",
+    "word": "費用",
+    "reading": "ひよう",
+    "meaning_pt": "custo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-594-1",
+    "kanji_id": "kanji-594",
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning_pt": "necessário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-594-2",
+    "kanji_id": "kanji-594",
+    "word": "必ず",
+    "reading": "かならず",
+    "meaning_pt": "certamente",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-595-1",
+    "kanji_id": "kanji-595",
+    "word": "投票",
+    "reading": "とうひょう",
+    "meaning_pt": "votação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-595-2",
+    "kanji_id": "kanji-595",
+    "word": "切符票",
+    "reading": "きっぷひょう",
+    "meaning_pt": "bilhete",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-596-1",
+    "kanji_id": "kanji-596",
+    "word": "目標",
+    "reading": "もくひょう",
+    "meaning_pt": "meta",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-596-2",
+    "kanji_id": "kanji-596",
+    "word": "標識",
+    "reading": "ひょうしき",
+    "meaning_pt": "sinalização",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-597-1",
+    "kanji_id": "kanji-597",
+    "word": "不便",
+    "reading": "ふべん",
+    "meaning_pt": "inconveniente",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-597-2",
+    "kanji_id": "kanji-597",
+    "word": "不足",
+    "reading": "ふそく",
+    "meaning_pt": "falta",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-598-1",
+    "kanji_id": "kanji-598",
+    "word": "夫婦",
+    "reading": "ふうふ",
+    "meaning_pt": "casal",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-598-2",
+    "kanji_id": "kanji-598",
+    "word": "夫",
+    "reading": "おっと",
+    "meaning_pt": "marido",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-599-1",
+    "kanji_id": "kanji-599",
+    "word": "受付",
+    "reading": "うけつけ",
+    "meaning_pt": "recepção",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-599-2",
+    "kanji_id": "kanji-599",
+    "word": "付ける",
+    "reading": "つける",
+    "meaning_pt": "anexar",
     "priority": 2
   },
   {
@@ -6352,6 +8896,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-600-1",
+    "kanji_id": "kanji-600",
+    "word": "大阪府",
+    "reading": "おおさかふ",
+    "meaning_pt": "Prefeitura de Osaka",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-600-2",
+    "kanji_id": "kanji-600",
+    "word": "政府",
+    "reading": "せいふ",
+    "meaning_pt": "governo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-601-1",
+    "kanji_id": "kanji-601",
+    "word": "副社長",
+    "reading": "ふくしゃちょう",
+    "meaning_pt": "vice-presidente",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-601-2",
+    "kanji_id": "kanji-601",
+    "word": "副作用",
+    "reading": "ふくさよう",
+    "meaning_pt": "efeito colateral",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-602-1",
+    "kanji_id": "kanji-602",
+    "word": "兵士",
+    "reading": "へいし",
+    "meaning_pt": "soldado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-602-2",
+    "kanji_id": "kanji-602",
+    "word": "歩兵",
+    "reading": "ほへい",
+    "meaning_pt": "infantaria",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-603-1",
+    "kanji_id": "kanji-603",
+    "word": "特別",
+    "reading": "とくべつ",
+    "meaning_pt": "especial",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-603-2",
+    "kanji_id": "kanji-603",
+    "word": "別れる",
+    "reading": "わかれる",
+    "meaning_pt": "separar-se",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-604-1",
+    "kanji_id": "kanji-604",
+    "word": "周辺",
+    "reading": "しゅうへん",
+    "meaning_pt": "arredores",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-604-2",
+    "kanji_id": "kanji-604",
+    "word": "辺り",
+    "reading": "あたり",
+    "meaning_pt": "vizinhança",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-605-1",
+    "kanji_id": "kanji-605",
+    "word": "大変",
+    "reading": "たいへん",
+    "meaning_pt": "difícil",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-605-2",
+    "kanji_id": "kanji-605",
+    "word": "変わる",
+    "reading": "かわる",
+    "meaning_pt": "mudar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-606-1",
+    "kanji_id": "kanji-606",
+    "word": "便利",
+    "reading": "べんり",
+    "meaning_pt": "conveniente",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-606-2",
+    "kanji_id": "kanji-606",
+    "word": "郵便",
+    "reading": "ゆうびん",
+    "meaning_pt": "correio",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-607-1",
+    "kanji_id": "kanji-607",
+    "word": "包装",
+    "reading": "ほうそう",
+    "meaning_pt": "embalagem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-607-2",
+    "kanji_id": "kanji-607",
+    "word": "包む",
+    "reading": "つつむ",
+    "meaning_pt": "embrulhar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-608-1",
+    "kanji_id": "kanji-608",
+    "word": "法律",
+    "reading": "ほうりつ",
+    "meaning_pt": "lei",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-608-2",
+    "kanji_id": "kanji-608",
+    "word": "方法",
+    "reading": "ほうほう",
+    "meaning_pt": "método",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-609-1",
+    "kanji_id": "kanji-609",
+    "word": "希望",
+    "reading": "きぼう",
+    "meaning_pt": "esperança",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-609-2",
+    "kanji_id": "kanji-609",
+    "word": "望む",
+    "reading": "のぞむ",
+    "meaning_pt": "desejar",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-61-1",
     "kanji_id": "kanji-61",
     "word": "百円",
@@ -6365,6 +9069,166 @@
     "word": "円い",
     "reading": "まるい",
     "meaning_pt": "redondo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-610-1",
+    "kanji_id": "kanji-610",
+    "word": "牧場",
+    "reading": "ぼくじょう",
+    "meaning_pt": "fazenda",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-610-2",
+    "kanji_id": "kanji-610",
+    "word": "牧草",
+    "reading": "ぼくそう",
+    "meaning_pt": "pasto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-611-1",
+    "kanji_id": "kanji-611",
+    "word": "週末",
+    "reading": "しゅうまつ",
+    "meaning_pt": "fim de semana",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-611-2",
+    "kanji_id": "kanji-611",
+    "word": "年末",
+    "reading": "ねんまつ",
+    "meaning_pt": "fim do ano",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-612-1",
+    "kanji_id": "kanji-612",
+    "word": "満足",
+    "reading": "まんぞく",
+    "meaning_pt": "satisfação",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-612-2",
+    "kanji_id": "kanji-612",
+    "word": "満ちる",
+    "reading": "みちる",
+    "meaning_pt": "encher-se",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-613-1",
+    "kanji_id": "kanji-613",
+    "word": "未来",
+    "reading": "みらい",
+    "meaning_pt": "futuro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-613-2",
+    "kanji_id": "kanji-613",
+    "word": "未定",
+    "reading": "みてい",
+    "meaning_pt": "não decidido",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-614-1",
+    "kanji_id": "kanji-614",
+    "word": "山脈",
+    "reading": "さんみゃく",
+    "meaning_pt": "cadeia de montanhas",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-614-2",
+    "kanji_id": "kanji-614",
+    "word": "動脈",
+    "reading": "どうみゃく",
+    "meaning_pt": "artéria",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-615-1",
+    "kanji_id": "kanji-615",
+    "word": "国民",
+    "reading": "こくみん",
+    "meaning_pt": "cidadãos",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-615-2",
+    "kanji_id": "kanji-615",
+    "word": "人民",
+    "reading": "じんみん",
+    "meaning_pt": "povo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-616-1",
+    "kanji_id": "kanji-616",
+    "word": "無料",
+    "reading": "むりょう",
+    "meaning_pt": "gratuito",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-616-2",
+    "kanji_id": "kanji-616",
+    "word": "無理",
+    "reading": "むり",
+    "meaning_pt": "impossível",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-617-1",
+    "kanji_id": "kanji-617",
+    "word": "約束",
+    "reading": "やくそく",
+    "meaning_pt": "promessa",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-617-2",
+    "kanji_id": "kanji-617",
+    "word": "約三時間",
+    "reading": "やくさんじかん",
+    "meaning_pt": "cerca de 3 horas",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-618-1",
+    "kanji_id": "kanji-618",
+    "word": "勇気",
+    "reading": "ゆうき",
+    "meaning_pt": "coragem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-618-2",
+    "kanji_id": "kanji-618",
+    "word": "勇者",
+    "reading": "ゆうしゃ",
+    "meaning_pt": "herói",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-619-1",
+    "kanji_id": "kanji-619",
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning_pt": "necessário",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-619-2",
+    "kanji_id": "kanji-619",
+    "word": "要る",
+    "reading": "いる",
+    "meaning_pt": "precisar",
     "priority": 2
   },
   {
@@ -6384,6 +9248,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-620-1",
+    "kanji_id": "kanji-620",
+    "word": "栄養",
+    "reading": "えいよう",
+    "meaning_pt": "nutrição",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-620-2",
+    "kanji_id": "kanji-620",
+    "word": "養う",
+    "reading": "やしなう",
+    "meaning_pt": "sustentar",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-621-1",
+    "kanji_id": "kanji-621",
+    "word": "入浴",
+    "reading": "にゅうよく",
+    "meaning_pt": "banho",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-621-2",
+    "kanji_id": "kanji-621",
+    "word": "浴びる",
+    "reading": "あびる",
+    "meaning_pt": "banhar-se",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-622-1",
+    "kanji_id": "kanji-622",
+    "word": "便利",
+    "reading": "べんり",
+    "meaning_pt": "conveniência",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-622-2",
+    "kanji_id": "kanji-622",
+    "word": "利用",
+    "reading": "りよう",
+    "meaning_pt": "utilização",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-623-1",
+    "kanji_id": "kanji-623",
+    "word": "大陸",
+    "reading": "たいりく",
+    "meaning_pt": "continente",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-623-2",
+    "kanji_id": "kanji-623",
+    "word": "陸上",
+    "reading": "りくじょう",
+    "meaning_pt": "em terra",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-624-1",
+    "kanji_id": "kanji-624",
+    "word": "良好",
+    "reading": "りょうこう",
+    "meaning_pt": "favorável",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-624-2",
+    "kanji_id": "kanji-624",
+    "word": "良い",
+    "reading": "よい",
+    "meaning_pt": "bom",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-625-1",
+    "kanji_id": "kanji-625",
+    "word": "料理",
+    "reading": "りょうり",
+    "meaning_pt": "culinária",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-625-2",
+    "kanji_id": "kanji-625",
+    "word": "料金",
+    "reading": "りょうきん",
+    "meaning_pt": "tarifa",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-626-1",
+    "kanji_id": "kanji-626",
+    "word": "重量",
+    "reading": "じゅうりょう",
+    "meaning_pt": "peso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-626-2",
+    "kanji_id": "kanji-626",
+    "word": "量る",
+    "reading": "はかる",
+    "meaning_pt": "medir",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-627-1",
+    "kanji_id": "kanji-627",
+    "word": "車輪",
+    "reading": "しゃりん",
+    "meaning_pt": "roda",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-627-2",
+    "kanji_id": "kanji-627",
+    "word": "輪",
+    "reading": "わ",
+    "meaning_pt": "anel",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-628-1",
+    "kanji_id": "kanji-628",
+    "word": "種類",
+    "reading": "しゅるい",
+    "meaning_pt": "tipo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-628-2",
+    "kanji_id": "kanji-628",
+    "word": "人類",
+    "reading": "じんるい",
+    "meaning_pt": "humanidade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-629-1",
+    "kanji_id": "kanji-629",
+    "word": "命令",
+    "reading": "めいれい",
+    "meaning_pt": "ordem",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-629-2",
+    "kanji_id": "kanji-629",
+    "word": "法令",
+    "reading": "ほうれい",
+    "meaning_pt": "regulamento",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-63-1",
     "kanji_id": "kanji-63",
     "word": "音",
@@ -6400,6 +9424,166 @@
     "priority": 2
   },
   {
+    "id": "v-kanji-630-1",
+    "kanji_id": "kanji-630",
+    "word": "冷蔵庫",
+    "reading": "れいぞうこ",
+    "meaning_pt": "geladeira",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-630-2",
+    "kanji_id": "kanji-630",
+    "word": "冷たい",
+    "reading": "つめたい",
+    "meaning_pt": "frio",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-631-1",
+    "kanji_id": "kanji-631",
+    "word": "例文",
+    "reading": "れいぶん",
+    "meaning_pt": "frase de exemplo",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-631-2",
+    "kanji_id": "kanji-631",
+    "word": "例えば",
+    "reading": "たとえば",
+    "meaning_pt": "por exemplo",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-632-1",
+    "kanji_id": "kanji-632",
+    "word": "歴史",
+    "reading": "れきし",
+    "meaning_pt": "história",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-632-2",
+    "kanji_id": "kanji-632",
+    "word": "学歴",
+    "reading": "がくれき",
+    "meaning_pt": "formação acadêmica",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-633-1",
+    "kanji_id": "kanji-633",
+    "word": "連続",
+    "reading": "れんぞく",
+    "meaning_pt": "continuidade",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-633-2",
+    "kanji_id": "kanji-633",
+    "word": "連絡",
+    "reading": "れんらく",
+    "meaning_pt": "contato",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-634-1",
+    "kanji_id": "kanji-634",
+    "word": "老人",
+    "reading": "ろうじん",
+    "meaning_pt": "idoso",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-634-2",
+    "kanji_id": "kanji-634",
+    "word": "老いる",
+    "reading": "おいる",
+    "meaning_pt": "envelhecer",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-635-1",
+    "kanji_id": "kanji-635",
+    "word": "労働",
+    "reading": "ろうどう",
+    "meaning_pt": "trabalho",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-635-2",
+    "kanji_id": "kanji-635",
+    "word": "苦労",
+    "reading": "くろう",
+    "meaning_pt": "dificuldade",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-636-1",
+    "kanji_id": "kanji-636",
+    "word": "記録",
+    "reading": "きろく",
+    "meaning_pt": "registro",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-636-2",
+    "kanji_id": "kanji-636",
+    "word": "録音",
+    "reading": "ろくおん",
+    "meaning_pt": "gravação",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-637-1",
+    "kanji_id": "kanji-637",
+    "word": "香水",
+    "reading": "こうすい",
+    "meaning_pt": "perfume",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-637-2",
+    "kanji_id": "kanji-637",
+    "word": "香り",
+    "reading": "かおり",
+    "meaning_pt": "aroma",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-638-1",
+    "kanji_id": "kanji-638",
+    "word": "兵士",
+    "reading": "へいし",
+    "meaning_pt": "soldado",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-638-2",
+    "kanji_id": "kanji-638",
+    "word": "弁護士",
+    "reading": "べんごし",
+    "meaning_pt": "advogado",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-639-1",
+    "kanji_id": "kanji-639",
+    "word": "歴史",
+    "reading": "れきし",
+    "meaning_pt": "história",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-639-2",
+    "kanji_id": "kanji-639",
+    "word": "史上",
+    "reading": "しじょう",
+    "meaning_pt": "na história",
+    "priority": 2
+  },
+  {
     "id": "v-kanji-64-1",
     "kanji_id": "kanji-64",
     "word": "火",
@@ -6413,6 +9597,38 @@
     "word": "花火",
     "reading": "はなび",
     "meaning_pt": "fogos de artifício",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-641-1",
+    "kanji_id": "kanji-641",
+    "word": "井戸",
+    "reading": "いど",
+    "meaning_pt": "poço",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-641-2",
+    "kanji_id": "kanji-641",
+    "word": "天井",
+    "reading": "てんじょう",
+    "meaning_pt": "teto",
+    "priority": 2
+  },
+  {
+    "id": "v-kanji-642-1",
+    "kanji_id": "kanji-642",
+    "word": "栃木",
+    "reading": "とちぎ",
+    "meaning_pt": "Tochigi",
+    "priority": 1
+  },
+  {
+    "id": "v-kanji-642-2",
+    "kanji_id": "kanji-642",
+    "word": "栃の木",
+    "reading": "とちのき",
+    "meaning_pt": "castanheira japonesa",
     "priority": 2
   },
   {

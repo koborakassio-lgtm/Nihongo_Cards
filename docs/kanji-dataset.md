@@ -59,6 +59,7 @@ Source files (por ano escolar):
 | [`data/shou1.csv`](../data/shou1.csv) | Shougakko 1º ano — 80 kanji |
 | [`data/shou2.csv`](../data/shou2.csv) | Shougakko 2º ano — 159 kanji |
 | [`data/shou3.csv`](../data/shou3.csv) | Shougakko 3º ano — 200 kanji |
+| [`data/shou4.csv`](../data/shou4.csv) | Shougakko 4º ano — 201 kanji |
 | [`data/kanji.csv`](../data/kanji.csv) | Dataset genérico (legado) |
 
 Registro de datasets ativos: [`lib/kanji/datasets.ts`](../lib/kanji/datasets.ts).
@@ -168,15 +169,15 @@ Checklist for Shougakko 3rd grade and beyond:
 1. **Create CSV** — copy `shou1.csv` header; use unique `id` values across all grades; set `group=Shougakko`, `grade=N`, `order=1..N`.
 2. **Register dataset** in `lib/kanji/datasets.ts`:
    ```ts
-   shou3: {
-     csvFile: "shou3.csv",
-     title: "Shougakko — 3º ano",
-     grade: 3,
+   shou4: {
+     csvFile: "shou4.csv",
+     title: "Shougakko — 4º ano",
+     grade: 4,
    },
    ```
 3. **Validate** — parser must succeed without duplicate kanji characters.
-4. **Import with merge** — `npm run import:kanji -- data/shou3.csv --merge`
-5. **Verify routes** — `/study/shou3`, `/study/shou3/lesson/1`; exercises year selector picks it up automatically.
+4. **Import with merge** — `npm run import:kanji -- data/shou4.csv --merge`
+5. **Verify routes** — `/study/shou4`, `/study/shou4/lesson/1`; exercises year selector picks it up automatically.
 
 ### Runtime vs JSON
 

@@ -16,6 +16,11 @@ export const KANJI_DATASETS = {
     title: "Shougakko — 3º ano",
     grade: 3,
   },
+  shou4: {
+    csvFile: "shou4.csv",
+    title: "Shougakko — 4º ano",
+    grade: 4,
+  },
 } as const;
 
 export type KanjiDatasetId = keyof typeof KANJI_DATASETS;
